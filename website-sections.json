@@ -1,0 +1,2143 @@
+[
+  {
+    "path": " [navigation]",
+    "type": "navigation",
+    "content": [
+      "en",
+      "es",
+      "book a demo",
+      "close",
+      "Design",
+      "Estimate",
+      "Shop",
+      "Benefits",
+      "info@makedesign.tech",
+      "Barcelona, Spain",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": " [navigation] > div",
+    "type": "div",
+    "content": [
+      "en",
+      "es",
+      "book a demo",
+      "close"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [navigation] > div > div",
+    "type": "div",
+    "content": [
+      "en",
+      "es",
+      "book a demo",
+      "close"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > a",
+    "type": "a",
+    "text": "en",
+    "content": [
+      "en"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > a",
+    "type": "a",
+    "text": "es",
+    "content": [
+      "es"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > a",
+    "type": "a",
+    "text": "book a demo",
+    "content": [
+      "book a demo"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > a",
+    "type": "a",
+    "text": "close",
+    "content": [
+      "close"
+    ]
+  },
+  {
+    "path": " [navigation] > div",
+    "type": "div",
+    "content": [
+      "Design",
+      "Estimate",
+      "Shop",
+      "Benefits",
+      "info@makedesign.tech",
+      "Barcelona, Spain",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div",
+    "type": "div",
+    "content": [
+      "Design",
+      "Estimate",
+      "Shop",
+      "Benefits"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > a",
+    "type": "a",
+    "text": "Design",
+    "content": [
+      "Design"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > a",
+    "type": "a",
+    "text": "Estimate",
+    "content": [
+      "Estimate"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > a",
+    "type": "a",
+    "text": "Shop",
+    "content": [
+      "Shop"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > a",
+    "type": "a",
+    "text": "Benefits",
+    "content": [
+      "Benefits"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div",
+    "type": "div",
+    "content": [
+      "info@makedesign.tech",
+      "Barcelona, Spain",
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > div",
+    "type": "div",
+    "content": [
+      "info@makedesign.tech",
+      "Barcelona, Spain"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > div > a",
+    "type": "a",
+    "text": "info@makedesign.tech",
+    "content": [
+      "info@makedesign.tech"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > div > a",
+    "type": "a",
+    "text": "Barcelona, Spain",
+    "content": [
+      "Barcelona, Spain"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > div",
+    "type": "div",
+    "content": [
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > div > form",
+    "type": "form",
+    "content": [
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > div > form > div",
+    "type": "div"
+  },
+  {
+    "path": " [navigation] > div > div > div > form > input",
+    "type": "input"
+  },
+  {
+    "path": " [navigation] > div > div > div > form > input",
+    "type": "input"
+  },
+  {
+    "path": " [navigation] > div > div > div > form > input",
+    "type": "input"
+  },
+  {
+    "path": " [navigation] > div > div > div > form > div",
+    "type": "div",
+    "content": [
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > div > form > div > a",
+    "type": "a",
+    "text": "Privacy Policy",
+    "content": [
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": " [navigation] > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [navigation] > div > div > div > div > div",
+    "type": "div",
+    "text": "Thank you! We’ll reach out soon."
+  },
+  {
+    "path": " [navigation] > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [navigation] > div > div > div > div > div",
+    "type": "div",
+    "text": "Oops! Something went wrong while submitting the form."
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers.",
+    "type": "hero",
+    "heading": "A next-gen digital tool for real estate developers.",
+    "content": [
+      "A next-gen digital tool for real estate developers.",
+      "watch a video",
+      "book a demo"
+    ]
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > section",
+    "type": "section"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > section > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > section > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > section > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > section > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > section > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > section > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > section > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > section > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > section > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > div",
+    "type": "div",
+    "content": [
+      "A next-gen digital tool for real estate developers.",
+      "watch a video",
+      "book a demo"
+    ]
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > div > div",
+    "type": "div",
+    "content": [
+      "A next-gen digital tool for real estate developers."
+    ]
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > div > div > h1",
+    "type": "h1",
+    "text": "A next-gen digital tool for real estate developers.",
+    "content": [
+      "A next-gen digital tool for real estate developers."
+    ]
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > div > div > div > div > div",
+    "type": "div",
+    "text": "Create high-fidelity 3D interiors"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > div > div",
+    "type": "div",
+    "content": [
+      "watch a video",
+      "book a demo"
+    ]
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > div > div > a",
+    "type": "a",
+    "text": "watch a video",
+    "content": [
+      "watch a video"
+    ]
+  },
+  {
+    "path": "#hero [hero] = A next-gen digital tool for real estate developers. > div > div > a",
+    "type": "a",
+    "text": "book a demo",
+    "content": [
+      "book a demo"
+    ]
+  },
+  {
+    "path": "section#intro [intro]",
+    "type": "intro"
+  },
+  {
+    "path": "section#intro [intro] > div",
+    "type": "div",
+    "text": "3-in-1 Solution for Real Estate Projects."
+  },
+  {
+    "path": "section#intro [intro] > div",
+    "type": "div",
+    "text": "Maximize the potential of your real estate projects with our comprehensive tool that combines Design, Estimate, and Shop — all in one place."
+  },
+  {
+    "path": " [design] = Real World, Real Data",
+    "type": "design",
+    "heading": "Real World, Real Data",
+    "content": [
+      "Real World, Real Data",
+      "Google maps integration",
+      "Photorealistic Visualization",
+      "full Camera control",
+      "apartment selection",
+      "Interactive infrastructure",
+      "Points of interest"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div",
+    "type": "div",
+    "content": [
+      "Real World, Real Data"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > h2",
+    "type": "h2",
+    "text": "Real World, Real Data",
+    "content": [
+      "Real World, Real Data"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div",
+    "type": "div",
+    "content": [
+      "Google maps integration",
+      "Photorealistic Visualization",
+      "full Camera control",
+      "apartment selection",
+      "Interactive infrastructure",
+      "Points of interest"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div",
+    "type": "div",
+    "content": [
+      "Google maps integration",
+      "Photorealistic Visualization",
+      "full Camera control"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div",
+    "type": "div",
+    "content": [
+      "Google maps integration"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > h3",
+    "type": "h3",
+    "text": "Google maps integration",
+    "content": [
+      "Google maps integration"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > div",
+    "type": "div",
+    "text": "The building is placed directly onto real-world terrain using live satellite data from Google Maps — allowing your clients to explore the location in its actual urban context."
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div",
+    "type": "div",
+    "content": [
+      "Photorealistic Visualization"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > h3",
+    "type": "h3",
+    "text": "Photorealistic Visualization",
+    "content": [
+      "Photorealistic Visualization"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > div",
+    "type": "div",
+    "text": "Create realistic renders in real time to see your design come to life instantly."
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div",
+    "type": "div",
+    "content": [
+      "full Camera control"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > h3",
+    "type": "h3",
+    "text": "full Camera control",
+    "content": [
+      "full Camera control"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > div",
+    "type": "div",
+    "text": "Fly, walk, focus, and adjust depth of field with intuitive camera settings — explore the space from any angle, just like in a real-time walkthrough."
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div",
+    "type": "div",
+    "content": [
+      "apartment selection",
+      "Interactive infrastructure",
+      "Points of interest"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div",
+    "type": "div",
+    "content": [
+      "apartment selection"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > h3",
+    "type": "h3",
+    "text": "apartment selection",
+    "content": [
+      "apartment selection"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > div",
+    "type": "div",
+    "text": "Easily select apartments by facade view with filters for price, size, rooms, and orientation to find a perfect fit for your clients."
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div",
+    "type": "div",
+    "content": [
+      "Interactive infrastructure"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > h3",
+    "type": "h3",
+    "text": "Interactive infrastructure",
+    "content": [
+      "Interactive infrastructure"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > div",
+    "type": "div",
+    "text": "Take your clients on a virtual walk through the building’s surroundings and infrastructure — including the reception, parking, pool, and more — to explore the full living experience in context."
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div",
+    "type": "div",
+    "content": [
+      "Points of interest"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > h3",
+    "type": "h3",
+    "text": "Points of interest",
+    "content": [
+      "Points of interest"
+    ]
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > div",
+    "type": "div",
+    "text": "Explore points of interest on the site plan, including shops, playgrounds, cafes, transport, parking, and more."
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [design] = Real World, Real Data > div",
+    "type": "div"
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [design] = Real World, Real Data > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization",
+    "type": "design",
+    "heading": "Limitless Interior Customization",
+    "content": [
+      "Limitless Interior Customization",
+      "A Complete Furniture Library for Any Room",
+      "Full customization",
+      "Endless Material Choices",
+      "Pre-Designed Furnishing Solutions",
+      "DORMITORIO 1",
+      "HOME OFFICE",
+      "DORMITORIO 2",
+      "Curated Interiors",
+      "minimalism",
+      "modern",
+      "Floor Plan Layouts",
+      "plan 1",
+      "plan 2"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div",
+    "type": "div",
+    "content": [
+      "Limitless Interior Customization"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > h2",
+    "type": "h2",
+    "text": "Limitless Interior Customization",
+    "content": [
+      "Limitless Interior Customization"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div",
+    "type": "div",
+    "content": [
+      "A Complete Furniture Library for Any Room",
+      "Full customization",
+      "Endless Material Choices",
+      "Pre-Designed Furnishing Solutions",
+      "DORMITORIO 1",
+      "HOME OFFICE",
+      "DORMITORIO 2",
+      "Curated Interiors",
+      "minimalism",
+      "modern",
+      "Floor Plan Layouts",
+      "plan 1",
+      "plan 2"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div",
+    "type": "div",
+    "content": [
+      "A Complete Furniture Library for Any Room",
+      "Full customization",
+      "Endless Material Choices"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div",
+    "type": "div",
+    "content": [
+      "A Complete Furniture Library for Any Room"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > h3",
+    "type": "h3",
+    "text": "A Complete Furniture Library for Any Room",
+    "content": [
+      "A Complete Furniture Library for Any Room"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div",
+    "type": "div",
+    "content": [
+      "Full customization"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > h3",
+    "type": "h3",
+    "text": "Full customization",
+    "content": [
+      "Full customization"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div",
+    "type": "div",
+    "text": "Easily swap any furniture, lighting, fixtures, and finishing materials in real time. Experiment with different styles, textures, and layouts to achieve the perfect look — all without limitations."
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div",
+    "type": "div",
+    "content": [
+      "Endless Material Choices"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > h3",
+    "type": "h3",
+    "text": "Endless Material Choices",
+    "content": [
+      "Endless Material Choices"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div",
+    "type": "div",
+    "content": [
+      "Pre-Designed Furnishing Solutions",
+      "DORMITORIO 1",
+      "HOME OFFICE",
+      "DORMITORIO 2",
+      "Curated Interiors",
+      "minimalism",
+      "modern",
+      "Floor Plan Layouts",
+      "plan 1",
+      "plan 2"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div",
+    "type": "div",
+    "content": [
+      "Pre-Designed Furnishing Solutions",
+      "DORMITORIO 1",
+      "HOME OFFICE",
+      "DORMITORIO 2"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > h3",
+    "type": "h3",
+    "text": "Pre-Designed Furnishing Solutions",
+    "content": [
+      "Pre-Designed Furnishing Solutions"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div",
+    "type": "div",
+    "text": "Select ready-made furniture arrangements for each room with a single click."
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div",
+    "type": "div",
+    "content": [
+      "DORMITORIO 1",
+      "HOME OFFICE",
+      "DORMITORIO 2"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > a",
+    "type": "a",
+    "text": "DORMITORIO 1",
+    "content": [
+      "DORMITORIO 1"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > a",
+    "type": "a",
+    "text": "HOME OFFICE",
+    "content": [
+      "HOME OFFICE"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > a",
+    "type": "a",
+    "text": "DORMITORIO 2",
+    "content": [
+      "DORMITORIO 2"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div",
+    "type": "div",
+    "content": [
+      "Curated Interiors",
+      "minimalism",
+      "modern"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > h3",
+    "type": "h3",
+    "text": "Curated Interiors",
+    "content": [
+      "Curated Interiors"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div",
+    "type": "div",
+    "text": "Access a selection of pre-designed interior solutions in various styles. Effortlessly switch between Neoclassicism, Minimalism, and more to match your project's vision."
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div",
+    "type": "div",
+    "content": [
+      "minimalism",
+      "modern"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > a",
+    "type": "a",
+    "text": "minimalism",
+    "content": [
+      "minimalism"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > a",
+    "type": "a",
+    "text": "modern",
+    "content": [
+      "modern"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div",
+    "type": "div",
+    "content": [
+      "Floor Plan Layouts",
+      "plan 1",
+      "plan 2"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > h3",
+    "type": "h3",
+    "text": "Floor Plan Layouts",
+    "content": [
+      "Floor Plan Layouts"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div",
+    "type": "div",
+    "text": "Instantly switch between multiple floor plan options to find the perfect layout and visualize each configuration in real time."
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div",
+    "type": "div",
+    "content": [
+      "plan 1",
+      "plan 2"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > a",
+    "type": "a",
+    "text": "plan 1",
+    "content": [
+      "plan 1"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > a",
+    "type": "a",
+    "text": "plan 2",
+    "content": [
+      "plan 2"
+    ]
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div > div",
+    "type": "div",
+    "text": "Customize interior lighting by toggling fixtures on and off and showcase realistic lighting scenarios with dynamic control over natural and artificial light."
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div",
+    "type": "div"
+  },
+  {
+    "path": "#design-2 [design] = Limitless Interior Customization > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation",
+    "type": "estimate",
+    "heading": "Instant Project Estimation",
+    "content": [
+      "Instant Project Estimation",
+      "more",
+      "more",
+      "more",
+      "more",
+      "more",
+      "more"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div#estimate-section",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div",
+    "type": "div",
+    "content": [
+      "Instant Project Estimation",
+      "more",
+      "more",
+      "more",
+      "more",
+      "more",
+      "more"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div",
+    "type": "div",
+    "content": [
+      "Instant Project Estimation"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > h2",
+    "type": "h2",
+    "text": "Instant Project Estimation",
+    "content": [
+      "Instant Project Estimation"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > a",
+    "type": "a",
+    "text": "more",
+    "content": [
+      "more"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > a",
+    "type": "a",
+    "text": "more",
+    "content": [
+      "more"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > a",
+    "type": "a",
+    "text": "more",
+    "content": [
+      "more"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div",
+    "type": "div",
+    "content": [
+      "more",
+      "more",
+      "more"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div",
+    "content": [
+      "more",
+      "more",
+      "more"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > a",
+    "type": "a",
+    "text": "more",
+    "content": [
+      "more"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > a",
+    "type": "a",
+    "text": "more",
+    "content": [
+      "more"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > a",
+    "type": "a",
+    "text": "more",
+    "content": [
+      "more"
+    ]
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [estimate] = Instant Project Estimation > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase",
+    "type": "shop",
+    "heading": "Furniture and materials purchase",
+    "content": [
+      "Furniture and materials purchase"
+    ]
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div#shop-section",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div",
+    "type": "div",
+    "content": [
+      "Furniture and materials purchase"
+    ]
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div",
+    "type": "div",
+    "content": [
+      "Furniture and materials purchase"
+    ]
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > h2",
+    "type": "h2",
+    "text": "Furniture and materials purchase",
+    "content": [
+      "Furniture and materials purchase"
+    ]
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div",
+    "type": "div",
+    "text": "Download a complete order list with direct links to all selected materials and furniture items — making procurement simple and efficient."
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": " [shop] = Furniture and materials purchase > div > div > div > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits",
+    "type": "benefits",
+    "heading": "Key benefits",
+    "content": [
+      "Key benefits",
+      "for new home buyers",
+      "for real estate developers",
+      "Total flexibility",
+      "Transparent pricing",
+      "Save time and stress",
+      "Transparency and trust",
+      "New revenue streams",
+      "Accelerated deal closure"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div",
+    "type": "div",
+    "content": [
+      "Key benefits",
+      "for new home buyers",
+      "for real estate developers",
+      "Total flexibility",
+      "Transparent pricing",
+      "Save time and stress",
+      "Transparency and trust",
+      "New revenue streams",
+      "Accelerated deal closure"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div",
+    "type": "div",
+    "content": [
+      "Key benefits",
+      "for new home buyers",
+      "for real estate developers"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > h2",
+    "type": "h2",
+    "text": "Key benefits",
+    "content": [
+      "Key benefits"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > h2",
+    "type": "h2",
+    "text": "for new home buyers",
+    "content": [
+      "for new home buyers"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > h2",
+    "type": "h2",
+    "text": "for real estate developers",
+    "content": [
+      "for real estate developers"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div",
+    "type": "div",
+    "content": [
+      "Total flexibility",
+      "Transparent pricing",
+      "Save time and stress",
+      "Transparency and trust",
+      "New revenue streams",
+      "Accelerated deal closure"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div",
+    "content": [
+      "Total flexibility"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > h1",
+    "type": "h1",
+    "text": "Total flexibility",
+    "content": [
+      "Total flexibility"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > div",
+    "type": "div",
+    "text": "Customize layouts, views and interior configurations with complete control."
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div",
+    "content": [
+      "Transparent pricing"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > h1",
+    "type": "h1",
+    "text": "Transparent pricing",
+    "content": [
+      "Transparent pricing"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > div",
+    "type": "div",
+    "text": "Get instant, precise cost updates for every material and product — no guesswork, no hidden fees."
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div",
+    "content": [
+      "Save time and stress"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > h1",
+    "type": "h1",
+    "text": "Save time and stress",
+    "content": [
+      "Save time and stress"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > div",
+    "type": "div",
+    "text": "Plan renovations clearly and efficiently with predictable, consistent results."
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div",
+    "content": [
+      "Transparency and trust"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > h1",
+    "type": "h1",
+    "text": "Transparency and trust",
+    "content": [
+      "Transparency and trust"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > div",
+    "type": "div",
+    "text": "Export complete, ready-to-share cost reports with detailed breakdowns for materials, labor, and logistics."
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div",
+    "content": [
+      "New revenue streams"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > h1",
+    "type": "h1",
+    "text": "New revenue streams",
+    "content": [
+      "New revenue streams"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > div",
+    "type": "div",
+    "text": "Unlock additional income through the sale of finishing materials, furniture, and complementary services."
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div",
+    "content": [
+      "Accelerated deal closure"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > h1",
+    "type": "h1",
+    "text": "Accelerated deal closure",
+    "content": [
+      "Accelerated deal closure"
+    ]
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div > div",
+    "type": "div",
+    "text": "Buyers can fully configure their apartment in just 30–40 minutes — significantly streamlining the sales process."
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#benefit [benefits] = Key benefits > div",
+    "type": "div"
+  },
+  {
+    "path": "section#demo [cta]",
+    "type": "cta",
+    "content": [
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": "section#demo [cta] > div",
+    "type": "div"
+  },
+  {
+    "path": "section#demo [cta] > div",
+    "type": "div",
+    "content": [
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": "section#demo [cta] > div > form",
+    "type": "form",
+    "content": [
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": "section#demo [cta] > div > form > div",
+    "type": "div"
+  },
+  {
+    "path": "section#demo [cta] > div > form > div > input",
+    "type": "input"
+  },
+  {
+    "path": "section#demo [cta] > div > form > div > input",
+    "type": "input"
+  },
+  {
+    "path": "section#demo [cta] > div > form > div > input",
+    "type": "input"
+  },
+  {
+    "path": "section#demo [cta] > div > form > div",
+    "type": "div",
+    "content": [
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": "section#demo [cta] > div > form > div > a",
+    "type": "a",
+    "text": "Privacy Policy",
+    "content": [
+      "Privacy Policy"
+    ]
+  },
+  {
+    "path": "section#demo [cta] > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#demo [cta] > div > div > div",
+    "type": "div",
+    "text": "Thank you! We’ll reach out soon."
+  },
+  {
+    "path": "section#demo [cta] > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#demo [cta] > div > div > div",
+    "type": "div",
+    "text": "Oops! Something went wrong while submitting the form."
+  },
+  {
+    "path": "section#footer [cta]",
+    "type": "cta",
+    "content": [
+      "design",
+      "estimate",
+      "shop",
+      "benefits",
+      "en / es",
+      "info@makedesign.tech",
+      "Barcelona, Spain",
+      "Made by with"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div",
+    "type": "div",
+    "content": [
+      "design",
+      "estimate",
+      "shop",
+      "benefits",
+      "en / es",
+      "info@makedesign.tech",
+      "Barcelona, Spain"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div > div",
+    "type": "div",
+    "text": "3-in-1  tool for real estate developers."
+  },
+  {
+    "path": "section#footer [cta] > div > a",
+    "type": "a",
+    "text": "design",
+    "content": [
+      "design"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div > a",
+    "type": "a",
+    "text": "estimate",
+    "content": [
+      "estimate"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div > a",
+    "type": "a",
+    "text": "shop",
+    "content": [
+      "shop"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div > a",
+    "type": "a",
+    "text": "benefits",
+    "content": [
+      "benefits"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div > div",
+    "type": "div",
+    "content": [
+      "en / es"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div > div > a",
+    "type": "a",
+    "text": "en / es",
+    "content": [
+      "en / es"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div > div",
+    "type": "div",
+    "content": [
+      "info@makedesign.tech",
+      "Barcelona, Spain"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div > div > a",
+    "type": "a",
+    "text": "info@makedesign.tech",
+    "content": [
+      "info@makedesign.tech"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div > div > a",
+    "type": "a",
+    "text": "Barcelona, Spain",
+    "content": [
+      "Barcelona, Spain"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div",
+    "type": "div",
+    "content": [
+      "Made by with"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div > div",
+    "type": "div"
+  },
+  {
+    "path": "section#footer [cta] > div > div",
+    "type": "div",
+    "content": [
+      "Made by with"
+    ]
+  },
+  {
+    "path": "section#footer [cta] > div > div > a",
+    "type": "a",
+    "text": "Made by with",
+    "content": [
+      "Made by with"
+    ]
+  }
+]

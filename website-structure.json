@@ -1,0 +1,1963 @@
+{
+  "page": {
+    "title": "Make Design",
+    "tagline": "A next-gen digital tool for real estate developers."
+  },
+  "sections": [
+    {
+      "_type": "navigation",
+      "children": [
+        {
+          "tag": "div",
+          "class": "navbar menu-bg w-nav",
+          "children": [
+            {
+              "tag": "div",
+              "class": "line-menu-wrap"
+            },
+            {
+              "tag": "div",
+              "class": "container nav w-container",
+              "children": [
+                [
+                  {
+                    "tag": "a",
+                    "text": "en",
+                    "href": "/"
+                  },
+                  {
+                    "tag": "a",
+                    "text": "es",
+                    "href": "/es"
+                  }
+                ],
+                {
+                  "tag": "a",
+                  "text": "book a demo",
+                  "href": "#"
+                },
+                {
+                  "tag": "a",
+                  "text": "close",
+                  "href": "#"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "class": "nav-menu",
+          "children": [
+            {
+              "tag": "div",
+              "class": "nav-links",
+              "children": [
+                {
+                  "tag": "a",
+                  "text": "Design",
+                  "href": "#design-section"
+                },
+                {
+                  "tag": "a",
+                  "text": "Estimate",
+                  "href": "#estimate-section"
+                },
+                {
+                  "tag": "a",
+                  "text": "Shop",
+                  "href": "#shop-section"
+                },
+                {
+                  "tag": "a",
+                  "text": "Benefits",
+                  "href": "#benefit"
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "class": "nav-bottom",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "map-wrap-item nav",
+                  "children": [
+                    {
+                      "tag": "a",
+                      "text": "info@makedesign.tech",
+                      "href": "mailto:info@makedesign.tech"
+                    },
+                    {
+                      "tag": "a",
+                      "text": "Barcelona, Spain",
+                      "href": "https://maps.app.goo.gl/MtqTLrRPwoM1uaA87"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "form-wrap",
+                  "children": [
+                    {
+                      "tag": "form",
+                      "name": "wf-form-Schedule-a-Demo-EN",
+                      "action": "",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "class": "text-30-caps"
+                        },
+                        {
+                          "tag": "input",
+                          "type": "text",
+                          "name": "Name",
+                          "placeholder": "Name"
+                        },
+                        {
+                          "tag": "input",
+                          "type": "text",
+                          "name": "Company-6",
+                          "placeholder": "Company"
+                        },
+                        {
+                          "tag": "input",
+                          "type": "email",
+                          "name": "E-mail-6",
+                          "placeholder": "Email"
+                        },
+                        {
+                          "tag": "div",
+                          "class": "form-submit-wrap",
+                          "children": [
+                            {
+                              "tag": "a",
+                              "text": "Privacy Policy",
+                              "href": "https://make-design-77d7f0.webflow.io/privacy-policy"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "class": "success-message-2 w-form-done",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "class": "success_text2",
+                          "text": "Thank you! We’ll reach out soon."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "class": "w-form-fail",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "text": "Oops! Something went wrong while submitting the form."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "hero",
+      "id": "hero",
+      "heading": "A next-gen digital tool for real estate developers.",
+      "children": [
+        {
+          "tag": "section",
+          "class": "section hero",
+          "children": [
+            {
+              "tag": "div",
+              "class": "sphere-items-container lines-and-cross"
+            },
+            {
+              "tag": "div",
+              "class": "sphere-items-container",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "text-75-caps design"
+                },
+                {
+                  "tag": "div",
+                  "class": "shop-part",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "class": "text-75-caps shop-text"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "estimate-part",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "class": "text-75-caps estimate-text-hero"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "heading-part",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "class": "heading-text-wrapper"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "class": "next-gen-wrap",
+          "children": [
+            {
+              "tag": "div",
+              "class": "h1-wrap",
+              "children": [
+                {
+                  "tag": "h1",
+                  "id": "",
+                  "text": "A next-gen digital tool for real estate developers."
+                },
+                {
+                  "tag": "div",
+                  "class": "h1-list",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "class": "h1-list-item",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "class": "text-14-regualr-caps",
+                          "text": "Create high-fidelity 3D interiors"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "class": "h1-list-item"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "h1-list-item"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "class": "btns-wrap",
+              "children": [
+                {
+                  "tag": "a",
+                  "text": "watch a video",
+                  "href": "/video"
+                },
+                {
+                  "tag": "a",
+                  "text": "book a demo",
+                  "href": "#"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "intro",
+      "id": "intro",
+      "tag": "section",
+      "children": [
+        {
+          "tag": "div",
+          "class": "text-52-regular _w-450",
+          "text": "3-in-1 Solution for Real Estate Projects."
+        },
+        {
+          "tag": "div",
+          "class": "text-24-regular _w-435",
+          "text": "Maximize the potential of your real estate projects with our comprehensive tool that combines Design, Estimate, and Shop — all in one place."
+        }
+      ]
+    },
+    {
+      "_type": "design",
+      "heading": "Real World, Real Data",
+      "children": [
+        {
+          "tag": "div",
+          "class": "design-title-wrap",
+          "children": [
+            {
+              "tag": "h2",
+              "id": "",
+              "text": "Real World, Real Data"
+            }
+          ]
+        },
+        [
+          {
+            "tag": "div",
+            "class": "design-wrap _1",
+            "children": [
+              {
+                "tag": "div",
+                "class": "slide-content _1",
+                "children": [
+                  {
+                    "tag": "div",
+                    "class": "slide-1-grid-1 align-bottom",
+                    "children": [
+                      {
+                        "tag": "h3",
+                        "id": "",
+                        "text": "Google maps integration"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "text-14-regular opacity-60",
+                        "text": "The building is placed directly onto real-world terrain using live satellite data from Google Maps — allowing your clients to explore the location in its actual urban context."
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "slide-2-grid-2",
+                    "children": [
+                      [
+                        {
+                          "tag": "h3",
+                          "id": "",
+                          "text": "Photorealistic Visualization"
+                        },
+                        {
+                          "tag": "div",
+                          "class": "text-14-regular opacity-60",
+                          "text": "Create realistic renders in real time to see your design come to life instantly."
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "slide-1-grid-1 align-bottom",
+                    "children": [
+                      {
+                        "tag": "h3",
+                        "id": "",
+                        "text": "full Camera control"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "text-14-regular opacity-60",
+                        "text": "Fly, walk, focus, and adjust depth of field with intuitive camera settings — explore the space from any angle, just like in a real-time walkthrough."
+                      },
+                      {
+                        "tag": "div",
+                        "class": "design-camera-absolut",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "class": "camera-control-img-grid"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "slide-content _2",
+                "children": [
+                  {
+                    "tag": "div",
+                    "class": "slide-1-grid-1",
+                    "children": [
+                      {
+                        "tag": "h3",
+                        "id": "",
+                        "text": "apartment selection"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "text-14-regular opacity-60",
+                        "text": "Easily select apartments by facade view with filters for price, size, rooms, and orientation to find a perfect fit for your clients."
+                      },
+                      {
+                        "tag": "div",
+                        "class": "apartmen-img-wrapper"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "slide-1-grid-2",
+                    "children": [
+                      [
+                        {
+                          "tag": "h3",
+                          "id": "",
+                          "text": "Interactive infrastructure"
+                        },
+                        {
+                          "tag": "div",
+                          "class": "text-14-regular opacity-60",
+                          "text": "Take your clients on a virtual walk through the building’s surroundings and infrastructure — including the reception, parking, pool, and more — to explore the full living experience in context."
+                        }
+                      ]
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "class": "slide-1-grid-1",
+                    "children": [
+                      {
+                        "tag": "h3",
+                        "id": "",
+                        "text": "Points of interest"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "text-14-regular opacity-60",
+                        "text": "Explore points of interest on the site plan, including shops, playgrounds, cafes, transport, parking, and more."
+                      },
+                      {
+                        "tag": "div",
+                        "class": "point-img-wrapper"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "class": "design-pagination-wrapper",
+            "children": [
+              {
+                "tag": "div",
+                "class": "design_circle _1"
+              },
+              {
+                "tag": "div",
+                "class": "design_circle _2"
+              },
+              {
+                "tag": "div",
+                "class": "design_circle _3"
+              },
+              {
+                "tag": "div",
+                "class": "design_circle _4"
+              },
+              {
+                "tag": "div",
+                "class": "design_circle _5"
+              },
+              {
+                "tag": "div",
+                "class": "design_circle _6"
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "_type": "design",
+      "id": "design-2",
+      "heading": "Limitless Interior Customization",
+      "children": [
+        {
+          "tag": "div",
+          "class": "design-title-wrap",
+          "children": [
+            {
+              "tag": "h2",
+              "id": "",
+              "text": "Limitless Interior Customization"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "class": "design-2-animation",
+          "children": [
+            {
+              "tag": "div",
+              "class": "slide-content _1",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "slide-1-grid-1 align-bottom",
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "id": "",
+                      "text": "A Complete Furniture Library for Any Room"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "slide-2-grid-2",
+                  "children": [
+                    [
+                      {
+                        "tag": "h3",
+                        "id": "",
+                        "text": "Full customization"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "text-14-regular opacity-60",
+                        "text": "Easily swap any furniture, lighting, fixtures, and finishing materials in real time. Experiment with different styles, textures, and layouts to achieve the perfect look — all without limitations."
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "slide-1-grid-1 align-bottom",
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "id": "",
+                      "text": "Endless Material Choices"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "design-camera-absolut2",
+                      "children": [
+                        [
+                          {
+                            "tag": "div",
+                            "class": "balls-wrapper"
+                          },
+                          {
+                            "tag": "div",
+                            "class": "balls-wrapper"
+                          },
+                          {
+                            "tag": "div",
+                            "class": "balls-wrapper"
+                          },
+                          {
+                            "tag": "div",
+                            "class": "balls-wrapper"
+                          },
+                          {
+                            "tag": "div",
+                            "class": "balls-wrapper"
+                          },
+                          {
+                            "tag": "div",
+                            "class": "balls-wrapper"
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "class": "slide-content _3",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "slide-1-grid-1 align-bottom",
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "id": "",
+                      "text": "Pre-Designed Furnishing Solutions"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "text-14-regular opacity-60",
+                      "text": "Select ready-made furniture arrangements for each room with a single click."
+                    },
+                    [
+                      {
+                        "tag": "div",
+                        "class": "tabs-menu w-tab-menu",
+                        "children": [
+                          {
+                            "tag": "a",
+                            "text": "DORMITORIO 1",
+                            "href": ""
+                          },
+                          {
+                            "tag": "a",
+                            "text": "HOME OFFICE",
+                            "href": ""
+                          },
+                          {
+                            "tag": "a",
+                            "text": "DORMITORIO 2",
+                            "href": ""
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "div",
+                        "class": "tabs-content w-tab-content",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "class": "tab-pane w-tab-pane w--tab-active",
+                            "children": [
+                              {
+                                "tag": "div",
+                                "class": "pre-design-scheme-code hide w-embed"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "class": "tab-pane w-tab-pane",
+                            "children": [
+                              {
+                                "tag": "div",
+                                "class": "pre-design-scheme-code hide w-embed"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "class": "tab-pane w-tab-pane",
+                            "children": [
+                              {
+                                "tag": "div",
+                                "class": "pre-design-scheme-code hide w-embed"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "slide-2-grid-2",
+                  "children": [
+                    [
+                      {
+                        "tag": "h3",
+                        "id": "",
+                        "text": "Curated Interiors"
+                      },
+                      {
+                        "tag": "div",
+                        "class": "text-14-regular opacity-60",
+                        "text": "Access a selection of pre-designed interior solutions in various styles. Effortlessly switch between Neoclassicism, Minimalism, and more to match your project's vision."
+                      }
+                    ],
+                    [
+                      {
+                        "tag": "div",
+                        "class": "tabs-menu curated w-tab-menu",
+                        "children": [
+                          {
+                            "tag": "a",
+                            "text": "minimalism",
+                            "href": ""
+                          },
+                          {
+                            "tag": "a",
+                            "text": "modern",
+                            "href": ""
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "div",
+                        "class": "tabs-content w-tab-content",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "class": "tab-pane w-tab-pane w--tab-active",
+                            "children": [
+                              {
+                                "tag": "div",
+                                "class": "pre-design-tabcontent"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "class": "tab-pane w-tab-pane",
+                            "children": [
+                              {
+                                "tag": "div",
+                                "class": "pre-design-tabcontent"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "slide-1-grid-1 align-bottom",
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "id": "",
+                      "text": "Floor Plan Layouts"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "text-14-regular opacity-60",
+                      "text": "Instantly switch between multiple floor plan options to find the perfect layout and visualize each configuration in real time."
+                    },
+                    [
+                      {
+                        "tag": "div",
+                        "class": "tabs-menu w-tab-menu",
+                        "children": [
+                          {
+                            "tag": "a",
+                            "text": "plan 1",
+                            "href": ""
+                          },
+                          {
+                            "tag": "a",
+                            "text": "plan 2",
+                            "href": ""
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "div",
+                        "class": "tabs-content w-tab-content",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "class": "tab-pane w-tab-pane",
+                            "children": [
+                              {
+                                "tag": "div",
+                                "class": "gradient-tab"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "div",
+                            "class": "tab-pane w-tab-pane w--tab-active",
+                            "children": [
+                              {
+                                "tag": "div",
+                                "class": "gradient-tab"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "class": "slide-content daynight",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "text-14-regular",
+                  "text": "Customize interior lighting by toggling fixtures on and off and showcase realistic lighting scenarios with dynamic control over natural and artificial light."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "class": "design-pagination-wrapper",
+          "children": [
+            {
+              "tag": "div",
+              "class": "design_circle _1"
+            },
+            {
+              "tag": "div",
+              "class": "design_circle _2"
+            },
+            {
+              "tag": "div",
+              "class": "design_circle _3"
+            },
+            {
+              "tag": "div",
+              "class": "design_circle _4"
+            },
+            {
+              "tag": "div",
+              "class": "design_circle _5"
+            },
+            {
+              "tag": "div",
+              "class": "design_circle _6"
+            },
+            {
+              "tag": "div",
+              "class": "design_circle _7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "estimate",
+      "heading": "Instant Project Estimation",
+      "children": [
+        {
+          "tag": "div",
+          "id": "estimate-section",
+          "class": "design-onpage-link _2"
+        },
+        {
+          "tag": "div",
+          "class": "estimate-camera",
+          "children": [
+            {
+              "tag": "div",
+              "class": "design-title-wrap",
+              "children": [
+                {
+                  "tag": "h2",
+                  "id": "",
+                  "text": "Instant Project Estimation"
+                }
+              ]
+            },
+            [
+              [
+                {
+                  "tag": "a",
+                  "text": "more",
+                  "href": "#"
+                },
+                {
+                  "tag": "a",
+                  "text": "more",
+                  "href": "#"
+                },
+                {
+                  "tag": "a",
+                  "text": "more",
+                  "href": "#"
+                }
+              ],
+              {
+                "tag": "div",
+                "class": "est-shop-bg-mob-1",
+                "children": [
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item active-tab"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "est-shop-bg-mob-2",
+                "children": [
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "class": "est-shop-bg-mob-3",
+                "children": [
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "est-shop-dg-item"
+                  }
+                ]
+              }
+            ],
+            {
+              "tag": "div",
+              "class": "estimate-wrap",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "slide-content daynight _2",
+                  "children": [
+                    [
+                      {
+                        "tag": "a",
+                        "text": "more",
+                        "href": "#"
+                      },
+                      {
+                        "tag": "a",
+                        "text": "more",
+                        "href": "#"
+                      },
+                      {
+                        "tag": "a",
+                        "text": "more",
+                        "href": "#"
+                      }
+                    ],
+                    {
+                      "tag": "div",
+                      "class": "estimate-cards",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "class": "estimate-card _01",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "estimate-icons"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "estimate-card-items-wrap",
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card _02",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "estimate-icons"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "estimate-card-items-wrap",
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card _03",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "estimate-icons"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "estimate-card-items-wrap",
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "class": "estimate-card-item",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "class": "furniture-wrap"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "slide-content align-right"
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "class": "design-pagination-wrapper estimate",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "design_circle _1"
+                },
+                {
+                  "tag": "div",
+                  "class": "design_circle _2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "class": "sensor-estimate-blur"
+        }
+      ]
+    },
+    {
+      "_type": "shop",
+      "heading": "Furniture and materials purchase",
+      "children": [
+        {
+          "tag": "div",
+          "id": "shop-section",
+          "class": "design-onpage-link _3"
+        },
+        {
+          "tag": "div",
+          "class": "div-block-24 _2",
+          "children": [
+            {
+              "tag": "div",
+              "class": "est-shop-dg-item"
+            },
+            {
+              "tag": "div",
+              "class": "est-shop-dg-item"
+            },
+            {
+              "tag": "div",
+              "class": "est-shop-dg-item"
+            },
+            {
+              "tag": "div",
+              "class": "est-shop-dg-item"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "class": "shop-camera",
+          "children": [
+            {
+              "tag": "div",
+              "class": "design-title-wrap max-w-718",
+              "children": [
+                [
+                  {
+                    "tag": "h2",
+                    "id": "",
+                    "text": "Furniture and materials purchase"
+                  },
+                  {
+                    "tag": "div",
+                    "class": "text-14-regular",
+                    "text": "Download a complete order list with direct links to all selected materials and furniture items — making procurement simple and efficient."
+                  }
+                ]
+              ]
+            },
+            {
+              "tag": "div",
+              "class": "shop-wrap",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "shop-card-button-wrapper",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "class": "shop-card-button is-activ"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "shop-card-button"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "shop-card-button"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "shop-card-button"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "estimate-card-items-wrap rooms",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "class": "estimate-card-items rooms is-activ",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "class": "estimate-card-items rooms",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "class": "estimate-card-items rooms",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "class": "estimate-card-items rooms",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "class": "estimate-card-item",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "class": "furniture-wrap"
+                            },
+                            {
+                              "tag": "div",
+                              "class": "radio-wrap"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "benefits",
+      "id": "benefit",
+      "tag": "section",
+      "heading": "Key benefits",
+      "children": [
+        {
+          "tag": "div",
+          "class": "camera-benefit",
+          "children": [
+            {
+              "tag": "div",
+              "class": "benefit-heading-wrap",
+              "children": [
+                {
+                  "tag": "h2",
+                  "id": "",
+                  "text": "Key benefits"
+                },
+                [
+                  {
+                    "tag": "h2",
+                    "id": "",
+                    "text": "for new home buyers"
+                  },
+                  {
+                    "tag": "h2",
+                    "id": "",
+                    "text": "for real estate developers"
+                  }
+                ]
+              ]
+            },
+            {
+              "tag": "div",
+              "class": "benefit-container",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "benefit-space"
+                },
+                {
+                  "tag": "div",
+                  "class": "benefit-item",
+                  "children": [
+                    {
+                      "tag": "h1",
+                      "id": "",
+                      "text": "Total flexibility"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "text-16-white",
+                      "text": "Customize layouts, views and interior configurations with complete control."
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "benefit-item _2",
+                  "children": [
+                    {
+                      "tag": "h1",
+                      "id": "",
+                      "text": "Transparent pricing"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "text-16-white",
+                      "text": "Get instant, precise cost updates for every material and product — no guesswork, no hidden fees."
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "benefit-item _3",
+                  "children": [
+                    {
+                      "tag": "h1",
+                      "id": "",
+                      "text": "Save time and stress"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "text-16-white",
+                      "text": "Plan renovations clearly and efficiently with predictable, consistent results."
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "benefit-item _4",
+                  "children": [
+                    {
+                      "tag": "h1",
+                      "id": "",
+                      "text": "Transparency and trust"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "text-16-white",
+                      "text": "Export complete, ready-to-share cost reports with detailed breakdowns for materials, labor, and logistics."
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "benefit-item _5",
+                  "children": [
+                    {
+                      "tag": "h1",
+                      "id": "",
+                      "text": "New revenue streams"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "text-16-white",
+                      "text": "Unlock additional income through the sale of finishing materials, furniture, and complementary services."
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "benefit-item _6",
+                  "children": [
+                    {
+                      "tag": "h1",
+                      "id": "",
+                      "text": "Accelerated deal closure"
+                    },
+                    {
+                      "tag": "div",
+                      "class": "text-16-white",
+                      "text": "Buyers can fully configure their apartment in just 30–40 minutes — significantly streamlining the sales process."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "class": "benefit-pagination-wrapper",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "benefit_circle _1"
+                },
+                {
+                  "tag": "div",
+                  "class": "benefit_circle _2"
+                },
+                {
+                  "tag": "div",
+                  "class": "benefit_circle _3"
+                },
+                {
+                  "tag": "div",
+                  "class": "benefit_circle _4"
+                },
+                {
+                  "tag": "div",
+                  "class": "benefit_circle _5"
+                },
+                {
+                  "tag": "div",
+                  "class": "benefit_circle _6"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "class": "sensor-benefit"
+        }
+      ]
+    },
+    {
+      "_type": "cta",
+      "id": "demo",
+      "tag": "section",
+      "children": [
+        {
+          "tag": "div",
+          "class": "maximize-title-wrap"
+        },
+        {
+          "tag": "div",
+          "class": "form-section-wrap",
+          "children": [
+            {
+              "tag": "form",
+              "name": "wf-form-Schedule-a-Demo",
+              "action": "",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "fields-wrap flex",
+                  "children": [
+                    {
+                      "tag": "input",
+                      "type": "text",
+                      "name": "Name-9",
+                      "placeholder": "Name"
+                    },
+                    {
+                      "tag": "input",
+                      "type": "text",
+                      "name": "Company-8",
+                      "placeholder": "Company"
+                    },
+                    {
+                      "tag": "input",
+                      "type": "email",
+                      "name": "E-mail-8",
+                      "placeholder": "E-mail"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "class": "form-submit-wrap gap-yes",
+                  "children": [
+                    {
+                      "tag": "a",
+                      "text": "Privacy Policy",
+                      "href": "/privacy-policy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "class": "success-message w-form-done",
+              "children": [
+                {
+                  "tag": "div",
+                  "class": "text-block-4",
+                  "text": "Thank you! We’ll reach out soon."
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "class": "w-form-fail",
+              "children": [
+                {
+                  "tag": "div",
+                  "text": "Oops! Something went wrong while submitting the form."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_type": "cta",
+      "id": "footer",
+      "tag": "section",
+      "children": [
+        {
+          "tag": "div",
+          "class": "footer-top",
+          "children": [
+            {
+              "tag": "div",
+              "class": "text-32-caps _w-20",
+              "text": "3-in-1  tool for real estate developers."
+            },
+            [
+              {
+                "tag": "a",
+                "text": "design",
+                "href": "#design-section"
+              },
+              {
+                "tag": "a",
+                "text": "estimate",
+                "href": "#estimate-section"
+              },
+              {
+                "tag": "a",
+                "text": "shop",
+                "href": "#shop-section"
+              },
+              {
+                "tag": "a",
+                "text": "benefits",
+                "href": "#benefit"
+              },
+              {
+                "tag": "div",
+                "class": "footer_slot-local",
+                "children": [
+                  {
+                    "tag": "a",
+                    "text": "en / es",
+                    "href": "/es"
+                  }
+                ]
+              }
+            ],
+            {
+              "tag": "div",
+              "class": "map-wrap-item",
+              "children": [
+                {
+                  "tag": "a",
+                  "text": "info@makedesign.tech",
+                  "href": "mailto:info@makedesign.tech"
+                },
+                {
+                  "tag": "a",
+                  "text": "Barcelona, Spain",
+                  "href": "https://maps.app.goo.gl/MtqTLrRPwoM1uaA87"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "class": "footer-bottom",
+          "children": [
+            {
+              "tag": "div",
+              "class": "footer_accent"
+            },
+            {
+              "tag": "div",
+              "class": "footer-info",
+              "children": [
+                {
+                  "tag": "a",
+                  "text": "Made by with",
+                  "href": "https://adelt.io/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

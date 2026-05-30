@@ -1,0 +1,484 @@
+{
+  "pagePurpose": "A single-page marketing landing page for a SaaS product (3-in-1 digital tool for real estate developers combining design, estimation, and procurement). Converts visitors through feature showcases and a demo request form.",
+  "visualStyleSummary": "Dark theme (background ~#1E1C1D) with yellow (#F9C518) accent color. Minimal sans-serif typography. Full-bleed images, Lottie/GSAP scroll animations, and spherical 3D visual elements. Clean, premium, tech-forward aesthetic with high-contrast text.",
+  "sections": [
+    {
+      "order": 1,
+      "role": "Preloader",
+      "detectedType": "Loading Overlay",
+      "contentSlots": [
+        {
+          "slotName": "preloader_animation",
+          "currentContent": "Lottie animated logo/shape",
+          "reportUse": "Loading animation while report generates",
+          "maxTextLength": 0
+        },
+        {
+          "slotName": "preloader_progress",
+          "currentContent": "Progress bar + percentage",
+          "reportUse": "Report generation progress indicator",
+          "maxTextLength": 10
+        }
+      ],
+      "action": "keep"
+    },
+    {
+      "order": 2,
+      "role": "Header / Navigation",
+      "detectedType": "Fixed Navbar",
+      "contentSlots": [
+        {
+          "slotName": "site_logo",
+          "currentContent": "SVG wordmark logo",
+          "reportUse": "Report title / branding logo",
+          "maxTextLength": 30
+        },
+        {
+          "slotName": "language_switch",
+          "currentContent": "EN/ES toggle",
+          "reportUse": "Report language selector or remove",
+          "maxTextLength": 5
+        },
+        {
+          "slotName": "primary_cta",
+          "currentContent": "\"book a demo\" button",
+          "reportUse": "Primary report CTA (e.g. \"Download PDF\", \"Request Quote\")",
+          "maxTextLength": 25
+        },
+        {
+          "slotName": "nav_links",
+          "currentContent": "Design, Estimate, Shop, Benefits",
+          "reportUse": "Report section anchors (Executive Summary, Findings, Budget, Timeline)",
+          "maxTextLength": 20
+        },
+        {
+          "slotName": "contact_email",
+          "currentContent": "info@makedesign.tech",
+          "reportUse": "Reporter contact / sender email",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "contact_location",
+          "currentContent": "Barcelona, Spain",
+          "reportUse": "Office location or project address",
+          "maxTextLength": 50
+        }
+      ],
+      "action": "repurpose"
+    },
+    {
+      "order": 3,
+      "role": "Hero / Main Headline",
+      "detectedType": "Full-Viewport Hero",
+      "contentSlots": [
+        {
+          "slotName": "hero_sphere_images",
+          "currentContent": "3 decorative sphere images (Design, Estimate, Shop)",
+          "reportUse": "Report hero visual or dashboard preview image",
+          "maxTextLength": 0
+        },
+        {
+          "slotName": "hero_heading",
+          "currentContent": "\"A next-gen digital tool for real estate developers.\"",
+          "reportUse": "Report title / headline",
+          "maxTextLength": 80
+        },
+        {
+          "slotName": "hero_bullet_points",
+          "currentContent": "3 feature bullets (Create 3D interiors, calculate prices, order products)",
+          "reportUse": "Key findings summary bullet points",
+          "maxTextLength": 50
+        },
+        {
+          "slotName": "hero_cta_watch",
+          "currentContent": "\"watch a video\" button",
+          "reportUse": "Secondary action (view presentation)",
+          "maxTextLength": 25
+        },
+        {
+          "slotName": "hero_cta_demo",
+          "currentContent": "\"book a demo\" button",
+          "reportUse": "Primary report action (download, subscribe)",
+          "maxTextLength": 25
+        }
+      ],
+      "action": "repurpose"
+    },
+    {
+      "order": 4,
+      "role": "Intro / Value Proposition",
+      "detectedType": "Tagline Banner",
+      "contentSlots": [
+        {
+          "slotName": "section_heading",
+          "currentContent": "\"3-in-1 Solution for Real Estate Projects.\"",
+          "reportUse": "Executive summary heading",
+          "maxTextLength": 60
+        },
+        {
+          "slotName": "section_subtext",
+          "currentContent": "Maximize the potential of your real estate projects with our comprehensive tool...",
+          "reportUse": "Executive summary paragraph",
+          "maxTextLength": 200
+        }
+      ],
+      "action": "repurpose"
+    },
+    {
+      "order": 5,
+      "role": "Feature Section: Design (Real World Data)",
+      "detectedType": "Multi-slide Feature Carousel",
+      "contentSlots": [
+        {
+          "slotName": "section_heading",
+          "currentContent": "\"Real World, Real Data\"",
+          "reportUse": "First major finding heading",
+          "maxTextLength": 50
+        },
+        {
+          "slotName": "slide_1_heading",
+          "currentContent": "\"Google maps integration\"",
+          "reportUse": "Data visualization / geographic analysis title",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "slide_1_text",
+          "currentContent": "The building is placed directly onto real-world terrain using live satellite data...",
+          "reportUse": "Geospatial data analysis description",
+          "maxTextLength": 150
+        },
+        {
+          "slotName": "slide_2_heading",
+          "currentContent": "\"Photorealistic Visualization\"",
+          "reportUse": "Visual rendering / preview analysis title",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "slide_2_text",
+          "currentContent": "Create realistic renders in real time...",
+          "reportUse": "Description of visual output quality",
+          "maxTextLength": 100
+        },
+        {
+          "slotName": "slide_3_heading",
+          "currentContent": "\"full Camera control\"",
+          "reportUse": "Interactive exploration tool description",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "slide_3_text",
+          "currentContent": "Fly, walk, focus, and adjust depth of field...",
+          "reportUse": "User interaction / navigation analysis",
+          "maxTextLength": 150
+        },
+        {
+          "slotName": "slide_4_heading",
+          "currentContent": "\"apartment selection\"",
+          "reportUse": "Filtered dataset / categorization title",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "slide_4_text",
+          "currentContent": "Easily select apartments by facade view with filters...",
+          "reportUse": "Data filtering and querying description",
+          "maxTextLength": 100
+        },
+        {
+          "slotName": "slide_5_heading",
+          "currentContent": "\"Interactive infrastructure\"",
+          "reportUse": "Environment / surrounding analysis",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "slide_5_text",
+          "currentContent": "Take your clients on a virtual walk...",
+          "reportUse": "Contextual analysis description",
+          "maxTextLength": 120
+        },
+        {
+          "slotName": "slide_6_heading",
+          "currentContent": "\"Points of interest\"",
+          "reportUse": "Key landmarks / annotations section",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "slide_6_text",
+          "currentContent": "Explore points of interest on the site plan...",
+          "reportUse": "Notable findings / POI descriptions",
+          "maxTextLength": 100
+        },
+        {
+          "slotName": "sidebar_nav",
+          "currentContent": "DESIGN / estimate / shop tab navigation",
+          "reportUse": "Report chapter selector (e.g. Overview, Budget, Timeline, Conclusion)",
+          "maxTextLength": 15
+        }
+      ],
+      "action": "repurpose"
+    },
+    {
+      "order": 6,
+      "role": "Feature Section: Design (Interior Customization)",
+      "detectedType": "Multi-slide Feature Carousel",
+      "contentSlots": [
+        {
+          "slotName": "section_heading",
+          "currentContent": "\"Limitless Interior Customization\"",
+          "reportUse": "Second major finding / detailed analysis heading",
+          "maxTextLength": 50
+        },
+        {
+          "slotName": "slide_1_heading",
+          "currentContent": "\"A Complete Furniture Library for Any Room\"",
+          "reportUse": "Asset inventory or catalog section title",
+          "maxTextLength": 50
+        },
+        {
+          "slotName": "slide_2_heading",
+          "currentContent": "\"Full customization\"",
+          "reportUse": "Customization / configuration options analysis",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "slide_2_text",
+          "currentContent": "Easily swap any furniture, lighting, fixtures, and finishing materials...",
+          "reportUse": "Description of variable parameters in the report",
+          "maxTextLength": 150
+        },
+        {
+          "slotName": "slide_3_heading",
+          "currentContent": "\"Endless Material Choices\"",
+          "reportUse": "Material breakdown / specification section",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "slide_4_heading",
+          "currentContent": "\"Pre-Designed Furnishing Solutions\"",
+          "reportUse": "Preconfigured / template options section",
+          "maxTextLength": 50
+        },
+        {
+          "slotName": "slide_4_text",
+          "currentContent": "Select ready-made furniture arrangements for each room...",
+          "reportUse": "Template recommendations or presets",
+          "maxTextLength": 80
+        },
+        {
+          "slotName": "slide_5_heading",
+          "currentContent": "\"Curated Interiors\"",
+          "reportUse": "Style variant analysis (Minimalism, Modern, etc.)",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "slide_5_text",
+          "currentContent": "Access a selection of pre-designed interior solutions...",
+          "reportUse": "Style comparison description",
+          "maxTextLength": 100
+        },
+        {
+          "slotName": "slide_6_heading",
+          "currentContent": "\"Floor Plan Layouts\"",
+          "reportUse": "Spatial / layout comparison section",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "slide_6_text",
+          "currentContent": "Instantly switch between multiple floor plan options...",
+          "reportUse": "Layout analysis / comparison text",
+          "maxTextLength": 80
+        },
+        {
+          "slotName": "day_night_toggle",
+          "currentContent": "Light / Night switch with lighting customization",
+          "reportUse": "Scenario toggle (e.g. current vs projected, budget vs premium)",
+          "maxTextLength": 30
+        },
+        {
+          "slotName": "furniture_tabs",
+          "currentContent": "Room tab buttons (DORMITORIO 1, HOME OFFICE, DORMITORIO 2)",
+          "reportUse": "Category tabs for report data breakdown",
+          "maxTextLength": 20
+        }
+      ],
+      "action": "repurpose"
+    },
+    {
+      "order": 7,
+      "role": "Feature Section: Estimate",
+      "detectedType": "Pricing / Data Cards + Cost Breakdown",
+      "contentSlots": [
+        {
+          "slotName": "section_heading",
+          "currentContent": "\"Instant Project Estimation\"",
+          "reportUse": "Budget / cost analysis section heading",
+          "maxTextLength": 50
+        },
+        {
+          "slotName": "estimate_category_1",
+          "currentContent": "Furniture items with prices (Charlotte 3,840€, Reno 3,950€, etc.)",
+          "reportUse": "Cost breakdown category 1 (e.g. Materials)",
+          "maxTextLength": 30
+        },
+        {
+          "slotName": "estimate_category_2",
+          "currentContent": "Lighting items with prices (Apollo Studio 420€, Noir Tripod 280€, etc.)",
+          "reportUse": "Cost breakdown category 2 (e.g. Fixtures)",
+          "maxTextLength": 30
+        },
+        {
+          "slotName": "estimate_category_3",
+          "currentContent": "Finishing materials with prices (Honey oak 420€, Mosaic tile 280€, etc.)",
+          "reportUse": "Cost breakdown category 3 (e.g. Finishes)",
+          "maxTextLength": 30
+        },
+        {
+          "slotName": "estimate_total_area",
+          "currentContent": "Background image showing full estimate layout",
+          "reportUse": "Total estimated cost / budget summary callout",
+          "maxTextLength": 60
+        }
+      ],
+      "action": "repurpose"
+    },
+    {
+      "order": 8,
+      "role": "Feature Section: Shop / Procurement",
+      "detectedType": "Product Catalog with Cart",
+      "contentSlots": [
+        {
+          "slotName": "section_heading",
+          "currentContent": "\"Furniture and materials purchase\"",
+          "reportUse": "Procurement / action items section heading",
+          "maxTextLength": 50
+        },
+        {
+          "slotName": "section_subtext",
+          "currentContent": "Download a complete order list with direct links...",
+          "reportUse": "Actions-to-take / next steps summary",
+          "maxTextLength": 120
+        },
+        {
+          "slotName": "room_tabs",
+          "currentContent": "Living room, Bedroom, Home office, Kitchen",
+          "reportUse": "Area / department tabs for itemized lists",
+          "maxTextLength": 20
+        },
+        {
+          "slotName": "purchasable_items",
+          "currentContent": "Product rows with name, price, radio selector",
+          "reportUse": "Itemized action items with checkboxes and costs",
+          "maxTextLength": 40
+        }
+      ],
+      "action": "repurpose"
+    },
+    {
+      "order": 9,
+      "role": "Benefits",
+      "detectedType": "Card Grid Testimonials/Value Props",
+      "contentSlots": [
+        {
+          "slotName": "section_heading",
+          "currentContent": "\"Key benefits\" (for new home buyers / real estate developers)",
+          "reportUse": "Conclusions / recommendations section heading",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "benefit_1",
+          "currentContent": "Total flexibility: Customize layouts, views and interior configurations with complete control.",
+          "reportUse": "Recommendation 1: main actionable insight",
+          "maxTextLength": 100
+        },
+        {
+          "slotName": "benefit_2",
+          "currentContent": "Transparent pricing: Get instant, precise cost updates...",
+          "reportUse": "Recommendation 2: financial insight",
+          "maxTextLength": 100
+        },
+        {
+          "slotName": "benefit_3",
+          "currentContent": "Save time and stress: Plan renovations clearly and efficiently...",
+          "reportUse": "Recommendation 3: efficiency insight",
+          "maxTextLength": 100
+        },
+        {
+          "slotName": "benefit_4",
+          "currentContent": "Transparency and trust: Export complete, ready-to-share cost reports...",
+          "reportUse": "Recommendation 4: process insight",
+          "maxTextLength": 100
+        },
+        {
+          "slotName": "benefit_5",
+          "currentContent": "New revenue streams: Unlock additional income...",
+          "reportUse": "Recommendation 5: growth insight",
+          "maxTextLength": 100
+        },
+        {
+          "slotName": "benefit_6",
+          "currentContent": "Accelerated deal closure: Buyers can fully configure their apartment in just 30–40 minutes...",
+          "reportUse": "Recommendation 6: timeline insight",
+          "maxTextLength": 100
+        }
+      ],
+      "action": "repurpose"
+    },
+    {
+      "order": 10,
+      "role": "CTA / Demo Signup",
+      "detectedType": "Lead Generation Form",
+      "contentSlots": [
+        {
+          "slotName": "cta_heading",
+          "currentContent": "\"Maximize the potential of your real estate projects\"",
+          "reportUse": "Final CTA heading (e.g. \"Get your full report\")",
+          "maxTextLength": 60
+        },
+        {
+          "slotName": "cta_subheading",
+          "currentContent": "\"with our 3-in-1 solution.\"",
+          "reportUse": "CTA subheading (e.g. \"Download now\")",
+          "maxTextLength": 40
+        },
+        {
+          "slotName": "form_fields",
+          "currentContent": "Name, Company, Email inputs + Privacy Policy",
+          "reportUse": "Report request form (email capture for full report)",
+          "maxTextLength": 50
+        }
+      ],
+      "action": "repurpose"
+    },
+    {
+      "order": 11,
+      "role": "Footer",
+      "detectedType": "Site Footer with Links",
+      "contentSlots": [
+        {
+          "slotName": "footer_tagline",
+          "currentContent": "\"3-in-1 tool for real estate developers.\"",
+          "reportUse": "Report footer tagline / disclaimer",
+          "maxTextLength": 50
+        },
+        {
+          "slotName": "footer_links",
+          "currentContent": "design, estimate, shop, benefits",
+          "reportUse": "Report section links or page anchors",
+          "maxTextLength": 20
+        },
+        {
+          "slotName": "footer_contact",
+          "currentContent": "Email + Location + Map",
+          "reportUse": "Reporter / company contact information",
+          "maxTextLength": 60
+        },
+        {
+          "slotName": "footer_logo",
+          "currentContent": "Logo SVG + \"Made by Adelt\"",
+          "reportUse": "Report brand / prepared by attribution",
+          "maxTextLength": 30
+        }
+      ],
+      "action": "repurpose"
+    }
+  ]
+}

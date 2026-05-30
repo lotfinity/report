@@ -1,0 +1,397 @@
+# PAGE STRUCTURE OVERVIEW
+Title: Make Design
+Tagline: A next-gen digital tool for real estate developers.
+
+<>
+  <div>
+    <div>
+    <div>
+      <a> "book a demo"
+      <a> "close"
+      <a> "en"
+      <a> "es"
+  <div>
+    <div>
+      <a> "Design"
+      <a> "Estimate"
+      <a> "Shop"
+      <a> "Benefits"
+    <div>
+      <div>
+        <a> "info@makedesign.tech"
+        <a> "Barcelona, Spain"
+      <div>
+        <form> wf-form-Schedule-a-Demo-EN
+          [text] "Name" placeholder="Name"
+          [text] "Company-6" placeholder="Company"
+          [email] "E-mail-6" placeholder="Email"
+        <div>
+          <div> "Thank you! We’ll reach out soon."
+        <div>
+          <div> "Oops! Something went wrong while submitting the form."
+
+<> HEADING: "A next-gen digital tool for real estate developers."
+  <section>
+    <div>
+    <div>
+      <div>
+      <div>
+        <div>
+      <div>
+        <div>
+      <div>
+        <div>
+  <div>
+    <div>
+      <h1> "A next-gen digital tool for real estate developers."
+      <div>
+        <div>
+          <div> "Create high-fidelity 3D interiors"
+        <div>
+        <div>
+    <div>
+      <a> "watch a video"
+      <a> "book a demo"
+
+<section>
+  <div> "3-in-1 Solution for Real Estate Projects."
+  <div>
+    text: "Maximize the potential of your real estate projects with our comprehensive tool that combines Design, Estimate, and Shop — all in one place...."
+
+<> HEADING: "Real World, Real Data"
+  <div>
+    <h2> "Real World, Real Data"
+  <div>
+    <div>
+      <div>
+        <h3> "Google maps integration"
+        <div>
+          text: "The building is placed directly onto real-world terrain using live satellite data from Google Maps — allowing your clients to explore the location in its actual urban context...."
+      <div>
+        <h3> "Photorealistic Visualization"
+        <div> "Create realistic renders in real time to see your design come to life instantly."
+      <div>
+        <h3> "full Camera control"
+        <div>
+          text: "Fly, walk, focus, and adjust depth of field with intuitive camera settings — explore the space from any angle, just like in a real-time walkthrough...."
+        <div>
+          <div>
+    <div>
+      <div>
+        <h3> "apartment selection"
+        <div>
+          text: "Easily select apartments by facade view with filters for price, size, rooms, and orientation to find a perfect fit for your clients...."
+        <div>
+      <div>
+        <h3> "Interactive infrastructure"
+        <div>
+          text: "Take your clients on a virtual walk through the building’s surroundings and infrastructure — including the reception, parking, pool, and more — to explore the full living experience in context...."
+      <div>
+        <h3> "Points of interest"
+        <div>
+          text: "Explore points of interest on the site plan, including shops, playgrounds, cafes, transport, parking, and more...."
+        <div>
+  <div>
+    <div>
+    <div>
+    <div>
+    <div>
+    <div>
+    <div>
+
+<> HEADING: "Limitless Interior Customization"
+  <div>
+    <h2> "Limitless Interior Customization"
+  <div>
+    <div>
+      <div>
+        <h3> "A Complete Furniture Library for Any Room"
+      <div>
+        <h3> "Full customization"
+        <div>
+          text: "Easily swap any furniture, lighting, fixtures, and finishing materials in real time. Experiment with different styles, textures, and layouts to achieve the perfect look — all without limitations...."
+      <div>
+        <h3> "Endless Material Choices"
+        <div>
+          <div>
+          <div>
+          <div>
+          <div>
+          <div>
+          <div>
+    <div>
+      <div>
+        <h3> "Pre-Designed Furnishing Solutions"
+        <div> "Select ready-made furniture arrangements for each room with a single click."
+        <div>
+          <a> "DORMITORIO 1"
+          <a> "HOME OFFICE"
+          <a> "DORMITORIO 2"
+        <div>
+          <div>
+            <div>
+          <div>
+            <div>
+          <div>
+            <div>
+      <div>
+        <h3> "Curated Interiors"
+        <div>
+          text: "Access a selection of pre-designed interior solutions in various styles. Effortlessly switch between Neoclassicism, Minimalism, and more to match your project's vision...."
+        <div>
+          <a> "minimalism"
+          <a> "modern"
+        <div>
+          <div>
+            <div>
+          <div>
+            <div>
+      <div>
+        <h3> "Floor Plan Layouts"
+        <div>
+          text: "Instantly switch between multiple floor plan options to find the perfect layout and visualize each configuration in real time...."
+        <div>
+          <a> "plan 1"
+          <a> "plan 2"
+        <div>
+          <div>
+            <div>
+          <div>
+            <div>
+    <div>
+      <div>
+        text: "Customize interior lighting by toggling fixtures on and off and showcase realistic lighting scenarios with dynamic control over natural and artificial light...."
+  <div>
+    <div>
+    <div>
+    <div>
+    <div>
+    <div>
+    <div>
+    <div>
+
+<> HEADING: "Instant Project Estimation"
+  <div>
+  <div>
+    <div>
+      <h2> "Instant Project Estimation"
+    <a> "more"
+    <a> "more"
+    <a> "more"
+    <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+    <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+    <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+    <div>
+      <div>
+        <a> "more"
+        <a> "more"
+        <a> "more"
+        <div>
+          <div>
+            <div>
+            <div>
+              <div>
+                <div>
+              <div>
+                <div>
+              <div>
+                <div>
+              <div>
+                <div>
+              <div>
+                <div>
+          <div>
+            <div>
+            <div>
+              <div>
+                <div>
+              <div>
+                <div>
+              <div>
+                <div>
+              <div>
+                <div>
+              <div>
+                <div>
+          <div>
+            <div>
+            <div>
+              <div>
+                <div>
+              <div>
+                <div>
+              <div>
+                <div>
+              <div>
+                <div>
+              <div>
+                <div>
+      <div>
+    <div>
+      <div>
+      <div>
+  <div>
+
+<> HEADING: "Furniture and materials purchase"
+  <div>
+  <div>
+    <div>
+    <div>
+    <div>
+    <div>
+  <div>
+    <div>
+      <h2> "Furniture and materials purchase"
+      <div>
+        text: "Download a complete order list with direct links to all selected materials and furniture items — making procurement simple and efficient...."
+    <div>
+      <div>
+        <div>
+        <div>
+        <div>
+        <div>
+      <div>
+        <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+        <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+        <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+        <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+          <div>
+            <div>
+            <div>
+
+<section> HEADING: "Key benefits"
+  <div>
+    <div>
+      <h2> "Key benefits"
+      <h2> "for new home buyers"
+      <h2> "for real estate developers"
+    <div>
+      <div>
+      <div>
+        <h1> "Total flexibility"
+        <div> "Customize layouts, views and interior configurations with complete control."
+      <div>
+        <h1> "Transparent pricing"
+        <div> "Get instant, precise cost updates for every material and product — no guesswork, no hidden fees."
+      <div>
+        <h1> "Save time and stress"
+        <div> "Plan renovations clearly and efficiently with predictable, consistent results."
+      <div>
+        <h1> "Transparency and trust"
+        <div>
+          text: "Export complete, ready-to-share cost reports with detailed breakdowns for materials, labor, and logistics...."
+      <div>
+        <h1> "New revenue streams"
+        <div>
+          text: "Unlock additional income through the sale of finishing materials, furniture, and complementary services...."
+      <div>
+        <h1> "Accelerated deal closure"
+        <div>
+          text: "Buyers can fully configure their apartment in just 30–40 minutes — significantly streamlining the sales process...."
+    <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+      <div>
+  <div>
+
+<section>
+  <div>
+  <div>
+    <form> wf-form-Schedule-a-Demo
+    <div>
+      <div> "Thank you! We’ll reach out soon."
+    <div>
+      <div> "Oops! Something went wrong while submitting the form."
+
+<section>
+  <div>
+    <div> "3-in-1  tool for real estate developers."
+    <a> "design"
+    <a> "estimate"
+    <a> "shop"
+    <a> "benefits"
+    <div>
+      <a> "en / es"
+    <div>
+      <a> "info@makedesign.tech"
+      <a> "Barcelona, Spain"
+  <div>
+    <div>
+    <div>
+      <a> "Made by with"
