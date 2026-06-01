@@ -19,6 +19,26 @@ Next:
 - ...
 ```
 
+## 2026-06-01 - Second-Row Restructure Blueprint
+
+Done:
+- Audited the active `.design-container._2` second row and confirmed the current first group is six Sahibinden-first evidence cards.
+- Created `docs/second-row-restructure-plan.md` with the intended narrative order: revenue reality, monthly floor, acquisition supply, captured detail, capital reserve, final product thesis.
+- Created `docs/manifests/second-row-restructure-blueprint.json` with slot-by-slot copy, links, assets, readiness, and missing Airbnb comparable inputs.
+- Marked the roadmap's second-row review task complete and left the active HTML rewrite pending.
+
+Not done:
+- Did not edit `index-standalone-rebuilt.html` because the Airbnb-style comparable links/screenshots are still missing.
+- Did not change row images or links.
+
+Verification:
+- Parsed `.design-container._2` from `index-standalone-rebuilt.html`.
+- Cross-checked report numbers against `docs/source/original-report.html`.
+- Confirmed available second-row evidence assets under `assets-rebuilt/evidence/`.
+
+Next:
+- When Airbnb-style comparable links/screenshots arrive, add them to `assets-rebuilt/evidence/` and replace the second row one card at a time, with CDP verification.
+
 ## 2026-06-01 - First-Row Visual Prompt Pack
 
 Done:

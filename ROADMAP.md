@@ -10,7 +10,9 @@
 
 ## Second Row Restructure
 
-- [ ] Revisit the second row instead of leaving the Sahibinden items one after another.
+- [x] Revisit the second row instead of leaving the Sahibinden items one after another.
+  - [x] Create the second-row target story and replacement blueprint.
+  - [ ] Apply the active HTML rewrite after Airbnb-style comparable links/screenshots are provided.
 - [ ] Introduce Airbnb-style comparable apartment examples after links are provided.
 - [ ] Use those Airbnb examples to show that the revenue model is real and currently market-supported.
 - [ ] Then present Sahibinden listings as purchasable supply, with links opening in a new tab.
