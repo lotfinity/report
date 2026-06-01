@@ -19,6 +19,26 @@ Next:
 - ...
 ```
 
+## 2026-06-01 - First-Row Image Relevance Audit
+
+Done:
+- Audited the twelve first-row `Pourquoi Future Park ?` cards against their current French text.
+- Documented the current repeated visual assets and which slides should keep, rework, or replace them.
+- Added `docs/first-row-image-assessment.md` as the handoff document for image generation/replacement.
+- Marked the first roadmap task complete.
+
+Not done:
+- Did not replace or generate any images in this pass.
+- Did not edit `index-standalone-rebuilt.html`.
+
+Verification:
+- Parsed `.design-container._1` from `index-standalone-rebuilt.html` and confirmed it contains two `.slide-1-grid` groups with six cards each.
+- Inspected representative current assets from `assets-rebuilt/`.
+
+Next:
+- Generate or source replacement images for the weak first-row matches, starting with slides 2, 5, 8, and 11.
+- Verify replacements through CDP screenshots before committing visual changes.
+
 ## 2026-06-02 - Workspace Cleanup And First-Row Handoff
 
 Done:

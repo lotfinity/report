@@ -2,7 +2,7 @@
 
 ## Current Priority
 
-- [ ] Assess whether the current first-row images match the new French text content.
+- [x] Assess whether the current first-row images match the new French text content.
 - [ ] Generate or source new first-row images where the current visuals do not support the message.
 - [ ] Verify the first-row image replacements through CDP screenshots at desktop and mobile widths.
 
