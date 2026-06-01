@@ -12,10 +12,11 @@
 
 - [x] Revisit the second row instead of leaving the Sahibinden items one after another.
   - [x] Create the second-row target story and replacement blueprint.
-  - [ ] Apply the active HTML rewrite after Airbnb-style comparable links/screenshots are provided.
-- [ ] Introduce Airbnb-style comparable apartment examples after links are provided.
+  - [x] Apply the first active HTML rewrite for the Airbnb/Sahibinden evidence order.
+- [x] Introduce Airbnb-style comparable apartment examples after links are provided.
 - [ ] Use those Airbnb examples to show that the revenue model is real and currently market-supported.
-- [ ] Then present Sahibinden listings as purchasable supply, with links opening in a new tab.
+  - [ ] Extract the real Airbnb stay price; current page exposes the stay dates but not the final price without JS/session state.
+- [x] Then present Sahibinden listings as purchasable supply, with links opening in a new tab.
 - [ ] Keep the final narrative flow clear: revenue evidence first, acquisition listings second.
 
 ## Furnishing And Cost Flow

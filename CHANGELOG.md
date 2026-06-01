@@ -19,6 +19,29 @@ Next:
 - ...
 ```
 
+## 2026-06-01 - Airbnb Evidence Row Experiment
+
+Done:
+- Reworked the first second-row group into three Airbnb/revenue cards followed by three Sahibinden proof cards.
+- Added extracted Airbnb listing images under `assets-rebuilt/evidence/`.
+- Added an Airbnb-themed card linking to the provided Airbnb URL in a new tab.
+- Added a local popup iframe experiment that opens `Future-park.html`.
+- Added a revenue-model card using the visible five-night test stay as the calculation frame.
+- Updated the second-row plan and manifest to match the active experiment.
+
+Not done:
+- Did not invent a nightly or five-night Airbnb price. The saved local HTML and JS-free Airbnb response do not expose the final price.
+- Did not commit or clean unrelated Pinegrow state files.
+
+Verification:
+- Parsed the active second row and confirmed the six-card order.
+- Verified the extracted Airbnb images exist as WebP files.
+- Confirmed the local modal markup and script are present in `index-standalone-rebuilt.html`.
+
+Next:
+- Use a live browser/CDP session to confirm the popup iframe behavior and responsive card crop.
+- Extract the real Airbnb price from a browser session if the Airbnb page exposes it after JS/session load.
+
 ## 2026-06-01 - Second-Row Restructure Blueprint
 
 Done:

@@ -28,31 +28,31 @@ Current first group:
 | 5 | Monthly vs short stay | Mixed/placeholder | Rework | Needs Airbnb-style comparable links before it can be made concrete. |
 | 6 | Future product thesis | Narrative close | Keep | This is a strong closing card for the row. |
 
-## Target Story
+## Active Experiment
 
-The second row should become `Galerie de Preuves en Direct` and move through this order:
+The active second-row experiment now uses this order:
 
-1. Revenue reality: comparable furnished/short-stay units are earning real money.
-2. Conservative rental floor: Future Park monthly rents support a base case without Airbnb dependence.
-3. Acquisition supply: Sahibinden sale listings show purchasable 1+0/studio units.
-4. Specific acquisition detail: the clean Future Park 1+0 listing anchors the numbers.
-5. Capital and furnishing reserve: two purchases leave room for costs and setup.
-6. Product thesis: a compact furnished residence can be more flexible than one large classic apartment.
+1. Airbnb external proof card linked to the user-provided Airbnb URL.
+2. Local `Future-park.html` listing opened in a popup iframe.
+3. Revenue-model card showing the `5 nights x 4 cycles/month` calculation frame.
+4. Sahibinden sale-search proof.
+5. Sahibinden captured 1+0 sale detail.
+6. Sahibinden rental-search floor.
 
-This keeps the last card from the current row because it is strategically useful:
+The final thesis and capital-reserve cards are temporarily displaced from this six-card row. They can come back in the next duplicated slots or in the furnishing/cost bridge after the Airbnb revenue evidence is stronger.
 
-> C'est l'idée centrale : une résidence moderne, compacte et équipée peut devenir un produit locatif plus souple qu'un grand appartement classique.
+Important limitation: neither the saved local Airbnb HTML nor the JS-free Airbnb response exposes the final price. The revenue card therefore uses the calculation frame only and leaves the real price as `à extraire`.
 
 ## Proposed Six Cards
 
-| Slot | Target title | Evidence needed | Link behavior | Status |
+| Slot | Target title | Evidence | Link behavior | Status |
 | --- | --- | --- | --- | --- |
-| 1 | Revenus visibles en court séjour | Airbnb-style comparable apartment screenshots/links | Open external listing in new tab | Waiting for user-provided links/assets |
-| 2 | Le plancher mensuel existe déjà | Current Future Park rental search screenshot, `12k-15k TL/mois` | Open Sahibinden rent search in new tab | Ready |
-| 3 | L'offre achetable existe | Current Future Park sale search screenshot, `1.30M-1.45M TL` | Open Sahibinden sale search in new tab | Ready |
-| 4 | Exemple 1+0 vérifié | Current Future Park sale detail screenshot, `1.45M TL`, `55/40 m2`, `1,750 TL aidat` | Open Sahibinden detail in new tab | Ready |
-| 5 | Deux unités + réserve | Derived capital table: `2 x 1.30M = 550k TL reserve`, `2 x 1.45M = 250k TL reserve` | Link to sale search or no link | Ready |
-| 6 | Future : le produit locatif central | Existing final narrative card | Open key detail or no link | Ready |
+| 1 | Comparable meublé à Esenyurt | Airbnb link plus extracted local Airbnb image | Open external Airbnb listing in new tab | Active |
+| 2 | Future-park en popup | `Future-park.html` saved listing plus extracted local image | Open local popup iframe | Active experiment |
+| 3 | Combien empiler par mois ? | Calculation frame, pending real price extraction | Open external Airbnb listing in new tab | Active, price pending |
+| 4 | Des 1+0 dans la fourchette | Current Future Park sale search screenshot, `1.30M-1.45M TL` | Open Sahibinden sale search in new tab | Active |
+| 5 | 1+0 Future Park à 1.45M TL | Current Future Park sale detail screenshot, `1.45M TL`, `55/40 m2`, `1,750 TL aidat` | Open Sahibinden detail in new tab | Active |
+| 6 | 12k-15k TL/mois observés | Current Future Park rental search screenshot | Open Sahibinden rent search in new tab | Active |
 
 ## Copy Draft
 

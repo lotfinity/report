@@ -3,75 +3,75 @@
   "row_container": ".design-container._2",
   "current_heading": "Meublé, flexible",
   "target_heading": "Galerie de Preuves en Direct",
-  "status": "waiting_for_airbnb_comparable_links",
-  "active_html_changes": false,
+  "status": "active_airbnb_experiment",
+  "active_html_changes": true,
   "target_story": [
-    "Prove that comparable furnished or short-stay apartments are making real money.",
-    "Show the conservative monthly-rental floor from Future Park rental evidence.",
+    "Show an Airbnb-style furnished comparable first.",
+    "Open the saved Future-park Airbnb listing in a local popup iframe.",
+    "Frame the monthly revenue calculation from a five-night Airbnb test stay.",
     "Show purchasable Future Park supply from Sahibinden sale evidence.",
     "Anchor the acquisition thesis with the captured 1+0 listing detail.",
-    "Bridge into the capital and furnishing reserve.",
-    "Close with the Future Park flexible furnished-residence thesis."
+    "Show the conservative monthly-rental floor from Future Park rental evidence."
   ],
   "cards": [
     {
       "slot": 1,
-      "target_role": "revenue_reality",
-      "kicker": "PREUVE REVENU",
-      "heading": "Des séjours meublés qui monétisent déjà",
-      "body": "Les comparables de type Airbnb montreront le vrai signal : des petites surfaces meublées peuvent produire plus qu'un loyer classique lorsque l'emplacement, la gestion et la demande sont présents.",
+      "target_role": "airbnb_external_comparable",
+      "kicker": "AIRBNB LIVE",
+      "heading": "Comparable meublé à Esenyurt",
+      "body": "Un comparable Airbnb proche sert de preuve de demande court séjour : logement entier, séjour daté du 20 au 25 juillet 2026, avis publics et fiche ouverte en direct.",
       "metrics": [
         {
-          "label": "Comparable",
-          "value": "à fournir"
+          "label": "Séjour test",
+          "value": "5 nuits"
         },
         {
-          "label": "Revenu",
-          "value": "à extraire"
+          "label": "Preuve",
+          "value": "lien Airbnb"
         }
       ],
-      "asset": "waiting_for_user",
-      "href": "waiting_for_user",
-      "ready": false
+      "asset": "assets-rebuilt/evidence/airbnb-future-park-01-image-1.webp",
+      "href": "https://www.airbnb.com/rooms/1331940047841564478?search_mode=regular_search&adults=1&check_in=2026-07-20&check_out=2026-07-25&children=0&infants=0&pets=0&source_impression_id=p3_1780294568_P3DHg-yqwbhQApMm&previous_page_section_name=1000&federated_search_id=dde62e6b-7984-41ce-998d-b2842737214e&modal=PHOTO_TOUR_SCROLLABLE",
+      "ready": true
     },
     {
       "slot": 2,
-      "target_role": "monthly_rental_floor",
-      "kicker": "PLANCHER LOCATIF",
-      "heading": "12k-15k TL/mois observés",
-      "body": "Même sans court séjour, les recherches Future Park affichent des loyers 1+0 autour de 12k-15k TL/mois. Deux unités donnent une base combinée de 24k-30k TL avant optimisation.",
+      "target_role": "local_airbnb_popup",
+      "kicker": "LISTING LOCAL",
+      "heading": "Future-park en popup",
+      "body": "La fiche sauvegardée montre un appartement meublé de 52 m2 : cuisine, Wi-Fi, parking, climatisation, chambre double et canapé-lit. Test en iframe local.",
       "metrics": [
         {
-          "label": "Loyer/unité",
-          "value": "12k-15k TL"
+          "label": "Capacité",
+          "value": "2 voyageurs"
         },
         {
-          "label": "Deux unités",
-          "value": "24k-30k TL/mois"
+          "label": "Surface",
+          "value": "52 m2"
         }
       ],
-      "asset": "assets-rebuilt/evidence/sahibinden-future-park-kiralik-2026-05-28.png",
-      "href": "https://www.sahibinden.com/kiralik-daire?query_text=Future+Park+Esenyurt",
+      "asset": "assets-rebuilt/evidence/airbnb-future-park-07-salon.webp",
+      "href": "Future-park.html",
       "ready": true
     },
     {
       "slot": 3,
-      "target_role": "purchase_supply",
-      "kicker": "PREUVE ACHAT",
-      "heading": "Des 1+0 dans la bonne fourchette",
-      "body": "Les annonces Future Park 1+0/studio montrent une fourchette exploitable autour de 1.30M-1.45M TL. C'est la base d'une stratégie à deux petites unités.",
+      "target_role": "airbnb_revenue_model",
+      "kicker": "MODÈLE REVENU",
+      "heading": "Combien empiler par mois ?",
+      "body": "Dès que le prix réel du séjour Airbnb est visible, le calcul devient simple : total 5 nuits x 4 cycles = chiffre d'affaires mensuel brut avant frais, ménage, vacance et plateforme.",
       "metrics": [
         {
-          "label": "Fourchette",
-          "value": "1.30M-1.45M TL"
+          "label": "Prix réel",
+          "value": "à extraire"
         },
         {
-          "label": "Cible",
-          "value": "1+0 / studio"
+          "label": "Mensuel brut",
+          "value": "5 nuits x 4"
         }
       ],
-      "asset": "assets-rebuilt/evidence/sahibinden-future-park-satilik-2026-05-28.png",
-      "href": "https://www.sahibinden.com/satilik?query_text=Future+Park+Esenyurt",
+      "asset": "none",
+      "href": "https://www.airbnb.com/rooms/1331940047841564478?search_mode=regular_search&adults=1&check_in=2026-07-20&check_out=2026-07-25&children=0&infants=0&pets=0&source_impression_id=p3_1780294568_P3DHg-yqwbhQApMm&previous_page_section_name=1000&federated_search_id=dde62e6b-7984-41ce-998d-b2842737214e&modal=PHOTO_TOUR_SCROLLABLE",
       "ready": true
     },
     {
