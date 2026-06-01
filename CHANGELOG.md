@@ -19,6 +19,26 @@ Next:
 - ...
 ```
 
+## 2026-06-01 - Pinegrow State Cleanup And Session Pointer
+
+Done:
+- Removed `pinegrow.json` from the project root.
+- Removed `_pgbackup/` from the project root.
+- Added `docs/codex-session-pointer.md` with the local Codex transcript path for future agents.
+- Added the same transcript pointer to `AGENTS.md`.
+- Added `/home/lofa/.codex/report-session-pointer.md` so agents can find the report transcript from the Codex directory.
+- Confirmed the lingering `tools/pinegrow_session.py` process was already stopped before cleanup.
+
+Not done:
+- Did not modify the active Airbnb second-row content.
+
+Verification:
+- Confirmed no `pinegrow_session.py` process remains running.
+- Confirmed `index-standalone-rebuilt.html` still contains the Airbnb second-row cards after the restore.
+
+Next:
+- Keep Pinegrow-generated local state out of the repo root to avoid confusing active source files.
+
 ## 2026-06-01 - Airbnb Evidence Row Experiment
 
 Done:

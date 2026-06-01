@@ -14,6 +14,14 @@ Use CDP to inspect the relevant DOM, console/network failures, and screenshots. 
 
 Every agent must update `CHANGELOG.md` before finishing. Include Done, Not done, Verification, and Next.
 
+## Session Transcript
+
+Important historical context for this project is available in the local Codex transcript:
+
+`/home/lofa/.codex/sessions/2026/06/01/rollout-2026-06-01T11-38-21-019e8255-7d3d-71e3-a02d-657527c8a67b.jsonl`
+
+Search it with `rg` only when the committed docs do not answer a question. The committed source of truth remains this repo.
+
 ## Active Files
 
 - Page: `index-standalone-rebuilt.html`
