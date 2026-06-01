@@ -20,10 +20,14 @@ Every agent must update `CHANGELOG.md` before finishing. Include Done, Not done,
 - Assets: `assets-rebuilt/`
 - Pinegrow helper: `tools/pinegrow_session.py`
 - First-row blueprint: `docs/manifests/future-park-slide-1-grid-blueprint.json`
+- Source report inputs: `docs/source/original-report.html` and `docs/source/fp.jpg`
+- Project-provided skills: `skills/`
 - Legacy exports: `docs/legacy/`
 - Backups: `backups/`
 
 The old `assets/` directory was removed intentionally. Do not reintroduce it unless the active HTML is explicitly being migrated again.
+
+The `skills/` directory was added intentionally as agent-facing project guidance. Read relevant skill notes before major visual, copywriting, animation, color, or data-report work.
 
 ## Pinegrow Edit Mode
 
@@ -94,3 +98,11 @@ Text edits should preserve the existing class structure. Avoid bulk rewrites of 
 New images should go in `assets-rebuilt/`. The current first row still needs an image-content relevance pass. Video placeholders currently link to local video wrapper pages in `assets-rebuilt/`.
 
 Responsive images are a known source of broken visual matches. When replacing an image, check `src`, `srcset`, `sizes`, and the actual file dimensions served at the tested viewport.
+
+## Git Auth
+
+This local checkout should use the repo-specific SSH key `~/.ssh/github_lotfinity_report_ed25519` through `core.sshCommand`, so pushes authenticate as `lotfinity` instead of the global `dewise080` key. If GitHub auth starts reporting `dewise080`, restore the repo-local config:
+
+```bash
+git config core.sshCommand "ssh -i ~/.ssh/github_lotfinity_report_ed25519 -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
+```

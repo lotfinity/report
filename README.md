@@ -42,8 +42,10 @@ The preloader is always hidden in Pinegrow edit mode, regardless of these flags.
 - `assets-rebuilt/`: only active asset directory.
 - `tools/pinegrow_session.py`: Pinegrow edit/preview helper.
 - `docs/manifests/`: blueprints, manifests, and rebuild notes.
+- `docs/source/`: source report inputs, including the standalone analytical report and `fp.jpg`.
 - `docs/legacy/`: archived source exports.
 - `backups/`: historical HTML and Pinegrow backups.
+- `skills/`: agent skill notes supplied for this project.
 - `AGENTS.md`: detailed implementation notes for future agents.
 - `ROADMAP.md`: next planned content/design tasks.
 - `CHANGELOG.md`: every agent must append what changed, what did not, and how it was verified.

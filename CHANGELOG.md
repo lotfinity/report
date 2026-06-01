@@ -43,3 +43,23 @@ Verification:
 
 Next:
 - Start with first-row image relevance against the injected French content.
+
+## 2026-06-01 - Source Inputs And Local Auth
+
+Done:
+- Added the new project skill notes under `skills/`.
+- Moved the standalone source report and `fp.jpg` into `docs/source/`.
+- Archived new Pinegrow backup files under `backups/pinegrow/`.
+- Removed generated local cache/cookie files from the working tree.
+- Configured this local repo to use the `lotfinity` GitHub SSH key instead of the global `dewise080` key.
+
+Not done:
+- Did not inject new source-report content into the active presentation yet.
+- Did not redesign rows or replace images in this pass.
+
+Verification:
+- Confirmed the active HTML is not left in Pinegrow edit mode.
+- Confirmed `git ls-remote origin main` works locally with the repo-specific SSH key.
+
+Next:
+- Use `docs/source/original-report.html` as the source input when restructuring the second and third rows.
