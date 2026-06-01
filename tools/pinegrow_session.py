@@ -2,8 +2,13 @@
 """
 One-command Pinegrow workflow for heavy Webflow/static exports.
 
+Default work-file detection:
+  1. index-standalone-rebuilt.html
+  2. index-standalone.html
+  3. index.html
+
 Goal:
-- Patch the real local HTML files into lightweight edit mode so Pinegrow's internal canvas is faster.
+- Patch the real local HTML work file into lightweight edit mode so Pinegrow's internal canvas is faster.
 - Run a preview server that reads the CURRENT edited patched HTML file, removes the Pinegrow edit toggles in memory,
   re-enables disabled scripts in memory, and serves a live full-preview version.
 - This means edits you save in Pinegrow are visible in the external preview server without restoring from backup.
@@ -15,14 +20,15 @@ Optional:
   python3 tools/pinegrow_session.py --port 8090
   python3 tools/pinegrow_session.py --host 0.0.0.0 --port 8090
   python3 tools/pinegrow_session.py --no-restore-on-exit
-  python3 tools/pinegrow_session.py --file index.html --file privacy-policy.html
+  python3 tools/pinegrow_session.py --file index-standalone-rebuilt.html
+  python3 tools/pinegrow_session.py --file index.html
 
 What happens:
-1. index.html is backed up to index.html.pinegrow-full.bak, if backup does not already exist.
-2. index.html is patched for Pinegrow edit mode.
+1. The detected/default HTML file is backed up to <file>.pinegrow-full.bak, if backup does not already exist.
+2. That HTML file is patched for Pinegrow edit mode.
 3. Pinegrow opens the lighter local HTML file.
 4. The preview server reads that same edited file, removes edit-mode patches in memory, and serves it as full mode.
-5. Ctrl+C restores index.html from backup unless --no-restore-on-exit is used.
+5. Ctrl+C restores the patched HTML file from backup unless --no-restore-on-exit is used.
 
 Important:
 - Do not commit *.pinegrow-full.bak files.
@@ -41,6 +47,11 @@ from pathlib import Path
 from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_HTML_CANDIDATES = [
+    "index-standalone-rebuilt.html",
+    "index-standalone.html",
+    "index.html",
+]
 EDIT_CSS_HREF = "/assets/pinegrow-edit-mode.css"
 START = "<!-- PINEGROW_EDIT_MODE_START -->"
 END = "<!-- PINEGROW_EDIT_MODE_END -->"
@@ -110,6 +121,16 @@ INJECTION = f"""{START}
 }})();
 </script>
 {END}"""
+
+
+def pick_default_html() -> str:
+    for candidate in DEFAULT_HTML_CANDIDATES:
+        if (ROOT / candidate).exists():
+            return candidate
+    raise SystemExit(
+        "No default HTML file found. Tried: " + ", ".join(DEFAULT_HTML_CANDIDATES) +
+        ". Use --file path/to/page.html if your work file has another name."
+    )
 
 
 def backup_path(path: Path) -> Path:
@@ -194,7 +215,7 @@ def build_full_preview_from_patched(document: str) -> str:
 
 def resolve_targets(names: list[str]) -> list[Path]:
     if not names:
-        names = ["index.html"]
+        names = [pick_default_html()]
     targets = []
     for name in names:
         p = (ROOT / name).resolve()
@@ -215,7 +236,7 @@ class LiveFullPreviewHandler(SimpleHTTPRequestHandler):
         parsed = urlparse(path)
         clean = unquote(parsed.path).lstrip("/")
         if clean == "" or clean.endswith("/"):
-            clean = clean + "index.html"
+            clean = self.server.default_html
         return str((ROOT / clean).resolve())
 
     def end_headers(self) -> None:
@@ -254,14 +275,15 @@ class LiveFullPreviewHandler(SimpleHTTPRequestHandler):
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Patch files for Pinegrow and serve live full preview from patched edited files.")
+    parser = argparse.ArgumentParser(description="Patch the detected work file for Pinegrow and serve live full preview from patched edited files.")
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8090)
-    parser.add_argument("--file", action="append", dest="files", default=[], help="HTML file to patch. Can be repeated. Default: index.html")
+    parser.add_argument("--file", action="append", dest="files", default=[], help="HTML file to patch. Can be repeated. Default auto-detects index-standalone-rebuilt.html, then index-standalone.html, then index.html.")
     parser.add_argument("--no-restore-on-exit", action="store_true", help="Leave HTML files in Pinegrow edit mode after Ctrl+C.")
     args = parser.parse_args()
 
     targets = resolve_targets(args.files)
+    default_html = str(targets[0].relative_to(ROOT))
 
     print("Patching files for Pinegrow edit mode...")
     for path in targets:
@@ -271,10 +293,12 @@ def main() -> int:
 
     os.chdir(ROOT)
     server = ThreadingHTTPServer((args.host, args.port), LiveFullPreviewHandler)
+    server.default_html = default_html
 
     print("")
     print("Pinegrow can now open the local project with lighter HTML files.")
     print("The browser preview reads the same edited HTML and re-enables scripts in memory.")
+    print(f"Default preview file: {default_html}")
     print(f"Open full live preview: http://{args.host}:{args.port}/")
     print("Save in Pinegrow, then refresh the browser preview.")
     print("Press Ctrl+C to stop.")
