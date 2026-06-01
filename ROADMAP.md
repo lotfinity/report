@@ -4,6 +4,8 @@
 
 - [x] Assess whether the current first-row images match the new French text content.
 - [ ] Generate or source new first-row images where the current visuals do not support the message.
+  - [x] Create first-row image generation prompts and target-file manifest.
+  - [ ] Add generated first-row assets under `assets-rebuilt/first-row/`.
 - [ ] Verify the first-row image replacements through CDP screenshots at desktop and mobile widths.
 
 ## Second Row Restructure

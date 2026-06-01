@@ -1,0 +1,149 @@
+{
+  "source_page": "index-standalone-rebuilt.html",
+  "row_container": ".design-container._1",
+  "prompt_file": "FIRST_ROW_VISUAL_PROMPTS.md",
+  "status": "awaiting_generated_assets",
+  "notes": [
+    "Do not replace active HTML until generated assets exist and have been visually inspected.",
+    "After assets are added, verify the row with CDP screenshots at desktop and mobile widths.",
+    "When replacing images, handle src, srcset, sizes, and file dimensions as one unit."
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "heading": "Conçu pour le séjour flexible",
+      "current_assets": [
+        "assets-rebuilt/3b03b71f05_685312d28646ac27e1e57f46_Frame 2131330325.png"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-01-sejour-flexible.png",
+      "priority": "C",
+      "fit": "near-square"
+    },
+    {
+      "slide": 2,
+      "heading": "Prix décoté, usage réel",
+      "current_assets": [
+        "assets-rebuilt/placeholder.png"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-02-prix-decote-usage-reel.png",
+      "priority": "A",
+      "fit": "16:9"
+    },
+    {
+      "slide": 3,
+      "heading": "Rendement des petites surfaces",
+      "current_assets": [
+        "assets-rebuilt/1.png"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-03-rendement-petites-surfaces.png",
+      "priority": "C",
+      "fit": "near-square"
+    },
+    {
+      "slide": 4,
+      "heading": "Compatible séjour médical",
+      "current_assets": [
+        "assets-rebuilt/3b03b71f05_685312d28646ac27e1e57f46_Frame 2131330325.png"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-04-sejour-medical.png",
+      "priority": "B",
+      "fit": "near-square"
+    },
+    {
+      "slide": 5,
+      "heading": "Avantage propriétaire-opérateur",
+      "current_assets": [
+        "assets-rebuilt/placeholder.png"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-05-avantage-proprietaire-operateur.png",
+      "priority": "A",
+      "fit": "16:9"
+    },
+    {
+      "slide": 6,
+      "heading": "Services à forte valeur",
+      "current_assets": [
+        "assets-rebuilt/1.png"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-06-services-forte-valeur.png",
+      "priority": "B",
+      "fit": "near-square"
+    },
+    {
+      "slide": 7,
+      "heading": "Maîtrise locale",
+      "current_assets": [
+        "assets-rebuilt/4f32581370_6851b5afa8312a49891754de_Group 989.png",
+        "assets-rebuilt/a2eea2e42c_6851b5afac7e655b4df00710_Group 990.png",
+        "assets-rebuilt/52dab163cc_6851b5af41af6a3b879de6ff_Group 1028.png",
+        "assets-rebuilt/b9dbfd6b24_6851b5af2792391b144798bf_Group 1029.png",
+        "assets-rebuilt/d5a56e3eec_6851b5af2d7b09035d1aef7e_Group 1030.png"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-07-maitrise-locale.png",
+      "priority": "C",
+      "fit": "tall-or-near-square"
+    },
+    {
+      "slide": 8,
+      "heading": "Option de revalorisation",
+      "current_assets": [
+        "assets-rebuilt/placeholder.png"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-08-option-revalorisation.png",
+      "priority": "A",
+      "fit": "16:9"
+    },
+    {
+      "slide": 9,
+      "heading": "Le downside reste viable",
+      "current_assets": [
+        "assets-rebuilt/933f3d11c7_6851c347b8e04f765a40c947_Property 1_1.webp",
+        "assets-rebuilt/063ebdcc7f_6851c34782209d523067dd3a_Property 1_2.webp",
+        "assets-rebuilt/b3138ee217_6851c348ea029903a38106bb_Property 1_3.webp",
+        "assets-rebuilt/6a3779f894_6851c347c9ecd00dd26b9faf_Property 1_4.webp",
+        "assets-rebuilt/8c71d664cc_6851c34896860f893f0c7d95_Property 1_5.webp"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-09-downside-viable.png",
+      "priority": "C",
+      "fit": "tall-or-near-square"
+    },
+    {
+      "slide": 10,
+      "heading": "À vérifier avant achat",
+      "current_assets": [
+        "assets-rebuilt/4f32581370_6851b5afa8312a49891754de_Group 989.png",
+        "assets-rebuilt/a2eea2e42c_6851b5afac7e655b4df00710_Group 990.png",
+        "assets-rebuilt/52dab163cc_6851b5af41af6a3b879de6ff_Group 1028.png",
+        "assets-rebuilt/b9dbfd6b24_6851b5af2792391b144798bf_Group 1029.png",
+        "assets-rebuilt/d5a56e3eec_6851b5af2d7b09035d1aef7e_Group 1030.png"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-10-verifier-avant-achat.png",
+      "priority": "B",
+      "fit": "near-square"
+    },
+    {
+      "slide": 11,
+      "heading": "Demande non dépendante d'Airbnb",
+      "current_assets": [
+        "assets-rebuilt/placeholder.png"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-11-demande-hors-airbnb.png",
+      "priority": "A",
+      "fit": "16:9"
+    },
+    {
+      "slide": 12,
+      "heading": "Un actif à opérer",
+      "current_assets": [
+        "assets-rebuilt/933f3d11c7_6851c347b8e04f765a40c947_Property 1_1.webp",
+        "assets-rebuilt/063ebdcc7f_6851c34782209d523067dd3a_Property 1_2.webp",
+        "assets-rebuilt/b3138ee217_6851c348ea029903a38106bb_Property 1_3.webp",
+        "assets-rebuilt/6a3779f894_6851c347c9ecd00dd26b9faf_Property 1_4.webp",
+        "assets-rebuilt/8c71d664cc_6851c34896860f893f0c7d95_Property 1_5.webp"
+      ],
+      "target_asset": "assets-rebuilt/first-row/slide-12-actif-a-operer.png",
+      "priority": "C",
+      "fit": "tall-or-near-square"
+    }
+  ]
+}

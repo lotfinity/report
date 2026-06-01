@@ -19,6 +19,25 @@ Next:
 - ...
 ```
 
+## 2026-06-01 - First-Row Visual Prompt Pack
+
+Done:
+- Added `FIRST_ROW_VISUAL_PROMPTS.md` at the project root with generation prompts for all twelve first-row visuals.
+- Added `docs/manifests/first-row-visual-replacement-plan.json` to map each slide to its current assets, target filename, priority, and expected fit.
+- Added `assets-rebuilt/first-row/README.md` as the drop location for generated first-row visuals.
+- Updated the roadmap with the completed prompt/manifest subtask.
+
+Not done:
+- Did not replace active HTML images yet.
+- Did not generate or add final image files yet.
+
+Verification:
+- Cross-checked the prompt targets against the first-row image audit.
+- Kept this pass documentation-only; no CDP screenshot required because rendered visuals were not changed.
+
+Next:
+- Add generated assets under `assets-rebuilt/first-row/`, then replace the weakest first-row placeholders in a controlled browser-verified pass.
+
 ## 2026-06-01 - First-Row Image Relevance Audit
 
 Done:
