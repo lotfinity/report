@@ -1,0 +1,65 @@
+{
+  "out_dir": "/tmp/makedesign-rebuild",
+  "html": "/tmp/makedesign-rebuild/index-standalone-rebuilt.html",
+  "asset_files": 299,
+  "asset_refs": 529,
+  "missing_local_refs": 0,
+  "asset_report": {
+    "discovered": 529,
+    "unique_downloaded": 299,
+    "failed": [
+      "https://cdn.prod.website-files.com"
+    ]
+  },
+  "text_report": [
+    {
+      "section": "header",
+      "live_nodes": 26,
+      "french_nodes": 26,
+      "replaced": 26,
+      "mismatch": false
+    },
+    {
+      "section": "hero",
+      "live_nodes": 16,
+      "french_nodes": 16,
+      "replaced": 16,
+      "mismatch": false
+    },
+    {
+      "section": "intro",
+      "live_nodes": 6,
+      "french_nodes": 6,
+      "replaced": 6,
+      "mismatch": false
+    },
+    {
+      "section": "design",
+      "live_nodes": 134,
+      "french_nodes": 134,
+      "replaced": 134,
+      "mismatch": false
+    },
+    {
+      "section": "benefit",
+      "live_nodes": 17,
+      "french_nodes": 17,
+      "replaced": 17,
+      "mismatch": false
+    },
+    {
+      "section": "demo",
+      "live_nodes": 13,
+      "french_nodes": 13,
+      "replaced": 13,
+      "mismatch": false
+    },
+    {
+      "section": "footer",
+      "live_nodes": 13,
+      "french_nodes": 13,
+      "replaced": 13,
+      "mismatch": false
+    }
+  ]
+}
