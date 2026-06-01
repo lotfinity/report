@@ -44,7 +44,7 @@ def url_to_local_path(url):
         ext = ".bin"
     safe_stem = stem.replace("/", "_").replace("%", "_")
     filename = f"{safe_stem}_{path_hash}{ext}"
-    return f"/{ASSET_DIR / filename}"
+    return f"{ASSET_DIR / filename}"
 
 
 def ensure_dir(path):
