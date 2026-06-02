@@ -19,19 +19,19 @@
       "target_role": "airbnb_external_comparable",
       "kicker": "AIRBNB LIVE",
       "heading": "Comparable meublé à Esenyurt",
-      "body": "Un comparable Airbnb proche sert de preuve de demande court séjour : logement entier, séjour daté du 20 au 25 juillet 2026, avis publics et fiche ouverte en direct.",
+      "body": "Un comparable Airbnb proche sert de preuve de demande court séjour : logement entier, séjour daté du 20 au 25 juillet 2026, avec un prix de séjour vérifié via CDP.",
       "metrics": [
         {
           "label": "Séjour test",
           "value": "5 nuits"
         },
         {
-          "label": "Preuve",
-          "value": "lien Airbnb"
+          "label": "Total affiché",
+          "value": "₺16,613"
         }
       ],
       "asset": "assets-rebuilt/evidence/airbnb-future-park-01-image-1.webp",
-      "href": "https://www.airbnb.com/rooms/1331940047841564478?search_mode=regular_search&adults=1&check_in=2026-07-20&check_out=2026-07-25&children=0&infants=0&pets=0&source_impression_id=p3_1780294568_P3DHg-yqwbhQApMm&previous_page_section_name=1000&federated_search_id=dde62e6b-7984-41ce-998d-b2842737214e&modal=PHOTO_TOUR_SCROLLABLE",
+      "href": "https://www.airbnb.com/rooms/1331940047841564478?search_mode=regular_search&adults=1&check_in=2026-07-20&check_out=2026-07-25&children=0&infants=0&pets=0&source_impression_id=p3_1780294568_P3DHg-yqwbhQApMm&previous_page_section_name=1000&federated_search_id=dde62e6b-7984-41ce-998d-b2842737214e",
       "ready": true
     },
     {
@@ -59,19 +59,19 @@
       "target_role": "airbnb_revenue_model",
       "kicker": "MODÈLE REVENU",
       "heading": "Combien empiler par mois ?",
-      "body": "Dès que le prix réel du séjour Airbnb est visible, le calcul devient simple : total 5 nuits x 4 cycles = chiffre d'affaires mensuel brut avant frais, ménage, vacance et plateforme.",
+      "body": "Le séjour Airbnb vérifié donne ₺16,613 pour 5 nuits, soit environ ₺3,322 par nuit. À 4 cycles de 5 nuits, cela cadre un brut mensuel avant frais, ménage, vacance et plateforme.",
       "metrics": [
         {
-          "label": "Prix réel",
-          "value": "à extraire"
+          "label": "Prix vérifié",
+          "value": "₺16,613"
         },
         {
-          "label": "Mensuel brut",
-          "value": "5 nuits x 4"
+          "label": "4 cycles",
+          "value": "₺66,452"
         }
       ],
       "asset": "none",
-      "href": "https://www.airbnb.com/rooms/1331940047841564478?search_mode=regular_search&adults=1&check_in=2026-07-20&check_out=2026-07-25&children=0&infants=0&pets=0&source_impression_id=p3_1780294568_P3DHg-yqwbhQApMm&previous_page_section_name=1000&federated_search_id=dde62e6b-7984-41ce-998d-b2842737214e&modal=PHOTO_TOUR_SCROLLABLE",
+      "href": "https://www.airbnb.com/rooms/1331940047841564478?search_mode=regular_search&adults=1&check_in=2026-07-20&check_out=2026-07-25&children=0&infants=0&pets=0&source_impression_id=p3_1780294568_P3DHg-yqwbhQApMm&previous_page_section_name=1000&federated_search_id=dde62e6b-7984-41ce-998d-b2842737214e",
       "ready": true
     },
     {

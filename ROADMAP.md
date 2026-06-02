@@ -14,8 +14,8 @@
   - [x] Create the second-row target story and replacement blueprint.
   - [x] Apply the first active HTML rewrite for the Airbnb/Sahibinden evidence order.
 - [x] Introduce Airbnb-style comparable apartment examples after links are provided.
-- [ ] Use those Airbnb examples to show that the revenue model is real and currently market-supported.
-  - [ ] Extract the real Airbnb stay price; current page exposes the stay dates but not the final price without JS/session state.
+- [x] Use those Airbnb examples to show that the revenue model is real and currently market-supported.
+  - [x] Extract the real Airbnb stay price via CDP network response: `₺16,613 / 5 nights`.
 - [x] Then present Sahibinden listings as purchasable supply, with links opening in a new tab.
 - [ ] Keep the final narrative flow clear: revenue evidence first, acquisition listings second.
 

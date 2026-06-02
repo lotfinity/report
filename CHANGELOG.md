@@ -39,6 +39,26 @@ Verification:
 Next:
 - Keep Pinegrow-generated local state out of the repo root to avoid confusing active source files.
 
+## 2026-06-02 - Airbnb Revenue Benchmark Injection
+
+Done:
+- Removed the `PHOTO_TOUR_SCROLLABLE` modal parameter from the active Airbnb evidence links.
+- Updated the second-row Airbnb comparable card with the CDP-verified stay total: `₺16,613 / 5 nights`.
+- Updated the second-row revenue model card to show the projected four-cycle gross benchmark: `₺66,452` before fees, cleaning, vacancy, utilities, furnishing amortization, and management.
+- Updated `docs/manifests/second-row-restructure-blueprint.json`, `docs/second-row-restructure-plan.md`, and `ROADMAP.md` to match the verified benchmark.
+
+Not done:
+- Did not add additional Airbnb comparable listings yet.
+- Did not revise the later furnishing/cost row.
+
+Verification:
+- Confirmed by static search that active Airbnb links no longer include `PHOTO_TOUR_SCROLLABLE`.
+- Verified through CDP on `100.122.77.105:9223` against `http://100.74.113.44:8090/index-standalone-rebuilt.html` that row 2 renders the updated Airbnb and revenue cards.
+- Saved a CDP screenshot at `/tmp/report-airbnb-revenue-card-current.png`.
+
+Next:
+- Add more Airbnb comparables when the user provides links/screenshots, then rebalance the second row around revenue proof, acquisition proof, and furnishing cost.
+
 ## 2026-06-01 - Airbnb Evidence Row Experiment
 
 Done:

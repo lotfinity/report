@@ -34,14 +34,14 @@ The active second-row experiment now uses this order:
 
 1. Airbnb external proof card linked to the user-provided Airbnb URL.
 2. Local `Future-park.html` listing opened in a popup iframe.
-3. Revenue-model card showing the `5 nights x 4 cycles/month` calculation frame.
+3. Revenue-model card showing the verified `₺16,613 / 5 nights` Airbnb benchmark and the `5 nights x 4 cycles/month` calculation frame.
 4. Sahibinden sale-search proof.
 5. Sahibinden captured 1+0 sale detail.
 6. Sahibinden rental-search floor.
 
 The final thesis and capital-reserve cards are temporarily displaced from this six-card row. They can come back in the next duplicated slots or in the furnishing/cost bridge after the Airbnb revenue evidence is stronger.
 
-Important limitation: neither the saved local Airbnb HTML nor the JS-free Airbnb response exposes the final price. The revenue card therefore uses the calculation frame only and leaves the real price as `à extraire`.
+Updated CDP finding: the visible Airbnb page can stay stuck on skeleton placeholders, but the `StaysPdpSections` network response exposed the stay price for the user-provided date range. The benchmark is `₺16,613 for 5 nights`, or about `₺3,322` per night. Four five-night cycles frame a gross monthly benchmark of about `₺66,452` before platform fees, cleaning, utilities, vacancy, furnishing amortization, and management.
 
 ## Proposed Six Cards
 
@@ -49,7 +49,7 @@ Important limitation: neither the saved local Airbnb HTML nor the JS-free Airbnb
 | --- | --- | --- | --- | --- |
 | 1 | Comparable meublé à Esenyurt | Airbnb link plus extracted local Airbnb image | Open external Airbnb listing in new tab | Active |
 | 2 | Future-park en popup | `Future-park.html` saved listing plus extracted local image | Open local popup iframe | Active experiment |
-| 3 | Combien empiler par mois ? | Calculation frame, pending real price extraction | Open external Airbnb listing in new tab | Active, price pending |
+| 3 | Combien empiler par mois ? | Verified Airbnb stay price: `₺16,613 / 5 nights` | Open external Airbnb listing in new tab | Active |
 | 4 | Des 1+0 dans la fourchette | Current Future Park sale search screenshot, `1.30M-1.45M TL` | Open Sahibinden sale search in new tab | Active |
 | 5 | 1+0 Future Park à 1.45M TL | Current Future Park sale detail screenshot, `1.45M TL`, `55/40 m2`, `1,750 TL aidat` | Open Sahibinden detail in new tab | Active |
 | 6 | 12k-15k TL/mois observés | Current Future Park rental search screenshot | Open Sahibinden rent search in new tab | Active |
@@ -65,10 +65,10 @@ Heading: `Des séjours meublés qui monétisent déjà`
 Body: `Les comparables de type Airbnb montreront le vrai signal : des petites surfaces meublées peuvent produire plus qu'un loyer classique lorsque l'emplacement, la gestion et la demande sont présents.`
 
 Metrics:
-- `Comparable` / `à fournir`
-- `Revenu` / `à extraire`
+- `Séjour test` / `5 nuits`
+- `Total affiché` / `₺16,613`
 
-Asset: waiting for user screenshot/link.
+Asset: `assets-rebuilt/evidence/airbnb-future-park-01-image-1.webp`
 
 ### Slot 2 - Le plancher mensuel existe déjà
 
