@@ -1,0 +1,796 @@
+{
+  "blueprint_name": "future_park_slide_1_grid_blueprint",
+  "version": 1,
+  "source_html": "index-standalone-rebuilt.html",
+  "section_label": "Pourquoi Future Park ?",
+  "section_scope": "One visual horizontal section using .design-wrap._1. Internally it has two side-by-side .slide-content groups inside the same horizontal/sticky animation. This excludes the evidence gallery and decoration/furnishing sections.",
+  "purpose": "Give an LLM a safe conceptual map of the current slide-1-grid content so new French copy can be generated and injected without changing animation classes or asset wiring.",
+  "current_overview": {
+    "visual_horizontal_sections": 1,
+    "dom_slide_content_groups": 2,
+    "physical_slide_cards": 12,
+    "conceptual_unique_cards_now": 6,
+    "cards_per_dom_group": [
+      6,
+      6
+    ],
+    "note": "This appears as one horizontal scrolling row to the user. The two DOM groups are animation segments, not visual rows. Cards 4-6 in each DOM group are duplicated extra-grid-slot copies of cards 1-3."
+  },
+  "llm_output_contract": {
+    "preferred_shape": "Return an array of slide updates. Each update should target a stable slide_id and include only text fields.",
+    "allowed_text_fields": [
+      "kicker",
+      "heading",
+      "body",
+      "tab_labels",
+      "metric_labels",
+      "metric_values"
+    ],
+    "do_not_generate": [
+      "html",
+      "css",
+      "classes",
+      "data-w-id",
+      "asset paths",
+      "srcset",
+      "href values unless explicitly requested"
+    ],
+    "style": "French, investor-report tone, concise, no marketing fluff, preserve factual caution where present."
+  },
+  "safe_injection_rules": [
+    "Match updates by slide_id, not by visible text.",
+    "Edit only text nodes listed under editable_slots.",
+    "Do not remove or rename classes such as slide-1-grid, slide-1-grid-1, slide-1-grid-2, align-bottom, extra-grid-slot, w-background-video, or Webflow tab classes.",
+    "Do not touch image src/srcset, lottie data-src, video placeholder links, target, rel, or animation attributes unless a separate asset task asks for that.",
+    "If a duplicate card should remain a duplicate, update both original and duplicate slide_ids with the same text. If it should become new content, keep the same DOM shape and replace only heading/body/tab text."
+  ],
+  "dom_groups": [
+    {
+      "label": "Pourquoi Future Park ? - overview group",
+      "grid_selector": ".design-wrap._1 .slide-content._1 .slide-1-grid",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide_id": "group_1_slide_1",
+          "duplicate_of": null,
+          "dom_selector": ".design-wrap._1 .slide-content._1 .slide-1-grid > :nth-child(1)",
+          "classes": [
+            "slide-1-grid-1",
+            "align-bottom"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 1,
+            "video_count": 0,
+            "link_count": 0,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "Conçu pour le séjour flexible",
+            "all_headings": [
+              "Conçu pour le séjour flexible"
+            ],
+            "body": "Le format hôtel-résidence de Future Park convient naturellement aux séjours meublés, patients médicaux, accompagnateurs et résidents temporaires.",
+            "all_body_texts": [
+              "Le format hôtel-résidence de Future Park convient naturellement aux séjours meublés, patients médicaux, accompagnateurs et résidents temporaires."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "main_location_image",
+                "src": "assets-rebuilt/3b03b71f05_685312d28646ac27e1e57f46_Frame%202131330325.png",
+                "class": "google-img",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [],
+            "counts": {
+              "images": 1,
+              "videos": 0,
+              "links": 0
+            }
+          }
+        },
+        {
+          "slide_id": "group_1_slide_2",
+          "duplicate_of": null,
+          "dom_selector": ".design-wrap._1 .slide-content._1 .slide-1-grid > :nth-child(2)",
+          "classes": [
+            "slide-2-grid-2"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 1,
+            "video_count": 0,
+            "link_count": 1,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "Prix décoté, usage réel",
+            "all_headings": [
+              "Prix décoté, usage réel"
+            ],
+            "body": "La réputation fragilisée crée une décote, mais les unités habitables répondent déjà à une vraie demande locative à Istanbul.",
+            "all_body_texts": [
+              "La réputation fragilisée crée une décote, mais les unités habitables répondent déjà à une vraie demande locative à Istanbul."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "video_placeholder_image",
+                "src": "assets-rebuilt/placeholder.png",
+                "class": "video-placeholder-image",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [
+              {
+                "role": "video_placeholder_link",
+                "href": "assets-rebuilt/5fc4c79219_video2.html",
+                "editable_by_llm": false
+              }
+            ],
+            "counts": {
+              "images": 1,
+              "videos": 0,
+              "links": 1
+            }
+          }
+        },
+        {
+          "slide_id": "group_1_slide_3",
+          "duplicate_of": null,
+          "dom_selector": ".design-wrap._1 .slide-content._1 .slide-1-grid > :nth-child(3)",
+          "classes": [
+            "slide-1-grid-1",
+            "align-bottom"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 1,
+            "video_count": 0,
+            "link_count": 0,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "Rendement des petites surfaces",
+            "all_headings": [
+              "Rendement des petites surfaces"
+            ],
+            "body": "Les studios et 1+0 transforment un capital limité en cash-flow plus fort qu’un grand appartement classique.",
+            "all_body_texts": [
+              "Les studios et 1+0 transforment un capital limité en cash-flow plus fort qu’un grand appartement classique."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "merged_camera_control_image",
+                "src": "assets-rebuilt/1.png",
+                "class": "camera-control-placeholder",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [],
+            "counts": {
+              "images": 1,
+              "videos": 0,
+              "links": 0
+            }
+          }
+        },
+        {
+          "slide_id": "group_1_slide_4",
+          "duplicate_of": "group_1_slide_1",
+          "dom_selector": ".design-wrap._1 .slide-content._1 .slide-1-grid > :nth-child(4)",
+          "classes": [
+            "slide-1-grid-1",
+            "align-bottom",
+            "extra-grid-slot"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 1,
+            "video_count": 0,
+            "link_count": 0,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "Compatible séjour médical",
+            "all_headings": [
+              "Compatible séjour médical"
+            ],
+            "body": "Les patients préfèrent souvent un appartement privé : cuisine, intimité, calme, accompagnateur, récupération confortable et séjour prolongé.",
+            "all_body_texts": [
+              "Les patients préfèrent souvent un appartement privé : cuisine, intimité, calme, accompagnateur, récupération confortable et séjour prolongé."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "main_location_image",
+                "src": "assets-rebuilt/3b03b71f05_685312d28646ac27e1e57f46_Frame%202131330325.png",
+                "class": "google-img",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [],
+            "counts": {
+              "images": 1,
+              "videos": 0,
+              "links": 0
+            }
+          }
+        },
+        {
+          "slide_id": "group_1_slide_5",
+          "duplicate_of": "group_1_slide_2",
+          "dom_selector": ".design-wrap._1 .slide-content._1 .slide-1-grid > :nth-child(5)",
+          "classes": [
+            "slide-2-grid-2",
+            "extra-grid-slot"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 1,
+            "video_count": 0,
+            "link_count": 1,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "Avantage propriétaire-opérateur",
+            "all_headings": [
+              "Avantage propriétaire-opérateur"
+            ],
+            "body": "Quatre ans d’expérience clinique, réseau local et accès direct aux invités créent une demande que l’investisseur passif n’a pas.",
+            "all_body_texts": [
+              "Quatre ans d’expérience clinique, réseau local et accès direct aux invités créent une demande que l’investisseur passif n’a pas."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "video_placeholder_image",
+                "src": "assets-rebuilt/placeholder.png",
+                "class": "video-placeholder-image",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [
+              {
+                "role": "video_placeholder_link",
+                "href": "assets-rebuilt/5fc4c79219_video2.html",
+                "editable_by_llm": false
+              }
+            ],
+            "counts": {
+              "images": 1,
+              "videos": 0,
+              "links": 1
+            }
+          }
+        },
+        {
+          "slide_id": "group_1_slide_6",
+          "duplicate_of": "group_1_slide_3",
+          "dom_selector": ".design-wrap._1 .slide-content._1 .slide-1-grid > :nth-child(6)",
+          "classes": [
+            "slide-1-grid-1",
+            "align-bottom",
+            "extra-grid-slot"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 1,
+            "video_count": 0,
+            "link_count": 0,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "Services à forte valeur",
+            "all_headings": [
+              "Services à forte valeur"
+            ],
+            "body": "Transferts, taxis, courses, livraisons, traduction, assistance locale et packages touristiques augmentent l’expérience et le revenu potentiel.",
+            "all_body_texts": [
+              "Transferts, taxis, courses, livraisons, traduction, assistance locale et packages touristiques augmentent l’expérience et le revenu potentiel."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "merged_camera_control_image",
+                "src": "assets-rebuilt/1.png",
+                "class": "camera-control-placeholder",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [],
+            "counts": {
+              "images": 1,
+              "videos": 0,
+              "links": 0
+            }
+          }
+        }
+      ],
+      "group_id": "row_1"
+    },
+    {
+      "label": "Pourquoi Future Park ? - support group",
+      "grid_selector": ".design-wrap._1 .slide-content._2 .slide-1-grid",
+      "slide_count": 6,
+      "slides": [
+        {
+          "slide_id": "group_2_slide_1",
+          "duplicate_of": null,
+          "dom_selector": ".design-wrap._1 .slide-content._2 .slide-1-grid > :nth-child(1)",
+          "classes": [
+            "slide-1-grid-1"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 5,
+            "video_count": 0,
+            "link_count": 0,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "Maîtrise locale",
+            "all_headings": [
+              "Maîtrise locale"
+            ],
+            "body": "Résider à Istanbul et connaître les règles locales réduit les risques d’exécution : gestion, administration, invités et structuration locative.",
+            "all_body_texts": [
+              "Résider à Istanbul et connaître les règles locales réduit les risques d’exécution : gestion, administration, invités et structuration locative."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "image",
+                "src": "assets-rebuilt/4f32581370_6851b5afa8312a49891754de_Group%20989.png",
+                "class": "apartment-img _1",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/a2eea2e42c_6851b5afac7e655b4df00710_Group%20990.png",
+                "class": "apartment-img _2",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/52dab163cc_6851b5af41af6a3b879de6ff_Group%201028.png",
+                "class": "apartment-img _3",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/b9dbfd6b24_6851b5af2792391b144798bf_Group%201029.png",
+                "class": "apartment-img _4",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/d5a56e3eec_6851b5af2d7b09035d1aef7e_Group%201030.png",
+                "class": "apartment-img _5",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [],
+            "counts": {
+              "images": 5,
+              "videos": 0,
+              "links": 0
+            }
+          }
+        },
+        {
+          "slide_id": "group_2_slide_2",
+          "duplicate_of": null,
+          "dom_selector": ".design-wrap._1 .slide-content._2 .slide-1-grid > :nth-child(2)",
+          "classes": [
+            "slide-1-grid-2"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 1,
+            "video_count": 0,
+            "link_count": 1,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "Option de revalorisation",
+            "all_headings": [
+              "Option de revalorisation"
+            ],
+            "body": "Si l’hôtel ou les parties commerciales sont relancés, les unités achetées aujourd’hui avec décote peuvent bénéficier d’un changement de perception.",
+            "all_body_texts": [
+              "Si l’hôtel ou les parties commerciales sont relancés, les unités achetées aujourd’hui avec décote peuvent bénéficier d’un changement de perception."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "video_placeholder_image",
+                "src": "assets-rebuilt/placeholder.png",
+                "class": "video-placeholder-image",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [
+              {
+                "role": "video_placeholder_link",
+                "href": "assets-rebuilt/5fc4c79219_video3.html",
+                "editable_by_llm": false
+              }
+            ],
+            "counts": {
+              "images": 1,
+              "videos": 0,
+              "links": 1
+            }
+          }
+        },
+        {
+          "slide_id": "group_2_slide_3",
+          "duplicate_of": null,
+          "dom_selector": ".design-wrap._1 .slide-content._2 .slide-1-grid > :nth-child(3)",
+          "classes": [
+            "slide-1-grid-1"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 5,
+            "video_count": 0,
+            "link_count": 0,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "Le downside reste viable",
+            "all_headings": [
+              "Le downside reste viable"
+            ],
+            "body": "Même sans renaissance complète du projet, l’unité peut fonctionner en location meublée mensuelle, portée par le cash-flow plutôt que la spéculation.",
+            "all_body_texts": [
+              "Même sans renaissance complète du projet, l’unité peut fonctionner en location meublée mensuelle, portée par le cash-flow plutôt que la spéculation."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "image",
+                "src": "assets-rebuilt/933f3d11c7_6851c347b8e04f765a40c947_Property%201_1.webp",
+                "class": "poi-bg _1",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/063ebdcc7f_6851c34782209d523067dd3a_Property%201_2.webp",
+                "class": "poi-bg _2",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/b3138ee217_6851c348ea029903a38106bb_Property%201_3.webp",
+                "class": "poi-bg _3",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/6a3779f894_6851c347c9ecd00dd26b9faf_Property%201_4.webp",
+                "class": "poi-bg _4",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/8c71d664cc_6851c34896860f893f0c7d95_Property%201_5.webp",
+                "class": "poi-bg _5",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [],
+            "counts": {
+              "images": 5,
+              "videos": 0,
+              "links": 0
+            }
+          }
+        },
+        {
+          "slide_id": "group_2_slide_4",
+          "duplicate_of": "group_2_slide_1",
+          "dom_selector": ".design-wrap._1 .slide-content._2 .slide-1-grid > :nth-child(4)",
+          "classes": [
+            "slide-1-grid-1",
+            "extra-grid-slot"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 5,
+            "video_count": 0,
+            "link_count": 0,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "À vérifier avant achat",
+            "all_headings": [
+              "À vérifier avant achat"
+            ],
+            "body": "Le potentiel doit être confirmé : tapu, bloc habitable, aidat réel, règles de résidence, accès invités et rentabilité nette.",
+            "all_body_texts": [
+              "Le potentiel doit être confirmé : tapu, bloc habitable, aidat réel, règles de résidence, accès invités et rentabilité nette."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "image",
+                "src": "assets-rebuilt/4f32581370_6851b5afa8312a49891754de_Group%20989.png",
+                "class": "apartment-img _1",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/a2eea2e42c_6851b5afac7e655b4df00710_Group%20990.png",
+                "class": "apartment-img _2",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/52dab163cc_6851b5af41af6a3b879de6ff_Group%201028.png",
+                "class": "apartment-img _3",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/b9dbfd6b24_6851b5af2792391b144798bf_Group%201029.png",
+                "class": "apartment-img _4",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/d5a56e3eec_6851b5af2d7b09035d1aef7e_Group%201030.png",
+                "class": "apartment-img _5",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [],
+            "counts": {
+              "images": 5,
+              "videos": 0,
+              "links": 0
+            }
+          }
+        },
+        {
+          "slide_id": "group_2_slide_5",
+          "duplicate_of": "group_2_slide_2",
+          "dom_selector": ".design-wrap._1 .slide-content._2 .slide-1-grid > :nth-child(5)",
+          "classes": [
+            "slide-1-grid-2",
+            "extra-grid-slot"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 1,
+            "video_count": 0,
+            "link_count": 1,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "Demande non dépendante d’Airbnb",
+            "all_headings": [
+              "Demande non dépendante d’Airbnb"
+            ],
+            "body": "Le modèle repose d’abord sur un réseau clinique et des séjours meublés, pas uniquement sur les plateformes touristiques.",
+            "all_body_texts": [
+              "Le modèle repose d’abord sur un réseau clinique et des séjours meublés, pas uniquement sur les plateformes touristiques."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "video_placeholder_image",
+                "src": "assets-rebuilt/placeholder.png",
+                "class": "video-placeholder-image",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [
+              {
+                "role": "video_placeholder_link",
+                "href": "assets-rebuilt/5fc4c79219_video3.html",
+                "editable_by_llm": false
+              }
+            ],
+            "counts": {
+              "images": 1,
+              "videos": 0,
+              "links": 1
+            }
+          }
+        },
+        {
+          "slide_id": "group_2_slide_6",
+          "duplicate_of": "group_2_slide_3",
+          "dom_selector": ".design-wrap._1 .slide-content._2 .slide-1-grid > :nth-child(6)",
+          "classes": [
+            "slide-1-grid-1",
+            "extra-grid-slot"
+          ],
+          "conceptual_structure": {
+            "heading_count": 1,
+            "body_text_count": 1,
+            "image_count": 5,
+            "video_count": 0,
+            "link_count": 0,
+            "tab_label_count": 0
+          },
+          "current_content": {
+            "heading": "Un actif à opérer",
+            "all_headings": [
+              "Un actif à opérer"
+            ],
+            "body": "Future Park devient intéressant parce qu’il peut être exploité activement : logement, service, accompagnement et marketing ciblé.",
+            "all_body_texts": [
+              "Future Park devient intéressant parce qu’il peut être exploité activement : logement, service, accompagnement et marketing ciblé."
+            ],
+            "tab_labels": []
+          },
+          "editable_slots": {
+            "heading": true,
+            "body": true,
+            "tab_labels": false,
+            "assets": false
+          },
+          "assets": {
+            "images": [
+              {
+                "role": "image",
+                "src": "assets-rebuilt/933f3d11c7_6851c347b8e04f765a40c947_Property%201_1.webp",
+                "class": "poi-bg _1",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/063ebdcc7f_6851c34782209d523067dd3a_Property%201_2.webp",
+                "class": "poi-bg _2",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/b3138ee217_6851c348ea029903a38106bb_Property%201_3.webp",
+                "class": "poi-bg _3",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/6a3779f894_6851c347c9ecd00dd26b9faf_Property%201_4.webp",
+                "class": "poi-bg _4",
+                "editable_by_llm": false
+              },
+              {
+                "role": "image",
+                "src": "assets-rebuilt/8c71d664cc_6851c34896860f893f0c7d95_Property%201_5.webp",
+                "class": "poi-bg _5",
+                "editable_by_llm": false
+              }
+            ],
+            "videos": [],
+            "links": [],
+            "counts": {
+              "images": 5,
+              "videos": 0,
+              "links": 0
+            }
+          }
+        }
+      ],
+      "group_id": "row_2"
+    }
+  ],
+  "compatibility_note": "Older wording called dom_groups rows. That was wrong visually: this is one horizontal section."
+}
