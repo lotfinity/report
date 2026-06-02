@@ -1,0 +1,250 @@
+{
+  "checkedAt": "2026-05-28T08:22:19.268Z",
+  "cookieCount": 49,
+  "hasCfClearance": true,
+  "hasRememberedUser": true,
+  "searches": [
+    {
+      "key": "sahibinden-talatpasa-kiralik-1plus1-2026-05-28",
+      "label": "Talatpasa 1+1 rental search",
+      "url": "https://www.sahibinden.com/emlak-konut-kiralik?query_text=Talatpa%C5%9Fa%20Esenyurt%201%2B1",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-talatpasa-kiralik-1plus1-2026-05-28.png",
+      "title": "Olağan dışı erişim tespit ettik...",
+      "challenge": true,
+      "accountHeader": false,
+      "resultLine": null,
+      "pageUpdated": null,
+      "rows": [],
+      "screenshotError": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    },
+    {
+      "key": "sahibinden-talatpasa-satilik-1plus1-2026-05-28",
+      "label": "Talatpasa 1+1 sale search",
+      "url": "https://www.sahibinden.com/satilik?query_text=Talatpa%C5%9Fa+Esenyurt+1%2B1",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-talatpasa-satilik-1plus1-2026-05-28.png",
+      "title": "Satılık Ev Fiyatları sahibinden.com'da",
+      "challenge": false,
+      "accountHeader": true,
+      "resultLine": "aramanızda 139 ilan bulundu",
+      "pageUpdated": "Bu sayfa en son 28 Mayıs 2026 11:23:29 tarihinde güncellenmiştir",
+      "rows": [
+        {
+          "no": "1310395511",
+          "title": "METROBÜSE YAKIN KREDİYE UYGUN SATILIK 2+1 DAİRE",
+          "price": "2.770.000 TL",
+          "date": "26 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-metrobuse-yakin-krediye-uygun-satilik-2-plus1-daire-1310395511/detay",
+          "rowText": "METROBÜSE YAKIN KREDİYE UYGUN SATILIK 2+1 DAİRE 100 2+1 2.770.000 TL 26 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318336893",
+          "title": "TALATPAŞA 1022. SOKAKTA | ARA KAT | TÜM KATILIM EVLERİNE UYGUN",
+          "price": "2.860.000 TL",
+          "date": "22 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-talatpasa-1022-sokakta-ara-kat-tum-katilim-evlerine-uygun-1318336893/detay",
+          "rowText": "TALATPAŞA 1022. SOKAKTA | ARA KAT | TÜM KATILIM EVLERİNE UYGUN 90 2+1 2.860.000 TL 22 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1317828610",
+          "title": "UÇAK İNŞAAT'TAN | TALATPAŞA'DA SIFIR | İSKANLI & KREDİYE UYGUN!!",
+          "price": "4.750.000 TL",
+          "date": "19 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-ucak-insaat-tan-talatpasa-da-sifir-iskanli-krediye-uygun-1317828610/detay",
+          "rowText": "UÇAK İNŞAAT'TAN | TALATPAŞA'DA SIFIR | İSKANLI & KREDİYE UYGUN!! 95 2+1 4.750.000 TL 19 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1319100862",
+          "title": "Esenyurt Talatpaşa yeni bina",
+          "price": "2.200.000 TL",
+          "date": "28 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-esenyurt-talatpasa-yeni-bina-1319100862/detay",
+          "rowText": "Esenyurt Talatpaşa yeni bina 140 2+1 2.200.000 TL 28 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1316623538",
+          "title": "ACİL SATILIK 1+1 BALKONLU BOŞ DAİRE",
+          "price": "1.750.000 TL",
+          "date": "28 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-acil-satilik-1-plus1-balkonlu-bos-daire-1316623538/detay",
+          "rowText": "ACİL SATILIK 1+1 BALKONLU BOŞ DAİRE 75 1+1 1.750.000 TL 28 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1316521130",
+          "title": "ESENYURT TALATPAŞA MAHALLESİNDE ACİL SATILIK1+1 ARA KA",
+          "price": "2.649.981 TL",
+          "date": "27 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-esenyurt-talatpasa-mahallesinde-acil-satilik1-plus1-ara-ka-1316521130/detay",
+          "rowText": "ESENYURT TALATPAŞA MAHALLESİNDE ACİL SATILIK1+1 ARA KA 95 1+1 2.649.981 TL 27 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1299353667",
+          "title": "SİTE'DE ŞEHİR MANZARALI, 50M2 TERASLI, DEKORLU & LÜX 2+1 FIRSAT!",
+          "price": "4.399.000 TL",
+          "date": "27 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-site-de-sehir-manzarali-50m2-terasli-dekorlu-lux-2-plus1-firsat-1299353667/detay",
+          "rowText": "SİTE'DE ŞEHİR MANZARALI, 50M2 TERASLI, DEKORLU & LÜX 2+1 FIRSAT! 125 2+1 4.399.000 TL 27 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1299177377",
+          "title": "ESENYURT ACUNKENT 2+1 SIFIR SATILIK DAİRE",
+          "price": "2.400.000 TL",
+          "date": "26 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-esenyurt-acunkent-2-plus1-sifir-satilik-daire-1299177377/detay",
+          "rowText": "ESENYURT ACUNKENT 2+1 SIFIR SATILIK DAİRE 125 2+1 2.400.000 TL 26 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1310497526",
+          "title": "MERKEZİ KONUMDA TALATPAŞA MAHALLESİ 3+1 SATILIK DAİRE",
+          "price": "3.990.000 TL",
+          "date": "26 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-merkezi-konumda-talatpasa-mahallesi-3-plus1-satilik-daire-1310497526/detay",
+          "rowText": "MERKEZİ KONUMDA TALATPAŞA MAHALLESİ 3+1 SATILIK DAİRE 130 3+1 3.990.000 TL 26 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1310017640",
+          "title": "Arena Yapı'dan Satılık Ultra Lüks 2+1 Daireler",
+          "price": "2.370.000 TL",
+          "date": "26 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-arena-yapi-dan-satilik-ultra-luks-2-plus1-daireler-1310017640/detay",
+          "rowText": "Arena Yapı'dan Satılık Ultra Lüks 2+1 Daireler 100 2+1 2.370.000 TL 26 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1312603550",
+          "title": "ACUNKENT SİTESİNDE 2+1 SATILIK GİRİŞ KAT YENİLENMİŞ DAİRE",
+          "price": "1.750.000 TL",
+          "date": "26 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-acunkent-sitesinde-2-plus1-satilik-giris-kat-yenilenmis-daire-1312603550/detay",
+          "rowText": "ACUNKENT SİTESİNDE 2+1 SATILIK GİRİŞ KAT YENİLENMİŞ DAİRE 100 2+1 1.750.000 TL 26 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1265974892",
+          "title": "HASBAHÇE KONAKLARI 3+1 OTURUMA HAZIR EŞYALI TADİLATLI",
+          "price": "5.000.000 TL",
+          "date": "25 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-hasbahce-konaklari-3-plus1-oturuma-hazir-esyali-tadilatli-1265974892/detay",
+          "rowText": "HASBAHÇE KONAKLARI 3+1 OTURUMA HAZIR EŞYALI TADİLATLI 140 3+1 5.000.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1319060731",
+          "title": "ESENYURT FIRSAT DAİRE",
+          "price": "2.250.000 TL",
+          "date": "27 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-esenyurt-firsat-daire-1319060731/detay",
+          "rowText": "ESENYURT FIRSAT DAİRE 100 3+0 2.250.000 TL 27 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318845018",
+          "title": "Esenyurt Hasbahçe Konakları 3+1 Balkonlu Satılık Daire",
+          "price": "5.750.000 TL",
+          "date": "25 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-esenyurt-hasbahce-konaklari-3-plus1-balkonlu-satilik-daire-1318845018/detay",
+          "rowText": "Esenyurt Hasbahçe Konakları 3+1 Balkonlu Satılık Daire 135 3+1 5.750.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1201394000",
+          "title": "MABEYN'DEN TALATPAŞA MAH. GÜVENLİKLİ SİTE İÇİ 3+1 GENİŞ DAİRE !!",
+          "price": "2.399.999 TL",
+          "date": "25 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-mabeyn-den-talatpasa-mah-guvenlikli-site-ici-3-plus1-genis-daire-1201394000/detay",
+          "rowText": "MABEYN'DEN TALATPAŞA MAH. GÜVENLİKLİ SİTE İÇİ 3+1 GENİŞ DAİRE !! 145 3+1 2.399.999 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318829218",
+          "title": "Satılık 3+1",
+          "price": "2.450.000 TL",
+          "date": "25 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-satilik-3-plus1-1318829218/detay",
+          "rowText": "Satılık 3+1 158 3+1 2.450.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1316089449",
+          "title": "AK TOWER SİTESİ SATILIK 2+1 DAİRE BALKONLU BOŞ",
+          "price": "2.480.000 TL",
+          "date": "25 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-ak-tower-sitesi-satilik-2-plus1-daire-balkonlu-bos-1316089449/detay",
+          "rowText": "AK TOWER SİTESİ SATILIK 2+1 DAİRE BALKONLU BOŞ 110 2+1 2.480.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318814157",
+          "title": "TALATPAŞA DA 2+1 FİYATINA 3+2 FIRSAT KELEPİR SATILIK DAİRE !",
+          "price": "4.125.000 TL",
+          "date": "25 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-talatpasa-da-2-plus1-fiyatina-3-plus2-firsat-kelepir-satilik-daire-1318814157/detay",
+          "rowText": "TALATPAŞA DA 2+1 FİYATINA 3+2 FIRSAT KELEPİR SATILIK DAİRE ! 150 3+2 4.125.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1279382226",
+          "title": "ANA CADDE ÜZERİ SİTE İÇİ EŞYALI 1+0 YÜKSEK KİRA GETİRİLİ DAİRE!!",
+          "price": "1.390.000 TL",
+          "date": "25 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-ana-cadde-uzeri-site-ici-esyali-1-plus0-yuksek-kira-getirili-daire-1279382226/detay",
+          "rowText": "ANA CADDE ÜZERİ SİTE İÇİ EŞYALI 1+0 YÜKSEK KİRA GETİRİLİ DAİRE!! 75 Stüdyo (1+0) 1.390.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1293321882",
+          "title": "BEYİKDÜZÜ ESENYURT POLAT İNŞAAT 110m2 2+1 KAT.2 5.YIL ACİL SATLK",
+          "price": "3.300.000 TL",
+          "date": "25 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-beyikduzu-esenyurt-polat-insaat-110m2-2-plus1-kat.2-5.yil-acil-satlk-1293321882/detay",
+          "rowText": "BEYİKDÜZÜ ESENYURT POLAT İNŞAAT 110m2 2+1 KAT.2 5.YIL ACİL SATLK 110 2+1 3.300.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        }
+      ],
+      "screenshotError": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    },
+    {
+      "key": "sahibinden-sar-life-satilik-2026-05-28",
+      "label": "Sar Life sale search",
+      "url": "https://www.sahibinden.com/satilik-daire?query_text=Sar+Life+Esenyurt",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-sar-life-satilik-2026-05-28.png",
+      "title": "Satılık Daire İlanları ve Satılık Ev Fiyatları - sahibinden.com",
+      "challenge": false,
+      "accountHeader": true,
+      "resultLine": "aramanızda 1 ilan bulundu",
+      "pageUpdated": "Bu sayfa en son 28 Mayıs 2026 11:24:14 tarihinde güncellenmiştir",
+      "rows": [
+        {
+          "no": "1308062309",
+          "title": "GÜVENİLİR SİTE İÇERİSİNDE GENİŞ KULLANIMLI SATILIK 2+1 DAİRE",
+          "price": "4.300.000 TL",
+          "date": "14 Mayıs 2026",
+          "location": "İstanbul / Esenyurt",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-guvenilir-site-icerisinde-genis-kullanimli-satilik-2-plus1-daire-1308062309/detay",
+          "rowText": "GÜVENİLİR SİTE İÇERİSİNDE GENİŞ KULLANIMLI SATILIK 2+1 DAİRE 110 2+1 4.300.000 TL 14 Mayıs 2026 İstanbul Esenyurt"
+        }
+      ]
+    },
+    {
+      "key": "sahibinden-sar-life-kiralik-2026-05-28",
+      "label": "Sar Life rental search",
+      "url": "https://www.sahibinden.com/kiralik?query_text=Sar+Life+Esenyurt",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-sar-life-kiralik-2026-05-28.png",
+      "title": "Kiralık Rezidans, Villa, Müstakil Ev ve Daireler - sahibinden.com",
+      "challenge": false,
+      "accountHeader": true,
+      "resultLine": null,
+      "pageUpdated": null,
+      "rows": [],
+      "screenshotError": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - taking page screenshot\u001b[22m\n\u001b[2m  - waiting for fonts to load...\u001b[22m\n\u001b[2m  - fonts loaded\u001b[22m\n"
+    }
+  ]
+}

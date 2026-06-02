@@ -30,16 +30,16 @@ Current first group:
 
 ## Active Experiment
 
-The active second-row experiment now uses this order:
+The active second-row now uses this order:
 
 1. Airbnb external proof card linked to the user-provided Airbnb URL.
-2. Local `Future-park.html` listing opened in a popup iframe.
-3. Revenue-model card showing the verified `₺16,613 / 5 nights` Airbnb benchmark and the `5 nights x 4 cycles/month` calculation frame.
-4. Sahibinden sale-search proof.
-5. Sahibinden captured 1+0 sale detail.
-6. Sahibinden rental-search floor.
+2. Revenue-model card showing the verified `₺16,613 / 5 nights` Airbnb benchmark and the `5 nights x 4 cycles/month` calculation frame.
+3. Local `Future-park.html` listing opened in a popup iframe.
+4. Sahibinden sale-search proof reframed as the capital plan and remaining margin.
+5. Sahibinden captured 1+0 sale detail as the due-diligence anchor.
+6. Sahibinden rental-search floor as the fallback scenario.
 
-The final thesis and capital-reserve cards are temporarily displaced from this six-card row. They can come back in the next duplicated slots or in the furnishing/cost bridge after the Airbnb revenue evidence is stronger.
+The capital-reserve logic is now back in the six-card row. The furnishing/cost bridge continues in the following row, where the euro catalog prices have been replaced with estimative Turkish lira package prices.
 
 Updated CDP finding: the visible Airbnb page can stay stuck on skeleton placeholders, but the `StaysPdpSections` network response exposed the stay price for the user-provided date range. The benchmark is `₺16,613 for 5 nights`, or about `₺3,322` per night. Four five-night cycles frame a gross monthly benchmark of about `₺66,452` before platform fees, cleaning, utilities, vacancy, furnishing amortization, and management.
 
@@ -48,11 +48,11 @@ Updated CDP finding: the visible Airbnb page can stay stuck on skeleton placehol
 | Slot | Target title | Evidence | Link behavior | Status |
 | --- | --- | --- | --- | --- |
 | 1 | Comparable meublé à Esenyurt | Airbnb link plus extracted local Airbnb image | Open external Airbnb listing in new tab | Active |
-| 2 | Future-park en popup | `Future-park.html` saved listing plus extracted local image | Open local popup iframe | Active experiment |
-| 3 | Combien empiler par mois ? | Verified Airbnb stay price: `₺16,613 / 5 nights` | Open external Airbnb listing in new tab | Active |
-| 4 | Des 1+0 dans la fourchette | Current Future Park sale search screenshot, `1.30M-1.45M TL` | Open Sahibinden sale search in new tab | Active |
-| 5 | 1+0 Future Park à 1.45M TL | Current Future Park sale detail screenshot, `1.45M TL`, `55/40 m2`, `1,750 TL aidat` | Open Sahibinden detail in new tab | Active |
-| 6 | 12k-15k TL/mois observés | Current Future Park rental search screenshot | Open Sahibinden rent search in new tab | Active |
+| 2 | Combien empiler par mois ? | Verified Airbnb stay price: `₺16,613 / 5 nights` | Open external Airbnb listing in new tab | Active |
+| 3 | Future-park en popup | `Future-park.html` saved listing plus extracted local image | Open local popup iframe | Active |
+| 4 | Deux achats laissent une marge | Current Future Park sale search screenshot, `~600k-900k TL` before furnishing/final costs, plus saved local Sahibinden sale-search page | Open local Sahibinden sale-search snapshot in modal iframe | Active |
+| 5 | 1+0 Future Park à 1.45M TL | Current Future Park sale detail screenshot, `1.45M TL`, `55/40 m2`, `1,750 TL aidat`, plus saved local Sahibinden page | Open local Sahibinden snapshot in modal iframe | Active |
+| 6 | Le plan B reste louable | Current Future Park rental search screenshot | Open Sahibinden rent search in new tab | Active |
 
 ## Copy Draft
 

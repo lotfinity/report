@@ -3,15 +3,15 @@
   "row_container": ".design-container._2",
   "current_heading": "Meublé, flexible",
   "target_heading": "Galerie de Preuves en Direct",
-  "status": "active_airbnb_experiment",
+  "status": "active_narrative_rebalanced",
   "active_html_changes": true,
   "target_story": [
     "Show an Airbnb-style furnished comparable first.",
-    "Open the saved Future-park Airbnb listing in a local popup iframe.",
     "Frame the monthly revenue calculation from a five-night Airbnb test stay.",
-    "Show purchasable Future Park supply from Sahibinden sale evidence.",
-    "Anchor the acquisition thesis with the captured 1+0 listing detail.",
-    "Show the conservative monthly-rental floor from Future Park rental evidence."
+    "Open the saved Future-park Airbnb listing in a local popup iframe.",
+    "Use Sahibinden supply as a capital allocation proof, not just a listing dump.",
+    "Anchor due diligence with the captured 1+0 detail.",
+    "Close with the conservative monthly-rental floor as the fallback scenario."
   ],
   "cards": [
     {
@@ -76,10 +76,32 @@
     },
     {
       "slot": 4,
-      "target_role": "captured_1_plus_0_detail",
+      "target_role": "capital_and_available_supply",
+      "kicker": "PLAN CAPITAL",
+      "heading": "Deux achats laissent une marge",
+      "body": "Avec 3,5M TL issus de Sar Life, deux studios autour de 1,30M-1,45M TL laissent encore une enveloppe pour meubler, lancer et absorber les imprévus.",
+      "metrics": [
+        {
+          "label": "2 x 1,30M",
+          "value": "~900k TL marge"
+        },
+        {
+          "label": "2 x 1,45M",
+          "value": "~600k TL marge"
+        }
+      ],
+      "asset": "assets-rebuilt/evidence/sahibinden-future-park-satilik-2026-05-28.png",
+      "href": "assets-rebuilt/evidence/sahibinden-future-park-sale-search-local.html",
+      "ready": true,
+      "link_behavior": "Open local Sahibinden sale-search snapshot in shared modal iframe",
+      "external_href": "https://www.sahibinden.com/satilik?query_text=Future+Park+Esenyurt"
+    },
+    {
+      "slot": 5,
+      "target_role": "captured_1_plus_0_due_diligence",
       "kicker": "DÉTAIL CAPTURÉ",
       "heading": "1+0 Future Park à 1.45M TL",
-      "body": "Le détail capturé donne un point d'ancrage : 55/40 m2, 7e étage, aidat 1 750 TL. Même au haut de fourchette, deux unités restent finançables avec réserve.",
+      "body": "Le détail capturé donne un point d'ancrage : 55/40 m2, 7e étage, aidat 1 750 TL. Avant achat, ce type de fiche sert à vérifier bloc, tapu, charges et état réel.",
       "metrics": [
         {
           "label": "Prix",
@@ -91,47 +113,29 @@
         }
       ],
       "asset": "assets-rebuilt/evidence/sahibinden-detail-future-park-sale-1305084976-2026-05-28.png",
-      "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-future-parkta-site-icinde-temiz-ve-ferah-satilik-1-plus0-daire-1305084976/detay",
-      "ready": true
-    },
-    {
-      "slot": 5,
-      "target_role": "capital_and_reserve",
-      "kicker": "PLAN CAPITAL",
-      "heading": "Deux achats laissent une marge",
-      "body": "Avec 3.5M TL issus de Sar Life, deux achats Future Park laissent encore une réserve pour frais, ameublement et imprévus. Le risque passe d'un seul actif à deux sorties.",
-      "metrics": [
-        {
-          "label": "2 x 1.30M",
-          "value": "550k TL réserve"
-        },
-        {
-          "label": "2 x 1.45M",
-          "value": "250k TL réserve"
-        }
-      ],
-      "asset": "assets-rebuilt/evidence/sahibinden-future-park-satilik-2026-05-28.png",
-      "href": "https://www.sahibinden.com/satilik?query_text=Future+Park+Esenyurt",
-      "ready": true
+      "href": "assets-rebuilt/evidence/sahibinden-future-park-1plus0-detail-local.html",
+      "ready": true,
+      "link_behavior": "Open local Sahibinden snapshot in shared modal iframe",
+      "external_href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-future-parkta-site-icinde-temiz-ve-ferah-satilik-1-plus0-daire-1305084976/detay"
     },
     {
       "slot": 6,
-      "target_role": "future_product_thesis",
-      "kicker": "FUTURE",
-      "heading": "Le produit locatif central",
-      "body": "C'est l'idée centrale : une résidence moderne, compacte et équipée peut devenir un produit locatif plus souple qu'un grand appartement classique.",
+      "target_role": "monthly_rental_floor",
+      "kicker": "PLANCHER LOCATIF",
+      "heading": "Le plan B reste louable",
+      "body": "Même sans court séjour, les recherches Future Park affichent des loyers 1+0 autour de 12k-15k TL/mois. Deux unités donnent un plancher brut de 24k-30k TL.",
       "metrics": [
         {
-          "label": "Objectif",
-          "value": "souplesse locative"
+          "label": "Loyer/unité",
+          "value": "12k-15k TL"
         },
         {
-          "label": "Décision",
-          "value": "vérifier puis agir"
+          "label": "Deux unités",
+          "value": "24k-30k TL/mois"
         }
       ],
-      "asset": "assets-rebuilt/evidence/sahibinden-detail-future-park-sale-1305084976-2026-05-28.png",
-      "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-future-parkta-site-icinde-temiz-ve-ferah-satilik-1-plus0-daire-1305084976/detay",
+      "asset": "assets-rebuilt/evidence/sahibinden-future-park-kiralik-2026-05-28.png",
+      "href": "https://www.sahibinden.com/kiralik-daire?query_text=Future+Park+Esenyurt",
       "ready": true
     }
   ]

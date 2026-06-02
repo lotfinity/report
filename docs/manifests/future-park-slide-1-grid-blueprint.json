@@ -9,12 +9,12 @@
     "visual_horizontal_sections": 1,
     "dom_slide_content_groups": 2,
     "physical_slide_cards": 12,
-    "conceptual_unique_cards_now": 6,
+    "conceptual_unique_cards_now": 12,
     "cards_per_dom_group": [
       6,
       6
     ],
-    "note": "This appears as one horizontal scrolling row to the user. The two DOM groups are animation segments, not visual rows. Cards 4-6 in each DOM group are duplicated extra-grid-slot copies of cards 1-3."
+    "note": "The row still uses two DOM groups for the Webflow horizontal animation, but the former repeated extra-grid visual assets have been replaced with distinct local report assets."
   },
   "llm_output_contract": {
     "preferred_shape": "Return an array of slide updates. Each update should target a stable slide_id and include only text fields.",
@@ -87,7 +87,7 @@
             "images": [
               {
                 "role": "main_location_image",
-                "src": "assets-rebuilt/3b03b71f05_685312d28646ac27e1e57f46_Frame%202131330325.png",
+                "src": "assets-rebuilt/evidence/airbnb-future-park-06-chambre.webp",
                 "class": "google-img",
                 "editable_by_llm": false
               }
@@ -137,7 +137,7 @@
             "images": [
               {
                 "role": "video_placeholder_image",
-                "src": "assets-rebuilt/placeholder.png",
+                "src": "assets-rebuilt/evidence/airbnb-future-park-02-image-2.webp",
                 "class": "video-placeholder-image",
                 "editable_by_llm": false
               }
@@ -194,7 +194,7 @@
             "images": [
               {
                 "role": "merged_camera_control_image",
-                "src": "assets-rebuilt/1.png",
+                "src": "assets-rebuilt/evidence/airbnb-future-park-04-image-4.webp",
                 "class": "camera-control-placeholder",
                 "editable_by_llm": false
               }
@@ -210,7 +210,7 @@
         },
         {
           "slide_id": "group_1_slide_4",
-          "duplicate_of": "group_1_slide_1",
+          "duplicate_of": null,
           "dom_selector": ".design-wrap._1 .slide-content._1 .slide-1-grid > :nth-child(4)",
           "classes": [
             "slide-1-grid-1",
@@ -262,7 +262,7 @@
         },
         {
           "slide_id": "group_1_slide_5",
-          "duplicate_of": "group_1_slide_2",
+          "duplicate_of": null,
           "dom_selector": ".design-wrap._1 .slide-content._1 .slide-1-grid > :nth-child(5)",
           "classes": [
             "slide-2-grid-2",
@@ -319,7 +319,7 @@
         },
         {
           "slide_id": "group_1_slide_6",
-          "duplicate_of": "group_1_slide_3",
+          "duplicate_of": null,
           "dom_selector": ".design-wrap._1 .slide-content._1 .slide-1-grid > :nth-child(6)",
           "classes": [
             "slide-1-grid-1",
@@ -487,7 +487,7 @@
             "images": [
               {
                 "role": "video_placeholder_image",
-                "src": "assets-rebuilt/placeholder.png",
+                "src": "assets-rebuilt/evidence/airbnb-future-park-03-image-3.webp",
                 "class": "video-placeholder-image",
                 "editable_by_llm": false
               }
@@ -583,7 +583,7 @@
         },
         {
           "slide_id": "group_2_slide_4",
-          "duplicate_of": "group_2_slide_1",
+          "duplicate_of": null,
           "dom_selector": ".design-wrap._1 .slide-content._2 .slide-1-grid > :nth-child(4)",
           "classes": [
             "slide-1-grid-1",
@@ -618,31 +618,31 @@
             "images": [
               {
                 "role": "image",
-                "src": "assets-rebuilt/4f32581370_6851b5afa8312a49891754de_Group%20989.png",
+                "src": "assets-rebuilt/11b7ad783e_683f396c4fa03852607779a7_01.webp",
                 "class": "apartment-img _1",
                 "editable_by_llm": false
               },
               {
                 "role": "image",
-                "src": "assets-rebuilt/a2eea2e42c_6851b5afac7e655b4df00710_Group%20990.png",
+                "src": "assets-rebuilt/abc3c2ba50_68406cbe124057a90b366ec1_002.webp",
                 "class": "apartment-img _2",
                 "editable_by_llm": false
               },
               {
                 "role": "image",
-                "src": "assets-rebuilt/52dab163cc_6851b5af41af6a3b879de6ff_Group%201028.png",
+                "src": "assets-rebuilt/3e45d40dc9_683f396e380f2d209b5d79fd_03.png",
                 "class": "apartment-img _3",
                 "editable_by_llm": false
               },
               {
                 "role": "image",
-                "src": "assets-rebuilt/b9dbfd6b24_6851b5af2792391b144798bf_Group%201029.png",
+                "src": "assets-rebuilt/8c8dd9e24a_6841c3e50472f142abd3007c_04.webp",
                 "class": "apartment-img _4",
                 "editable_by_llm": false
               },
               {
                 "role": "image",
-                "src": "assets-rebuilt/d5a56e3eec_6851b5af2d7b09035d1aef7e_Group%201030.png",
+                "src": "assets-rebuilt/af79b0b2b1_683f396b6c0e77a584dcc13c_06.webp",
                 "class": "apartment-img _5",
                 "editable_by_llm": false
               }
@@ -658,7 +658,7 @@
         },
         {
           "slide_id": "group_2_slide_5",
-          "duplicate_of": "group_2_slide_2",
+          "duplicate_of": null,
           "dom_selector": ".design-wrap._1 .slide-content._2 .slide-1-grid > :nth-child(5)",
           "classes": [
             "slide-1-grid-2",
@@ -693,7 +693,7 @@
             "images": [
               {
                 "role": "video_placeholder_image",
-                "src": "assets-rebuilt/placeholder.png",
+                "src": "assets-rebuilt/evidence/sahibinden-future-park-kiralik-2026-05-28.png",
                 "class": "video-placeholder-image",
                 "editable_by_llm": false
               }
@@ -715,7 +715,7 @@
         },
         {
           "slide_id": "group_2_slide_6",
-          "duplicate_of": "group_2_slide_3",
+          "duplicate_of": null,
           "dom_selector": ".design-wrap._1 .slide-content._2 .slide-1-grid > :nth-child(6)",
           "classes": [
             "slide-1-grid-1",
@@ -750,31 +750,31 @@
             "images": [
               {
                 "role": "image",
-                "src": "assets-rebuilt/933f3d11c7_6851c347b8e04f765a40c947_Property%201_1.webp",
+                "src": "assets-rebuilt/4123a406cc_6878ca4f9dbb7eafacfdd973_0001.webp",
                 "class": "poi-bg _1",
                 "editable_by_llm": false
               },
               {
                 "role": "image",
-                "src": "assets-rebuilt/063ebdcc7f_6851c34782209d523067dd3a_Property%201_2.webp",
+                "src": "assets-rebuilt/b5f55c2abd_6878e3d86d3f5c3cf7b0a948_0002.webp",
                 "class": "poi-bg _2",
                 "editable_by_llm": false
               },
               {
                 "role": "image",
-                "src": "assets-rebuilt/b3138ee217_6851c348ea029903a38106bb_Property%201_3.webp",
+                "src": "assets-rebuilt/55c07fe646_6878e49cdae76d11c550c673_0003.webp",
                 "class": "poi-bg _3",
                 "editable_by_llm": false
               },
               {
                 "role": "image",
-                "src": "assets-rebuilt/6a3779f894_6851c347c9ecd00dd26b9faf_Property%201_4.webp",
+                "src": "assets-rebuilt/97ee88f9d4_6878e4b7b58dea03c44ea600_0004.webp",
                 "class": "poi-bg _4",
                 "editable_by_llm": false
               },
               {
                 "role": "image",
-                "src": "assets-rebuilt/8c71d664cc_6851c34896860f893f0c7d95_Property%201_5.webp",
+                "src": "assets-rebuilt/9fba002e90_6878e4d1479290e022ac4c73_005.webp",
                 "class": "poi-bg _5",
                 "editable_by_llm": false
               }

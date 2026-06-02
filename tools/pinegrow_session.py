@@ -65,6 +65,11 @@ PRELOADER_END = "<!-- PINEGROW_PRELOADER_HIDE_END -->"
 DISABLED_SCRIPT_TYPE = "application/x-pinegrow-disabled-script"
 MEDIA_PLACEHOLDER_ATTR = "data-pinegrow-disabled-media"
 MEDIA_PLACEHOLDER_CLASS = "pinegrow-media-placeholder"
+RESPONSIVE_BACKUP_ATTRS = {
+    "srcset": "data-pinegrow-original-srcset",
+    "sizes": "data-pinegrow-original-sizes",
+    "loading": "data-pinegrow-original-loading",
+}
 BACKUP_DIR = ROOT / "backups" / "pinegrow-session"
 
 HEAVY_EXTERNAL_SCRIPT_PATTERNS = [
@@ -249,11 +254,58 @@ def disable_heavy_scripts(document: str) -> str:
     return re.sub(r"<script\b[^>]*>.*?</script>", replace_script, document, flags=re.I | re.S)
 
 
+def insert_attr_before_tag_end(tag: str, attr: str) -> str:
+    if tag.endswith("/>"):
+        return tag[:-2] + " " + attr + "/>"
+    return tag[:-1] + " " + attr + ">"
+
+
+def remove_attr(tag: str, name: str) -> str:
+    return re.sub(r"\s+" + re.escape(name) + r"\s*=\s*(['\"]).*?\1", "", tag, count=1, flags=re.I | re.S)
+
+
+def set_or_insert_attr(tag: str, name: str, value: str) -> str:
+    attr = f'{name}="{html.escape(value, quote=True)}"'
+    pattern = r"\s+" + re.escape(name) + r"\s*=\s*(['\"]).*?\1"
+    if re.search(pattern, tag, flags=re.I | re.S):
+        return re.sub(pattern, " " + attr, tag, count=1, flags=re.I | re.S)
+    return insert_attr_before_tag_end(tag, attr)
+
+
 def lighten_images(document: str) -> str:
-    document = re.sub(r"\s+srcset\s*=\s*(['\"]).*?\1", "", document, flags=re.I | re.S)
-    document = re.sub(r"\s+sizes\s*=\s*(['\"]).*?\1", "", document, flags=re.I | re.S)
-    document = re.sub(r'\s+loading\s*=\s*([\'"])eager\1', ' loading="lazy"', document, flags=re.I)
-    return document
+    document = restore_responsive_images(document)
+
+    def lighten_tag(match: re.Match[str]) -> str:
+        tag = match.group(0)
+        for attr_name in ("srcset", "sizes"):
+            attr_match = re.search(r"\s+" + attr_name + r"\s*=\s*(['\"])(.*?)\1", tag, flags=re.I | re.S)
+            if attr_match:
+                original = attr_match.group(2)
+                tag = remove_attr(tag, attr_name)
+                tag = set_or_insert_attr(tag, RESPONSIVE_BACKUP_ATTRS[attr_name], original)
+
+        loading_match = re.search(r"\s+loading\s*=\s*(['\"])(.*?)\1", tag, flags=re.I | re.S)
+        if loading_match and loading_match.group(2).lower() == "eager":
+            tag = set_or_insert_attr(tag, RESPONSIVE_BACKUP_ATTRS["loading"], loading_match.group(2))
+            tag = set_or_insert_attr(tag, "loading", "lazy")
+        return tag
+
+    return re.sub(r"<(?:img|source)\b[^>]*>", lighten_tag, document, flags=re.I | re.S)
+
+
+def restore_responsive_images(document: str) -> str:
+    def restore_tag(match: re.Match[str]) -> str:
+        tag = match.group(0)
+        for attr_name, backup_name in RESPONSIVE_BACKUP_ATTRS.items():
+            backup_match = re.search(r"\s+" + re.escape(backup_name) + r"\s*=\s*(['\"])(.*?)\1", tag, flags=re.I | re.S)
+            if not backup_match:
+                continue
+            original = html.unescape(backup_match.group(2))
+            tag = remove_attr(tag, backup_name)
+            tag = set_or_insert_attr(tag, attr_name, original)
+        return tag
+
+    return re.sub(r"<(?:img|source)\b[^>]*>", restore_tag, document, flags=re.I | re.S)
 
 
 def encode_media_tag(tag: str) -> str:
@@ -310,6 +362,7 @@ def patch_to_edit(path: Path, options: EditOptions | None = None) -> None:
     document = strip_preloader_hide(document)
     document = reenable_disabled_scripts(document)
     document = restore_disabled_media(document)
+    document = restore_responsive_images(document)
     if options.disable_scripts:
         document = disable_heavy_scripts(document)
     if options.disable_media_assets:
@@ -321,11 +374,16 @@ def patch_to_edit(path: Path, options: EditOptions | None = None) -> None:
     path.write_text(document, encoding="utf-8")
 
 
-def restore_full(path: Path) -> bool:
-    backup = backup_path(path)
-    if not backup.exists():
+def clean_edit_mode(path: Path) -> bool:
+    if not path.exists():
         return False
-    path.write_text(backup.read_text(encoding="utf-8", errors="replace"), encoding="utf-8")
+    document = path.read_text(encoding="utf-8", errors="replace")
+    document = strip_edit_guard(document)
+    document = strip_preloader_hide(document)
+    document = reenable_disabled_scripts(document)
+    document = restore_disabled_media(document)
+    document = restore_responsive_images(document)
+    path.write_text(document, encoding="utf-8")
     return True
 
 
@@ -395,6 +453,7 @@ def build_full_preview_from_patched(document: str) -> str:
     document = strip_preloader_hide(document)
     document = reenable_disabled_scripts(document)
     document = restore_disabled_media(document)
+    document = restore_responsive_images(document)
     document = document.replace(' class="pinegrow-edit-mode"', ' class=""')
     return document
 
@@ -514,12 +573,12 @@ def main() -> int:
     finally:
         server.server_close()
         if not args.no_restore_on_exit:
-            print("Restoring full HTML files...")
+            print("Cleaning Pinegrow edit-mode patches from HTML files...")
             for path in targets:
-                if restore_full(path):
-                    print(f"  restored: {path.relative_to(ROOT)}")
+                if clean_edit_mode(path):
+                    print(f"  cleaned: {path.relative_to(ROOT)}")
                 else:
-                    print(f"  no backup found: {path.relative_to(ROOT)}")
+                    print(f"  file missing: {path.relative_to(ROOT)}")
         else:
             print("Leaving files in Pinegrow edit mode because --no-restore-on-exit was used.")
 

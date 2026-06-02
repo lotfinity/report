@@ -1,0 +1,967 @@
+{
+  "checkedAt": "2026-05-28T08:38:20.626Z",
+  "cookieCount": 50,
+  "hasCfClearance": true,
+  "searches": [
+    {
+      "key": "future-park-satilik",
+      "project": "Future Park",
+      "side": "sale",
+      "url": "https://www.sahibinden.com/satilik?query_text=Future+Park+Esenyurt",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-future-park-satilik-2026-05-28.png",
+      "title": "Satılık Ev Fiyatları sahibinden.com'da",
+      "challenge": false,
+      "accountHeader": true,
+      "resultLine": "aramanızda 12 ilan bulundu",
+      "pageUpdated": "Bu sayfa en son 28 Mayıs 2026 11:38:53 tarihinde güncellenmiştir",
+      "rows": [
+        {
+          "no": "1220513053",
+          "title": "SEFAKÖYEMLAKTAN FUTURE PARK SİTESİNDE 1+0 ARA KAT EŞYALI SATILIK",
+          "price": "1.450.000 TL",
+          "date": "23 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-sefakoyemlaktan-future-park-sitesinde-1-plus0-ara-kat-esyali-satilik-1220513053/detay",
+          "rowText": "SEFAKÖYEMLAKTAN FUTURE PARK SİTESİNDE 1+0 ARA KAT EŞYALI SATILIK 55 Stüdyo (1+0) 1.450.000 TL 23 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318985363",
+          "title": "FATURA PARK SİTESİNDE 1+0 FULL EŞYALI SATILIK",
+          "price": "1.120.000 TL",
+          "date": "26 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-fatura-park-sitesinde-1-plus0-full-esyali-satilik-1318985363/detay",
+          "rowText": "FATURA PARK SİTESİNDE 1+0 FULL EŞYALI SATILIK 57 Stüdyo (1+0) 1.120.000 TL 26 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1312667714",
+          "title": "AK EVLERDE SİTE İÇERİSİNDE METROBÜSE YAKIN SATILIK 2+1 ARAKAT",
+          "price": "2.690.000 TL",
+          "date": "24 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-ak-evlerde-site-icerisinde-metrobuse-yakin-satilik-2-plus1-arakat-1312667714/detay",
+          "rowText": "AK EVLERDE SİTE İÇERİSİNDE METROBÜSE YAKIN SATILIK 2+1 ARAKAT 130 2+1 2.690.000 TL 24 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1293797262",
+          "title": "FUTURE PARK SAHİBİNDEN SATILIK EV",
+          "price": "1.499.000 TL",
+          "date": "25 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-future-park-sahibinden-satilik-ev-1293797262/detay",
+          "rowText": "FUTURE PARK SAHİBİNDEN SATILIK EV 100 2+1 1.499.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1311832989",
+          "title": "Esenyurt Future Park Sitesi Yatırımlık Acil Satılık Stüdyo Daire",
+          "price": "1.350.000 TL",
+          "date": "21 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-esenyurt-future-park-sitesi-yatirimlik-acil-satilik-studyo-daire-1311832989/detay",
+          "rowText": "Esenyurt Future Park Sitesi Yatırımlık Acil Satılık Stüdyo Daire 50 Stüdyo (1+0) 1.350.000 TL 21 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1305084976",
+          "title": "Future Parkta Site İçinde Temiz ve Ferah Satılık 1+0 Daire",
+          "price": "1.300.000 TL",
+          "date": "20 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-future-parkta-site-icinde-temiz-ve-ferah-satilik-1-plus0-daire-1305084976/detay",
+          "rowText": "Future Parkta Site İçinde Temiz ve Ferah Satılık 1+0 Daire 57 Stüdyo (1+0) 1.300.000 TL 20 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1306211520",
+          "title": "Future Parkta Site İçinde Temiz ve Ferah Satılık 1+0 Daire",
+          "price": "1.399.000 TL",
+          "date": "20 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-future-parkta-site-icinde-temiz-ve-ferah-satilik-1-plus0-daire-1306211520/detay",
+          "rowText": "Future Parkta Site İçinde Temiz ve Ferah Satılık 1+0 Daire 57 Stüdyo (1+0) 1.399.000 TL 20 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "846838991",
+          "title": "1+1 Çok Uygun Acil! Satılık Var Bu Fiyata Yok! Açık & Kapalı Otopark",
+          "price": "1.400.000 TL",
+          "date": "12 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-11-cok-uygun-acil-satilik-var-bu-fiyata-yok-sb2f-kapali-otopark-846838991/detay",
+          "rowText": "1+1 Çok Uygun Acil! Satılık Var Bu Fiyata Yok! Açık & Kapalı Otopark 65 1+1 1.400.000 TL 12 Mayıs 2026 İstanbulEsenyurt"
+        },
+        {
+          "no": "1274112628",
+          "title": "OPERA'DAN SATILIK 1+0 EŞYALI KUPON DAİRE",
+          "price": "1.299.999 TL",
+          "date": "14 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-opera-dan-satilik-1-plus0-esyali-kupon-daire-1274112628/detay",
+          "rowText": "OPERA'DAN SATILIK 1+0 EŞYALI KUPON DAİRE 50 Stüdyo (1+0) 1.299.999 TL 14 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1299689859",
+          "title": "AKEVLER MAH.DE 1+0 SATILIK REZİDENCE DAİRE",
+          "price": "1.250.000 TL",
+          "date": "12 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-akevler-mah.de-1-plus0-satilik-rezidence-daire-1299689859/detay",
+          "rowText": "AKEVLER MAH.DE 1+0 SATILIK REZİDENCE DAİRE 50 Stüdyo (1+0) 1.250.000 TL 12 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1304217121",
+          "title": "METROBÜSE YAKIN MERKEZİ TEMİZ KONUMDA FIRSAT DAİRE!!!",
+          "price": "1.650.000 TL",
+          "date": "09 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-metrobuse-yakin-merkezi-temiz-konumda-firsat-daire-1304217121/detay",
+          "rowText": "METROBÜSE YAKIN MERKEZİ TEMİZ KONUMDA FIRSAT DAİRE!!! 65 1+1 1.650.000 TL 09 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1253853823",
+          "title": "CB CLASS FUTURE PARK İSTANBUL SİTESİNDE SATILIK 1+0 STÜDYO DAİRE",
+          "price": "1.400.000 TL",
+          "date": "07 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-cb-class-future-park-istanbul-sitesinde-satilik-1-plus0-studyo-daire-1253853823/detay",
+          "rowText": "CB CLASS FUTURE PARK İSTANBUL SİTESİNDE SATILIK 1+0 STÜDYO DAİRE 60 Stüdyo (1+0) 1.400.000 TL 07 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1314398451",
+          "title": "ÇEYREK ALTIN 1+0 STUDİO METROBÜSE YÜRÜME 10 DAKİKA FUTURE PARK",
+          "price": "1.390.000 TL",
+          "date": "01 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-ceyrek-altin-1-plus0-studio-metrobuse-yurume-10-dakika-future-park-1314398451/detay",
+          "rowText": "ÇEYREK ALTIN 1+0 STUDİO METROBÜSE YÜRÜME 10 DAKİKA FUTURE PARK 55 Stüdyo (1+0) 1.390.000 TL 01 Mayıs 2026 İstanbul Esenyurt"
+        }
+      ]
+    },
+    {
+      "key": "future-park-kiralik",
+      "project": "Future Park",
+      "side": "rent",
+      "url": "https://www.sahibinden.com/kiralik-daire?query_text=Future+Park+Esenyurt",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-future-park-kiralik-2026-05-28.png",
+      "title": "Kiralık Daire Fiyatları ve Kiralık Ev İlanları - sahibinden.com",
+      "challenge": false,
+      "accountHeader": true,
+      "resultLine": "aramanızda 6 ilan bulundu",
+      "pageUpdated": "Bu sayfa en son 28 Mayıs 2026 11:39:04 tarihinde güncellenmiştir",
+      "rows": [
+        {
+          "no": "1311110867",
+          "title": "E5 e Yakın Future Park 1+0 Kiralık Daire Akıllı Ev Konsepti!",
+          "price": "13.000 TL",
+          "date": "25 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-e5-e-yakin-future-park-1-plus0-kiralik-daire-akilli-ev-konsepti-1311110867/detay",
+          "rowText": "E5 e Yakın Future Park 1+0 Kiralık Daire Akıllı Ev Konsepti! 57 Stüdyo (1+0) 13.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1298734985",
+          "title": "E5 e Yakın Future Park 1+0 Daire Akıllı Ev Konsepti!",
+          "price": "15.000 TL",
+          "date": "20 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-e5-e-yakin-future-park-1-plus0-daire-akilli-ev-konsepti-1298734985/detay",
+          "rowText": "E5 e Yakın Future Park 1+0 Daire Akıllı Ev Konsepti! 57 Stüdyo (1+0) 15.000 TL 20 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1311109108",
+          "title": "E5 e Yakın Future Park Kiralık 1+0 Daire Akıllı Ev Konsepti!",
+          "price": "14.000 TL",
+          "date": "20 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-e5-e-yakin-future-park-kiralik-1-plus0-daire-akilli-ev-konsepti-1311109108/detay",
+          "rowText": "E5 e Yakın Future Park Kiralık 1+0 Daire Akıllı Ev Konsepti! 57 Stüdyo (1+0) 14.000 TL 20 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "846854756",
+          "title": "Lüx Var Kiralık Hastalık Sebebiyle Açık & Kapalı Otopark 2+1 Geniş",
+          "price": "25.000 TL",
+          "date": "18 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-lux-var-kiralik-hastalik-sebebiyle-acik-sb2f-otopark-21-genis-846854756/detay",
+          "rowText": "Lüx Var Kiralık Hastalık Sebebiyle Açık & Kapalı Otopark 2+1 Geniş 125 2+1 25.000 TL 18 Mayıs 2026 İstanbulEsenyurt"
+        },
+        {
+          "no": "1311116955",
+          "title": "E5 e Yakın Future Park Kiralık 1+0 Daire Akıllı Ev Konsepti...!!",
+          "price": "12.000 TL",
+          "date": "18 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-e5-e-yakin-future-park-kiralik-1-plus0-daire-akilli-ev-konsepti-1311116955/detay",
+          "rowText": "E5 e Yakın Future Park Kiralık 1+0 Daire Akıllı Ev Konsepti...!! 57 Stüdyo (1+0) 12.000 TL 18 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1315955389",
+          "title": "AZİM EMLAK'TAN FUTURE PARK SİTESİNDE 125M2 BOŞ 2+1 KİRALIK DAİRE",
+          "price": "24.000 TL",
+          "date": "09 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-azim-emlak-tan-future-park-sitesinde-125m2-bos-2-plus1-kiralik-daire-1315955389/detay",
+          "rowText": "AZİM EMLAK'TAN FUTURE PARK SİTESİNDE 125M2 BOŞ 2+1 KİRALIK DAİRE 125 2+1 24.000 TL 09 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1291003140",
+          "title": "FUTURE PARK SİTESİ KİRALIK EŞYALI 2+1",
+          "price": "25.000 TL",
+          "date": "04 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-future-park-sitesi-kiralik-esyali-2-plus1-1291003140/detay",
+          "rowText": "FUTURE PARK SİTESİ KİRALIK EŞYALI 2+1 125 2+1 25.000 TL 04 Mayıs 2026 İstanbul Esenyurt"
+        }
+      ]
+    },
+    {
+      "key": "ntowers-satilik",
+      "project": "N Towers",
+      "side": "sale",
+      "url": "https://www.sahibinden.com/satilik?query_text=N+Towers+Esenyurt",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-ntowers-satilik-2026-05-28.png",
+      "title": "Satılık Ev Fiyatları sahibinden.com'da",
+      "challenge": false,
+      "accountHeader": true,
+      "resultLine": "aramanızda 31 ilan bulundu",
+      "pageUpdated": "Bu sayfa en son 28 Mayıs 2026 11:39:13 tarihinde güncellenmiştir",
+      "rows": [
+        {
+          "no": "1303997858",
+          "title": "N TOWERS'TA FULL EŞYALI, ÖN CEPHE 2+1 SATILIK DAİRE",
+          "price": "3.075.000 TL",
+          "date": "21 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-ta-full-esyali-on-cephe-2-plus1-satilik-daire-1303997858/detay",
+          "rowText": "N TOWERS'TA FULL EŞYALI, ÖN CEPHE 2+1 SATILIK DAİRE 106 2+1 3.075.000 TL 21 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1310450241",
+          "title": "ESENYURT AKEVLER N TOWERS SİTESİNDE SÜPER GENİŞ 1+1",
+          "price": "2.390.000 TL",
+          "date": "26 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-esenyurt-akevler-n-towers-sitesinde-super-genis-1-plus1-1310450241/detay",
+          "rowText": "ESENYURT AKEVLER N TOWERS SİTESİNDE SÜPER GENİŞ 1+1 65 1+1 2.390.000 TL 26 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1307301030",
+          "title": "ÖZYURTLAR N TOWERS'TA ÖNÜ AÇIK PARK CEPHELİ SATILIK 2+1 DAİRE!!",
+          "price": "3.000.000 TL",
+          "date": "25 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-ozyurtlar-n-towers-ta-onu-acik-park-cepheli-satilik-2-plus1-daire-1307301030/detay",
+          "rowText": "ÖZYURTLAR N TOWERS'TA ÖNÜ AÇIK PARK CEPHELİ SATILIK 2+1 DAİRE!! 120 2+1 3.000.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1250550866",
+          "title": "N Towers ta satılık 2+1",
+          "price": "3.300.000 TL",
+          "date": "24 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-ta-satilik-2-plus1-1250550866/detay",
+          "rowText": "N Towers ta satılık 2+1 120 2+1 3.300.000 TL 24 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "846820162",
+          "title": "2+1 Bu Fiyata Yok! Merkeze 5 dk Uzaklıkta Konut 30 ve üzeri Var Doğa Manzaralı",
+          "price": "3.300.000 TL",
+          "date": "17 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-21-bu-fiyata-yok-merkeze-5-dk-uzaklikta-konut-30-ve-sb2f-var-doga-manzarali-846820162/detay",
+          "rowText": "2+1 Bu Fiyata Yok! Merkeze 5 dk Uzaklıkta Konut 30 ve üzeri Var Doğa Manzaralı 106 2+1 3.300.000 TL 17 Mayıs 2026 İstanbulEsenyurt"
+        },
+        {
+          "no": "1310066453",
+          "title": "N TOWERS PROJESİNİN TEK YETKİLİ SATIŞ VE KİRALAMA OFİSİ",
+          "price": "2.800.000 TL",
+          "date": "24 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-projesinin-tek-yetkili-satis-ve-kiralama-ofisi-1310066453/detay",
+          "rowText": "N TOWERS PROJESİNİN TEK YETKİLİ SATIŞ VE KİRALAMA OFİSİ 66 1+1 2.800.000 TL 24 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1315932825",
+          "title": "N Towers Esenyurt Akevler Mahallesi Yatırımlık 1+1 Eşyalı Daire",
+          "price": "2.400.000 TL",
+          "date": "24 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-esenyurt-akevler-mahallesi-yatirimlik-1-plus1-esyali-daire-1315932825/detay",
+          "rowText": "N Towers Esenyurt Akevler Mahallesi Yatırımlık 1+1 Eşyalı Daire 78 1+1 2.400.000 TL 24 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1306643861",
+          "title": "N TOWERS SİTESİNDE SİTE İÇİ HAVUZ VE ŞEHİR MANZARALI BOŞ SATILIK",
+          "price": "2.250.000 TL",
+          "date": "23 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-sitesinde-site-ici-havuz-ve-sehir-manzarali-bos-satilik-1306643861/detay",
+          "rowText": "N TOWERS SİTESİNDE SİTE İÇİ HAVUZ VE ŞEHİR MANZARALI BOŞ SATILIK 72 1+1 2.250.000 TL 23 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318347549",
+          "title": "-GÜLWORLD- N Towers Özyurtlar 2+1 KAPALI MUTFAK",
+          "price": "3.200.000 TL",
+          "date": "22 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-gulworld-n-towers-ozyurtlar-2-plus1-kapali-mutfak-1318347549/detay",
+          "rowText": "-GÜLWORLD- N Towers Özyurtlar 2+1 KAPALI MUTFAK 106 2+1 3.200.000 TL 22 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1286455758",
+          "title": "N TOWERS DA SATILIK BOŞ 2+1 DAİRE (YENİ TADİLATLI)",
+          "price": "3.500.000 TL",
+          "date": "21 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-da-satilik-bos-2-plus1-daire-yeni-tadilatli-1286455758/detay",
+          "rowText": "N TOWERS DA SATILIK BOŞ 2+1 DAİRE (YENİ TADİLATLI) 106 2+1 3.500.000 TL 21 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1301106553",
+          "title": "N TOWERS SİTESİ SATILIK 1+1 DAIRE",
+          "price": "2.350.000 TL",
+          "date": "22 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-sitesi-satilik-1-plus1-daire-1301106553/detay",
+          "rowText": "N TOWERS SİTESİ SATILIK 1+1 DAIRE 78 1+1 2.350.000 TL 22 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1317987942",
+          "title": "N TOWERS SİTESİNDE SATILIK 1+1",
+          "price": "2.375.000 TL",
+          "date": "20 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-sitesinde-satilik-1-plus1-1317987942/detay",
+          "rowText": "N TOWERS SİTESİNDE SATILIK 1+1 75 1+1 2.375.000 TL 20 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1303684804",
+          "title": "N TOWERS PROJESİNİN TEK YETKİLİ SATIŞ VE KİRALAMA OFİSİ",
+          "price": "3.350.000 TL",
+          "date": "19 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-projesinin-tek-yetkili-satis-ve-kiralama-ofisi-1303684804/detay",
+          "rowText": "N TOWERS PROJESİNİN TEK YETKİLİ SATIŞ VE KİRALAMA OFİSİ 106 2+1 3.350.000 TL 19 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1306061760",
+          "title": "CEYDA GAYRİMENKULDEN N TOWERS SİTESİNDE 1+1 SATILIK MASRAFSIZ",
+          "price": "2.350.000 TL",
+          "date": "18 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-ceyda-gayrimenkulden-n-towers-sitesinde-1-plus1-satilik-masrafsiz-1306061760/detay",
+          "rowText": "CEYDA GAYRİMENKULDEN N TOWERS SİTESİNDE 1+1 SATILIK MASRAFSIZ 70 1+1 2.350.000 TL 18 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1311631648",
+          "title": "N TOWERS ESENYURT AKEVLER MAHALLESİ YATIRIMLIK EŞYALI 1+1 DAİRE",
+          "price": "2.400.000 TL",
+          "date": "18 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-esenyurt-akevler-mahallesi-yatirimlik-esyali-1-plus1-daire-1311631648/detay",
+          "rowText": "N TOWERS ESENYURT AKEVLER MAHALLESİ YATIRIMLIK EŞYALI 1+1 DAİRE 78 1+1 2.400.000 TL 18 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1317337332",
+          "title": "FIRSAT N TOWERS BOŞ, YUKSEK KİRA GETİRİSİ, KREDİYE UYGUN",
+          "price": "2.370.000 TL",
+          "date": "16 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-firsat-n-towers-bos-yuksek-kira-getirisi-krediye-uygun-1317337332/detay",
+          "rowText": "FIRSAT N TOWERS BOŞ, YUKSEK KİRA GETİRİSİ, KREDİYE UYGUN 85 1+1 2.370.000 TL 16 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1317296913",
+          "title": "ÖZYURTLAR N TOWERS ARAKAT 1+1 SATILIK",
+          "price": "2.350.000 TL",
+          "date": "16 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-ozyurtlar-n-towers-arakat-1-plus1-satilik-1317296913/detay",
+          "rowText": "ÖZYURTLAR N TOWERS ARAKAT 1+1 SATILIK 85 1+1 2.350.000 TL 16 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1317382048",
+          "title": "N TOWERS SİTESİNDE EŞYALI SATILIK 1+1 DAİRE",
+          "price": "2.400.000 TL",
+          "date": "17 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-sitesinde-esyali-satilik-1-plus1-daire-1317382048/detay",
+          "rowText": "N TOWERS SİTESİNDE EŞYALI SATILIK 1+1 DAİRE 80 1+1 2.400.000 TL 17 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1314199762",
+          "title": "Özyurtlar N Towersta Satılık 1+1 Daire",
+          "price": "2.349.000 TL",
+          "date": "15 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-ozyurtlar-n-towersta-satilik-1-plus1-daire-1314199762/detay",
+          "rowText": "Özyurtlar N Towersta Satılık 1+1 Daire 70 1+1 2.349.000 TL 15 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1313764656",
+          "title": "N TOWERS 2+1 SİTE DE BALKONLU METROBÜSE YAKIN MERKEZİ YERDE",
+          "price": "3.500.000 TL",
+          "date": "15 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-towers-2-plus1-site-de-balkonlu-metrobuse-yakin-merkezi-yerde-1313764656/detay",
+          "rowText": "N TOWERS 2+1 SİTE DE BALKONLU METROBÜSE YAKIN MERKEZİ YERDE 120 2+1 3.500.000 TL 15 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1294242174",
+          "title": "SATILIK 1+1 N TOWERS'da TADİLATI YAPILMIŞ HAZIR DAİRE",
+          "price": "2.375.000 TL",
+          "date": "15 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-satilik-1-plus1-n-towers-da-tadilati-yapilmis-hazir-daire-1294242174/detay",
+          "rowText": "SATILIK 1+1 N TOWERS'da TADİLATI YAPILMIŞ HAZIR DAİRE 75 1+1 2.375.000 TL 15 Mayıs 2026 İstanbul Esenyurt"
+        }
+      ]
+    },
+    {
+      "key": "ntowers-kiralik",
+      "project": "N Towers",
+      "side": "rent",
+      "url": "https://www.sahibinden.com/kiralik?query_text=N+Towers+Esenyurt",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-ntowers-kiralik-2026-05-28.png",
+      "title": "Kiralık Rezidans, Villa, Müstakil Ev ve Daireler - sahibinden.com",
+      "challenge": false,
+      "accountHeader": true,
+      "resultLine": "aramanızda 11 ilan bulundu",
+      "pageUpdated": "Bu sayfa en son 28 Mayıs 2026 11:39:21 tarihinde güncellenmiştir",
+      "rows": [
+        {
+          "no": "1316440336",
+          "title": "N Towers sitesi yetkili satış ofisinden EŞYALI 1+1",
+          "price": "18.500 TL",
+          "date": "27 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-n-towers-sitesi-yetkili-satis-ofisinden-esyali-1-plus1-1316440336/detay",
+          "rowText": "N Towers sitesi yetkili satış ofisinden EŞYALI 1+1 66 1+1 18.500 TL 27 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1312800092",
+          "title": "ESENYURT N TOWERS'DA EŞYALI KİRALIK 1+1 DAİRE",
+          "price": "21.000 TL",
+          "date": "23 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-esenyurt-n-towers-da-esyali-kiralik-1-plus1-daire-1312800092/detay",
+          "rowText": "ESENYURT N TOWERS'DA EŞYALI KİRALIK 1+1 DAİRE 70 1+1 21.000 TL 23 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1308874565",
+          "title": "METROBÜS'e YÜRÜME MESAFESİNDE N TOWERS SİTESİNDE 1+1 KİRALIK",
+          "price": "16.000 TL",
+          "date": "23 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-metrobus-e-yurume-mesafesinde-n-towers-sitesinde-1-plus1-kiralik-1308874565/detay",
+          "rowText": "METROBÜS'e YÜRÜME MESAFESİNDE N TOWERS SİTESİNDE 1+1 KİRALIK 85 1+1 16.000 TL 23 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318409401",
+          "title": "N TOWERS TA 1+1 FULL EŞYALI MASRAFSIZ KİRALIK DAİRE",
+          "price": "17.500 TL",
+          "date": "22 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-n-towers-ta-1-plus1-full-esyali-masrafsiz-kiralik-daire-1318409401/detay",
+          "rowText": "N TOWERS TA 1+1 FULL EŞYALI MASRAFSIZ KİRALIK DAİRE 75 1+1 17.500 TL 22 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1270472603",
+          "title": "PARA'DAN N TOWERS DA SIFIR EŞYALI KİRALIK DAİRE",
+          "price": "19.500 TL",
+          "date": "23 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-para-dan-n-towers-da-sifir-esyali-kiralik-daire-1270472603/detay",
+          "rowText": "PARA'DAN N TOWERS DA SIFIR EŞYALI KİRALIK DAİRE 60 1+1 19.500 TL 23 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1303454113",
+          "title": "N TOWERS 1+1 KİRALIK DAİRE",
+          "price": "19.000 TL",
+          "date": "22 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-n-towers-1-plus1-kiralik-daire-1303454113/detay",
+          "rowText": "N TOWERS 1+1 KİRALIK DAİRE 75 1+1 19.000 TL 22 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1283284388",
+          "title": "SAHİBİNDEN N TOWERS KİRALIK DAİRE",
+          "price": "23.000 TL",
+          "date": "21 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-sahibinden-n-towers-kiralik-daire-1283284388/detay",
+          "rowText": "SAHİBİNDEN N TOWERS KİRALIK DAİRE 110 2+1 23.000 TL 21 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1287859813",
+          "title": "N TOWERS SİTESİ 2+1 MASRAFSIZ GENİŞ METREKARE DAİRE",
+          "price": "25.000 TL",
+          "date": "09 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-n-towers-sitesi-2-plus1-masrafsiz-genis-metrekare-daire-1287859813/detay",
+          "rowText": "N TOWERS SİTESİ 2+1 MASRAFSIZ GENİŞ METREKARE DAİRE 115 2+1 25.000 TL 09 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1285312119",
+          "title": "N Towers Kiralık Daire",
+          "price": "19.000 TL",
+          "date": "08 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-n-towers-kiralik-daire-1285312119/detay",
+          "rowText": "N Towers Kiralık Daire 85 1+1 19.000 TL 08 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1269936248",
+          "title": "N-TOWERS 1+1 METROBÜSE VE ÜNİVERSİTEYE YAKIN SIFIR EŞYALI",
+          "price": "21.000 TL",
+          "date": "05 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-n-towers-1-plus1-metrobuse-ve-universiteye-yakin-sifir-esyali-1269936248/detay",
+          "rowText": "N-TOWERS 1+1 METROBÜSE VE ÜNİVERSİTEYE YAKIN SIFIR EŞYALI 80 1+1 21.000 TL 05 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1261028801",
+          "title": "Sahibinden N Towers kiralık 1+1",
+          "price": "22.000 TL",
+          "date": "01 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-sahibinden-n-towers-kiralik-1-plus1-1261028801/detay",
+          "rowText": "Sahibinden N Towers kiralık 1+1 80 1+1 22.000 TL 01 Mayıs 2026 İstanbul Esenyurt"
+        }
+      ]
+    },
+    {
+      "key": "nlogo-satilik",
+      "project": "N Logo",
+      "side": "sale",
+      "url": "https://www.sahibinden.com/satilik?query_text=N+Logo+Esenyurt",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-nlogo-satilik-2026-05-28.png",
+      "title": "Satılık Ev Fiyatları sahibinden.com'da",
+      "challenge": false,
+      "accountHeader": true,
+      "resultLine": "aramanızda 30 ilan bulundu",
+      "pageUpdated": "Bu sayfa en son 28 Mayıs 2026 11:39:30 tarihinde güncellenmiştir",
+      "rows": [
+        {
+          "no": "1318868196",
+          "title": "N Logo Sitesi 7.Kat Satılık 1+1 Boş Lüks Daire",
+          "price": "2.050.000 TL",
+          "date": "25 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-logo-sitesi-7.kat-satilik-1-plus1-bos-luks-daire-1318868196/detay",
+          "rowText": "N Logo Sitesi 7.Kat Satılık 1+1 Boş Lüks Daire 70 1+1 2.050.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1301438374",
+          "title": "N Logo Sitesi Deniz Manzaralı Stüdyo Satılık Daire",
+          "price": "1.550.000 TL",
+          "date": "25 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-logo-sitesi-deniz-manzarali-studyo-satilik-daire-1301438374/detay",
+          "rowText": "N Logo Sitesi Deniz Manzaralı Stüdyo Satılık Daire 60 Stüdyo (1+0) 1.550.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1312578843",
+          "title": "45",
+          "price": "1.410.000 TL",
+          "date": "25 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-nlogo-n-logo-istanbul-da-acill-full-esyali-studyo-daire-1312578843/detay",
+          "rowText": "Nlogo n logo İstanbul'da acill Full Eşyalı Stüdyo Daire 45 Stüdyo (1+0) 1.410.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1259166189",
+          "title": "85",
+          "price": "2.780.000 TL",
+          "date": "24 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-logo-istanbul-da-esyali-2-plus1-satilik-daire-1259166189/detay",
+          "rowText": "N Logo İstanbul'da Eşyalı 2+1 Satılık Daire 85 2+1 2.780.000 TL 24 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1295938475",
+          "title": "ESENYURT N LOGO FULL ŞEHİR MANZARALI 1+0 FIRSAT SATILIK DAİRE",
+          "price": "1.500.000 TL",
+          "date": "24 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-esenyurt-n-logo-full-sehir-manzarali-1-plus0-firsat-satilik-daire-1295938475/detay",
+          "rowText": "ESENYURT N LOGO FULL ŞEHİR MANZARALI 1+0 FIRSAT SATILIK DAİRE 60 Stüdyo (1+0) 1.500.000 TL 24 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1307672843",
+          "title": "N LOGO 2+1 SIFIR SATILIK BOŞ DAİRE",
+          "price": "2.699.999 TL",
+          "date": "28 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-logo-2-plus1-sifir-satilik-bos-daire-1307672843/detay",
+          "rowText": "N LOGO 2+1 SIFIR SATILIK BOŞ DAİRE 95 2+1 2.699.999 TL 28 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318624784",
+          "title": "uygun fiyat 1+1 satılık daire N logo sitesi",
+          "price": "2.375.000 TL",
+          "date": "24 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-uygun-fiyat-1-plus1-satilik-daire-n-logo-sitesi-1318624784/detay",
+          "rowText": "uygun fiyat 1+1 satılık daire N logo sitesi 70 1+1 2.375.000 TL 24 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318493516",
+          "title": "N LOGO SİTESİNDE SATILIK 3+1 ARA KAT DAİRE",
+          "price": "3.999.000 TL",
+          "date": "23 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-logo-sitesinde-satilik-3-plus1-ara-kat-daire-1318493516/detay",
+          "rowText": "N LOGO SİTESİNDE SATILIK 3+1 ARA KAT DAİRE 145 3+1 3.999.000 TL 23 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318623013",
+          "title": "uygun fiyat 1+1 satılık daire N logo sitesi",
+          "price": "2.375.000 TL",
+          "date": "23 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-uygun-fiyat-1-plus1-satilik-daire-n-logo-sitesi-1318623013/detay",
+          "rowText": "uygun fiyat 1+1 satılık daire N logo sitesi 70 1+1 2.375.000 TL 23 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "846863170",
+          "title": "Hastalık Sebebiyle 1+1 Fiyat Düştü! Doğa Manzaralı Daire 30 ve üzeri",
+          "price": "2.699.999 TL",
+          "date": "23 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-hastalik-sebebiyle-11-fiyat-dustu-sb2f-manzarali-daire-30-ve-uzeri-846863170/detay",
+          "rowText": "Hastalık Sebebiyle 1+1 Fiyat Düştü! Doğa Manzaralı Daire 30 ve üzeri 70 1+1 2.699.999 TL 23 Mayıs 2026 İstanbulEsenyurt"
+        },
+        {
+          "no": "1311273395",
+          "title": "GÜLBENDİ GAYRİMENKULDEN N LOGO SİTESİNDE SATILIK 1+1",
+          "price": "2.500.000 TL",
+          "date": "22 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-gulbendi-gayrimenkulden-n-logo-sitesinde-satilik-1-plus1-1311273395/detay",
+          "rowText": "GÜLBENDİ GAYRİMENKULDEN N LOGO SİTESİNDE SATILIK 1+1 80 1+1 2.500.000 TL 22 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1311417822",
+          "title": "ÖZYURTLAR N LOGO SİTESİ SATILIK EN UYGUN 1+1 DAİRE",
+          "price": "2.100.000 TL",
+          "date": "22 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-ozyurtlar-n-logo-sitesi-satilik-en-uygun-1-plus1-daire-1311417822/detay",
+          "rowText": "ÖZYURTLAR N LOGO SİTESİ SATILIK EN UYGUN 1+1 DAİRE 65 1+1 2.100.000 TL 22 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1306673390",
+          "title": "ESENYURT N LOGO SİTESİ EŞYALI 1+1 UYGUN FİYATLI SİTE İÇİ SATILIK",
+          "price": "1.979.999 TL",
+          "date": "23 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-esenyurt-n-logo-sitesi-esyali-1-plus1-uygun-fiyatli-site-ici-satilik-1306673390/detay",
+          "rowText": "ESENYURT N LOGO SİTESİ EŞYALI 1+1 UYGUN FİYATLI SİTE İÇİ SATILIK 80 1+1 1.979.999 TL 23 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318372217",
+          "title": "Nlogo n logo'da Full Tadilatlı 2+1 Amerikan Mutfak Satılık Daire",
+          "price": "2.675.000 TL",
+          "date": "22 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-nlogo-n-logo-da-full-tadilatli-2-plus1-amerikan-mutfak-satilik-daire-1318372217/detay",
+          "rowText": "Nlogo n logo'da Full Tadilatlı 2+1 Amerikan Mutfak Satılık Daire 90 2+1 2.675.000 TL 22 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1309342501",
+          "title": "N LOGO İSTANBUL SATILIK 3+1 DENİZ MANZARALI SIFIR SATILIK DAİRE",
+          "price": "4.075.000 TL",
+          "date": "20 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-logo-istanbul-satilik-3-plus1-deniz-manzarali-sifir-satilik-daire-1309342501/detay",
+          "rowText": "N LOGO İSTANBUL SATILIK 3+1 DENİZ MANZARALI SIFIR SATILIK DAİRE 175 3+1 4.075.000 TL 20 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1304067828",
+          "title": "ESENYURT N LOGO SİTESİ 1+1 MODERN SİTE İÇİ SATILIK DAİRE",
+          "price": "2.250.000 TL",
+          "date": "22 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-esenyurt-n-logo-sitesi-1-plus1-modern-site-ici-satilik-daire-1304067828/detay",
+          "rowText": "ESENYURT N LOGO SİTESİ 1+1 MODERN SİTE İÇİ SATILIK DAİRE 80 1+1 2.250.000 TL 22 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1281992087",
+          "title": "N LOGO NLOGO SATILIK EŞYALI YÜKSEK KAT AÇIK CEPHE 1+1",
+          "price": "2.100.000 TL",
+          "date": "20 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-logo-nlogo-satilik-esyali-yuksek-kat-acik-cephe-1-plus1-1281992087/detay",
+          "rowText": "N LOGO NLOGO SATILIK EŞYALI YÜKSEK KAT AÇIK CEPHE 1+1 65 1+1 2.100.000 TL 20 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1311971122",
+          "title": "FİYAT DÜŞTÜ!!! N LOGO SATILIK 2+1 BOŞ SATILIK DAİRE",
+          "price": "2.550.000 TL",
+          "date": "19 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-fiyat-dustu-n-logo-satilik-2-plus1-bos-satilik-daire-1311971122/detay",
+          "rowText": "FİYAT DÜŞTÜ!!! N LOGO SATILIK 2+1 BOŞ SATILIK DAİRE 85 2+1 2.550.000 TL 19 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318111320",
+          "title": "N LOGO 1+1",
+          "price": "3.200.000 TL",
+          "date": "20 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-n-logo-1-plus1-1318111320/detay",
+          "rowText": "N LOGO 1+1 75 1+1 3.200.000 TL 20 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1317050283",
+          "title": "EMLAK GROUP'DAN ESENYURT'DA N LOGO SİTESİ 80M2 SATILIK DAİRE",
+          "price": "2.250.000 TL",
+          "date": "15 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-emlak-group-dan-esenyurt-da-n-logo-sitesi-80m2-satilik-daire-1317050283/detay",
+          "rowText": "EMLAK GROUP'DAN ESENYURT'DA N LOGO SİTESİ 80M2 SATILIK DAİRE 80 1+1 2.250.000 TL 15 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1317041983",
+          "title": "BadaGate'ten SATILIK 2+1 açık mutfak daire N logo sitesinde",
+          "price": "2.850.000 TL",
+          "date": "15 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-badagate-ten-satilik-2-plus1-acik-mutfak-daire-n-logo-sitesinde-1317041983/detay",
+          "rowText": "BadaGate'ten SATILIK 2+1 açık mutfak daire N logo sitesinde 100 2+1 2.850.000 TL 15 Mayıs 2026 İstanbul Esenyurt"
+        }
+      ]
+    },
+    {
+      "key": "nlogo-kiralik",
+      "project": "N Logo",
+      "side": "rent",
+      "url": "https://www.sahibinden.com/kiralik?query_text=N+Logo+Esenyurt",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-nlogo-kiralik-2026-05-28.png",
+      "title": "Kiralık Rezidans, Villa, Müstakil Ev ve Daireler - sahibinden.com",
+      "challenge": false,
+      "accountHeader": true,
+      "resultLine": "aramanızda 15 ilan bulundu",
+      "pageUpdated": "Bu sayfa en son 28 Mayıs 2026 11:39:41 tarihinde güncellenmiştir",
+      "rows": [
+        {
+          "no": "1313390062",
+          "title": "ESENYURT N ŞEHİR 2 DE EŞYALI 2+1",
+          "price": "25.000 TL",
+          "date": "26 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-esenyurt-n-sehir-2-de-esyali-2-plus1-1313390062/detay",
+          "rowText": "ESENYURT N ŞEHİR 2 DE EŞYALI 2+1 80 2+1 25.000 TL 26 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1312986184",
+          "title": "N LOGO SİTESİNİN HUZURLU MANZARASI",
+          "price": "16.000 TL",
+          "date": "24 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-n-logo-sitesinin-huzurlu-manzarasi-1312986184/detay",
+          "rowText": "N LOGO SİTESİNİN HUZURLU MANZARASI 80 1+1 16.000 TL 24 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1315324123",
+          "title": "Esenyurt N LOGO 'da Kiralık 1+1 Temiz Daire",
+          "price": "18.000 TL",
+          "date": "21 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-esenyurt-n-logo-da-kiralik-1-plus1-temiz-daire-1315324123/detay",
+          "rowText": "Esenyurt N LOGO 'da Kiralık 1+1 Temiz Daire 80 1+1 18.000 TL 21 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1303829338",
+          "title": "ESENYURT N LOGO SİTESİNDE 1+1 KİRALIK BOŞ DAİRE",
+          "price": "14.000 TL",
+          "date": "21 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-esenyurt-n-logo-sitesinde-1-plus1-kiralik-bos-daire-1303829338/detay",
+          "rowText": "ESENYURT N LOGO SİTESİNDE 1+1 KİRALIK BOŞ DAİRE 70 1+1 14.000 TL 21 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "846828137",
+          "title": "Bu Fiyata Yok! Hastalık Sebebiyle Ferah 30 ve üzeri 2+1 Konut Var",
+          "price": "14.000 TL",
+          "date": "18 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-bu-fiyata-yok-hastalik-sebebiyle-ferah-30-ve-sb2f-21-konut-var-846828137/detay",
+          "rowText": "Bu Fiyata Yok! Hastalık Sebebiyle Ferah 30 ve üzeri 2+1 Konut Var 100 2+1 14.000 TL 18 Mayıs 2026 İstanbulEsenyurt"
+        },
+        {
+          "no": "1312183189",
+          "title": "ESENYURT N LOGO SİTESİNDE 1+1 EŞYALI BALKONLU KİRALIK DAİRE",
+          "price": "20.000 TL",
+          "date": "21 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-esenyurt-n-logo-sitesinde-1-plus1-esyali-balkonlu-kiralik-daire-1312183189/detay",
+          "rowText": "ESENYURT N LOGO SİTESİNDE 1+1 EŞYALI BALKONLU KİRALIK DAİRE 80 1+1 20.000 TL 21 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1309211187",
+          "title": "ÖZYURTLAR N LOGO İSTANBUL KİRALIK EŞYALI GENİŞ 1+1 DAİRE",
+          "price": "20.000 TL",
+          "date": "20 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-ozyurtlar-n-logo-istanbul-kiralik-esyali-genis-1-plus1-daire-1309211187/detay",
+          "rowText": "ÖZYURTLAR N LOGO İSTANBUL KİRALIK EŞYALI GENİŞ 1+1 DAİRE 72 1+1 20.000 TL 20 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1317637051",
+          "title": "N LOGO EŞYALI KRALIK 2+1 DAİRE",
+          "price": "30.000 TL",
+          "date": "18 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-n-logo-esyali-kralik-2-plus1-daire-1317637051/detay",
+          "rowText": "N LOGO EŞYALI KRALIK 2+1 DAİRE 100 2+1 30.000 TL 18 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1317617479",
+          "title": "ÖZYURTLAR N ŞEHİR SİTESİ KİRALIK STÜDYO DAİRE",
+          "price": "13.000 TL",
+          "date": "18 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-ozyurtlar-n-sehir-sitesi-kiralik-studyo-daire-1317617479/detay",
+          "rowText": "ÖZYURTLAR N ŞEHİR SİTESİ KİRALIK STÜDYO DAİRE 45 Stüdyo (1+0) 13.000 TL 18 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1317395866",
+          "title": "ESENYURT N LOGO SİTESİ ŞEHİR MANZARALI 3+1 KİRALIK ARAKAT DAİRE!",
+          "price": "25.000 TL",
+          "date": "17 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-esenyurt-n-logo-sitesi-sehir-manzarali-3-plus1-kiralik-arakat-daire-1317395866/detay",
+          "rowText": "ESENYURT N LOGO SİTESİ ŞEHİR MANZARALI 3+1 KİRALIK ARAKAT DAİRE! 145 3+1 25.000 TL 17 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1310397711",
+          "title": "ESENYURT N LOGO SİTESİNDE EŞYALI KİRALIK 1+0 DAİRE",
+          "price": "15.000 TL",
+          "date": "15 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-esenyurt-n-logo-sitesinde-esyali-kiralik-1-plus0-daire-1310397711/detay",
+          "rowText": "ESENYURT N LOGO SİTESİNDE EŞYALI KİRALIK 1+0 DAİRE 40 Stüdyo (1+0) 15.000 TL 15 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1316866937",
+          "title": "N LOGO SITE IÇI FULL EŞYALI ACIL KIRALIK DAIRE",
+          "price": "12.000 TL",
+          "date": "14 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-n-logo-site-ici-full-esyali-acil-kiralik-daire-1316866937/detay",
+          "rowText": "N LOGO SITE IÇI FULL EŞYALI ACIL KIRALIK DAIRE 60 Stüdyo (1+0) 12.000 TL 14 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1308541264",
+          "title": "ESENYURT ÜÇEVLER MAHALLESİ N ŞEHİR 1+1 KİRALIK DAİRE MANZARALI",
+          "price": "15.000 TL",
+          "date": "15 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-esenyurt-ucevler-mahallesi-n-sehir-1-plus1-kiralik-daire-manzarali-1308541264/detay",
+          "rowText": "ESENYURT ÜÇEVLER MAHALLESİ N ŞEHİR 1+1 KİRALIK DAİRE MANZARALI 72 1+1 15.000 TL 15 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1304413573",
+          "title": "N LOGO SİTESİNDE 1+1 EŞYALI KİRALIK DAİRE",
+          "price": "19.000 TL",
+          "date": "08 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-n-logo-sitesinde-1-plus1-esyali-kiralik-daire-1304413573/detay",
+          "rowText": "N LOGO SİTESİNDE 1+1 EŞYALI KİRALIK DAİRE 75 1+1 19.000 TL 08 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1315600768",
+          "title": "ESENYURT OLCAY POINT SİTESİNDE KİRALIK 1+1",
+          "price": "17.000 TL",
+          "date": "07 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-esenyurt-olcay-point-sitesinde-kiralik-1-plus1-1315600768/detay",
+          "rowText": "ESENYURT OLCAY POINT SİTESİNDE KİRALIK 1+1 70 1+1 17.000 TL 07 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1313931191",
+          "title": "N LOGO KİRALIK 1+0 STÜDYO DAİRE 40 M2 BEKARA VE ÖĞRENCİYE UYGUN",
+          "price": "12.000 TL",
+          "date": "29 Nisan 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-n-logo-kiralik-1-plus0-studyo-daire-40-m2-bekara-ve-ogrenciye-uygun-1313931191/detay",
+          "rowText": "N LOGO KİRALIK 1+0 STÜDYO DAİRE 40 M2 BEKARA VE ÖĞRENCİYE UYGUN 40 Stüdyo (1+0) 12.000 TL 29 Nisan 2026 İstanbul Esenyurt"
+        }
+      ]
+    },
+    {
+      "key": "innovia-satilik",
+      "project": "Innovia",
+      "side": "sale",
+      "url": "https://www.sahibinden.com/satilik-daire?query_text=Innovia+Esenyurt+1%2B0",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-innovia-satilik-2026-05-28.png",
+      "title": "Satılık Daire İlanları ve Satılık Ev Fiyatları - sahibinden.com",
+      "challenge": false,
+      "accountHeader": true,
+      "resultLine": "aramanızda 8 ilan bulundu",
+      "pageUpdated": "Bu sayfa en son 28 Mayıs 2026 11:39:50 tarihinde güncellenmiştir",
+      "rows": [
+        {
+          "no": "1318529323",
+          "title": "OTTO34 'DEN İNNOVİA 3 SATILIK 1+0 EŞYALI 15.000 TL 'DEN KİRACILI",
+          "price": "15.000 TL",
+          "date": "23 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-otto34-den-innovia-3-satilik-1-plus0-esyali-15.000-tl-den-kiracili-1318529323/detay",
+          "rowText": "OTTO34 'DEN İNNOVİA 3 SATILIK 1+0 EŞYALI 15.000 TL 'DEN KİRACILI 33 Stüdyo (1+0) 1.880.000 TL 23 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1318502910",
+          "title": "İNNOVİA3 1+0 EŞYALI SATILIK DAİRE",
+          "price": "1.950.000 TL",
+          "date": "23 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-innovia3-1-plus0-esyali-satilik-daire-1318502910/detay",
+          "rowText": "İNNOVİA3 1+0 EŞYALI SATILIK DAİRE 41 Stüdyo (1+0) 1.950.000 TL 23 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1311042563",
+          "title": "MEYDAN ARDIÇLI SİTESİNİN EN UYGUNU CADDE CEPHELLİ 1+0 DAİRE",
+          "price": "1.810.000 TL",
+          "date": "19 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-meydan-ardicli-sitesinin-en-uygunu-cadde-cephelli-1-plus0-daire-1311042563/detay",
+          "rowText": "MEYDAN ARDIÇLI SİTESİNİN EN UYGUNU CADDE CEPHELLİ 1+0 DAİRE 55 Stüdyo (1+0) 1.810.000 TL 19 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1299475891",
+          "title": "INNOVIA 3 SITESI PEYZAJ CEPHELI, GIRIŞ KATI 1+0 SATILIK DAIRE",
+          "price": "1.820.000 TL",
+          "date": "12 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-innovia-3-sitesi-peyzaj-cepheli-giris-kati-1-plus0-satilik-daire-1299475891/detay",
+          "rowText": "INNOVIA 3 SITESI PEYZAJ CEPHELI, GIRIŞ KATI 1+0 SATILIK DAIRE 40 Stüdyo (1+0) 1.820.000 TL 12 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1315797688",
+          "title": "HAYAT PARK 2 SİETSİ ÖNU AÇIK SIFIR KİMSE OTURMAMIŞ 1+1 SATILIK",
+          "price": "1.850.000 TL",
+          "date": "08 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-hayat-park-2-sietsi-onu-acik-sifir-kimse-oturmamis-1-plus1-satilik-1315797688/detay",
+          "rowText": "HAYAT PARK 2 SİETSİ ÖNU AÇIK SIFIR KİMSE OTURMAMIŞ 1+1 SATILIK 65 1+1 1.850.000 TL 08 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "846832903",
+          "title": "Stüdyo (1+0) Fiyat Düştü! Açık & Kapalı Otopark Var Kaçırılmayacak Fırsat! Satılık Geniş",
+          "price": "1.850.000 TL",
+          "date": "08 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-studyo-10-fiyat-dustu-acik-kapali-otopark-var-kacirilmayacak-firsat-sb2f-genis-846832903/detay",
+          "rowText": "Stüdyo (1+0) Fiyat Düştü! Açık & Kapalı Otopark Var Kaçırılmayacak Fırsat! Satılık Geniş 50 Stüdyo (1+0) 1.850.000 TL 08 Mayıs 2026 İstanbulEsenyurt"
+        },
+        {
+          "no": "1316020487",
+          "title": "İNNOVİA 3 SİTESİ A BLOK EŞYALI SATILIK 1+0 DAİRE METROBÜSE YAKIN",
+          "price": "1.850.000 TL",
+          "date": "09 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-innovia-3-sitesi-a-blok-esyali-satilik-1-plus0-daire-metrobuse-yakin-1316020487/detay",
+          "rowText": "İNNOVİA 3 SİTESİ A BLOK EŞYALI SATILIK 1+0 DAİRE METROBÜSE YAKIN 33 Stüdyo (1+0) 1.850.000 TL 09 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1308720191",
+          "title": "INNOVIA 3 1+0 ESYALI HAVUZ CEPHELI METROBUSE YAKIN",
+          "price": "1.850.000 TL",
+          "date": "02 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-innovia-3-1-plus0-esyali-havuz-cepheli-metrobuse-yakin-1308720191/detay",
+          "rowText": "INNOVIA 3 1+0 ESYALI HAVUZ CEPHELI METROBUSE YAKIN 50 Stüdyo (1+0) 1.850.000 TL 02 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1314124285",
+          "title": "İNNOVİA 3 SATILIK STÜDYO DAİRE",
+          "price": "1.830.000 TL",
+          "date": "30 Nisan 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-satilik-innovia-3-satilik-studyo-daire-1314124285/detay",
+          "rowText": "İNNOVİA 3 SATILIK STÜDYO DAİRE 33 Stüdyo (1+0) 1.830.000 TL 30 Nisan 2026 İstanbul Esenyurt"
+        }
+      ]
+    },
+    {
+      "key": "innovia-kiralik",
+      "project": "Innovia",
+      "side": "rent",
+      "url": "https://www.sahibinden.com/kiralik-daire?query_text=Innovia+Esenyurt+1%2B0",
+      "screenshotPath": "/home/lofa/Documents/Obsidian Vault/Real Estate/Esenyurt Small Units/Evidence/sahibinden-innovia-kiralik-2026-05-28.png",
+      "title": "Kiralık Daire Fiyatları ve Kiralık Ev İlanları - sahibinden.com",
+      "challenge": false,
+      "accountHeader": true,
+      "resultLine": "aramanızda 7 ilan bulundu",
+      "pageUpdated": "Bu sayfa en son 28 Mayıs 2026 11:40:00 tarihinde güncellenmiştir",
+      "rows": [
+        {
+          "no": "1295814073",
+          "title": "İNNOVİA 3. ETAPDA EŞYALI KİRALIK 1+0 DAİRE",
+          "price": "15.000 TL",
+          "date": "25 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-innovia-3-etapda-esyali-kiralik-1-plus0-daire-1295814073/detay",
+          "rowText": "İNNOVİA 3. ETAPDA EŞYALI KİRALIK 1+0 DAİRE 40 Stüdyo (1+0) 15.000 TL 25 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1298071706",
+          "title": "İNNOVİA 3 HAVUZ CEPHELİ 1+0 FULL EŞYALI",
+          "price": "16.000 TL",
+          "date": "18 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-innovia-3-havuz-cepheli-1-plus0-full-esyali-1298071706/detay",
+          "rowText": "İNNOVİA 3 HAVUZ CEPHELİ 1+0 FULL EŞYALI 33 Stüdyo (1+0) 16.000 TL 18 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1316858682",
+          "title": "İNNOVİA 3 EŞYALI KİRALIK 1+0 STÜDYO HAVUZ CEPHE HEMEN TAŞININ",
+          "price": "16.000 TL",
+          "date": "14 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-innovia-3-esyali-kiralik-1-plus0-studyo-havuz-cephe-hemen-tasinin-1316858682/detay",
+          "rowText": "İNNOVİA 3 EŞYALI KİRALIK 1+0 STÜDYO HAVUZ CEPHE HEMEN TAŞININ 33 Stüdyo (1+0) 16.000 TL 14 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "846778370",
+          "title": "Acil! Ferah Lüx Var Açık & Kapalı Otopark Stüdyo (1+0) Konut",
+          "price": "17.000 TL",
+          "date": "15 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-acil-ferah-sb2f-var-acik-kapali-otopark-studyo-10-konut-846778370/detay",
+          "rowText": "Acil! Ferah Lüx Var Açık & Kapalı Otopark Stüdyo (1+0) Konut 33 Stüdyo (1+0) 17.000 TL 15 Mayıs 2026 İstanbulEsenyurt"
+        },
+        {
+          "no": "1310263929",
+          "title": "OTTO34'DEN İNNOVİA 3 KİRALIK 1+0 EŞYALI HAVUZ CEPHE DAİRE",
+          "price": "17.000 TL",
+          "date": "13 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-otto34-den-innovia-3-kiralik-1-plus0-esyali-havuz-cephe-daire-1310263929/detay",
+          "rowText": "OTTO34'DEN İNNOVİA 3 KİRALIK 1+0 EŞYALI HAVUZ CEPHE DAİRE 41 Stüdyo (1+0) 17.000 TL 13 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1294656476",
+          "title": "INNOVIA 3 1+0 ESYALI HAVUZ CEPHELI METROBUSE 10DK",
+          "price": "15.000 TL",
+          "date": "14 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-innovia-3-1-plus0-esyali-havuz-cepheli-metrobuse-10dk-1294656476/detay",
+          "rowText": "INNOVIA 3 1+0 ESYALI HAVUZ CEPHELI METROBUSE 10DK 50 Stüdyo (1+0) 15.000 TL 14 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1317160058",
+          "title": "İNNOVİA 3 EŞYALI KİRALIK 1+0 STÜDYO A BLOK DAİRE",
+          "price": "16.000 TL",
+          "date": "15 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-innovia-3-esyali-kiralik-1-plus0-studyo-a-blok-daire-1317160058/detay",
+          "rowText": "İNNOVİA 3 EŞYALI KİRALIK 1+0 STÜDYO A BLOK DAİRE 33 Stüdyo (1+0) 16.000 TL 15 Mayıs 2026 İstanbul Esenyurt"
+        },
+        {
+          "no": "1316705219",
+          "title": "OTTO34'DEN İNNOVİA 3 KİRALIK 1+0 H BLOK HAVUZ CEPHE DAİRE",
+          "price": "17.000 TL",
+          "date": "13 Mayıs 2026",
+          "href": "https://www.sahibinden.com/ilan/emlak-konut-kiralik-otto34-den-innovia-3-kiralik-1-plus0-h-blok-havuz-cephe-daire-1316705219/detay",
+          "rowText": "OTTO34'DEN İNNOVİA 3 KİRALIK 1+0 H BLOK HAVUZ CEPHE DAİRE 40 Stüdyo (1+0) 17.000 TL 13 Mayıs 2026 İstanbul Esenyurt"
+        }
+      ]
+    }
+  ]
+}

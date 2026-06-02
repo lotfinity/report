@@ -1,0 +1,1474 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Esenyurt Small-Unit Investment Switch — Final Report</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <style>
+    :root {
+      --ink: #16181d;
+      --muted: #667085;
+      --line: #e2e6ee;
+      --paper: #f7f8fc;
+      --panel: #ffffff;
+      --green: #1a7d4a;
+      --amber: #b45309;
+      --red: #c1302a;
+      --blue: #1e6bb8;
+      --cyan: #1b7a8e;
+      --shadow-sm: 0 1px 3px rgba(30,42,65,.06), 0 1px 2px rgba(30,42,65,.04);
+      --shadow: 0 4px 16px rgba(30,42,65,.08), 0 2px 4px rgba(30,42,65,.04);
+      --shadow-lg: 0 14px 35px rgba(30,42,65,.10);
+      --radius: 8px;
+      --radius-lg: 12px;
+      --font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      --mono: "SF Mono", "JetBrains Mono", ui-monospace, monospace;
+      --space-xs: 4px;
+      --space-sm: 8px;
+      --space-md: 16px;
+      --space-lg: 24px;
+      --space-xl: 40px;
+      --transition: .18s cubic-bezier(.4,0,.2,1);
+      font-family: var(--font);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    /* taste-skill dials: VARIANCE=4(clean/professional) MOTION=3(subtle) DENSITY=5(balanced) */
+    * { box-sizing: border-box; }
+    ::selection { background: var(--blue); color: #fff; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.55;
+      font-size: 15px;
+    }
+    a { color: var(--blue); text-decoration-thickness: 1px; text-underline-offset: 3px; transition: color var(--transition); }
+    a:hover { color: #0d4a8a; }
+    .page { min-height: 100vh; }
+    img { max-width: 100%; height: auto; display: block; }
+    .report-tabs {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding: 10px clamp(14px,4vw,48px);
+      background: transparent;
+      border-bottom: 1px solid rgba(255,255,255,.15);
+      backdrop-filter: none;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .report-tabs::-webkit-scrollbar { display: none; }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      gap: 8px;
+    }
+    .nav-tabs { display: flex; justify-content: space-evenly; gap: 6px; flex: 1; flex-wrap: nowrap; }
+    .tab-button {
+      flex: 0 0 auto;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #303846;
+      border-radius: 999px;
+      padding: 9px 14px;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all var(--transition);
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+    }
+    .tab-button:hover { border-color: var(--blue); color: var(--blue); background: #f2f6fc; }
+    .tab-button.active {
+      background: var(--ink);
+      border-color: var(--ink);
+      color: #fff;
+    }
+    .tab-button.active:hover { background: #2a3040; color: #fff; }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+    .hero.tab-panel.active { display: grid; }
+    .hero {
+      min-height: 85vh;
+      display: grid;
+      align-items: center;
+      background: linear-gradient(90deg, rgba(13,28,40,.88), rgba(13,28,40,.40)), url("fp.jpg") center/cover;
+      color: white;
+      padding: 60px clamp(20px,6vw,88px);
+    }
+    .hero.tab-panel:not(.active) { display: none; }
+    .hero-inner { max-width: 1080px; }
+    .kicker {
+      font-size: clamp(11px, 1.2vw, 13px);
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      opacity: .80;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0 0 24px;
+      font-size: clamp(36px, 7vw, 92px);
+      line-height: .96;
+      letter-spacing: -.02em;
+      max-width: 940px;
+      font-weight: 800;
+    }
+    .hero p {
+      max-width: 760px;
+      font-size: clamp(17px, 2.2vw, 24px);
+      color: rgba(255,255,255,.85);
+      margin: 0 0 36px;
+      line-height: 1.5;
+    }
+    .hero-metrics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px,1fr));
+      gap: 12px;
+      max-width: 880px;
+    }
+    .metric {
+      border: 1px solid rgba(255,255,255,.18);
+      background: rgba(255,255,255,.08);
+      backdrop-filter: blur(10px);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+      transition: background var(--transition);
+    }
+    .metric:hover { background: rgba(255,255,255,.14); }
+    .metric strong { display: block; font-size: clamp(28px, 3.6vw, 38px); line-height: 1.1; font-weight: 800; color: #fff; letter-spacing: -.02em; }
+    .metric span { display: block; margin-top: 6px; color: rgba(255,255,255,.80); font-size: 14px; font-weight: 500; }
+    .metric .compare { display: flex; align-items: center; gap: 4px; margin-top: 4px; font-size: 13px; color: rgba(255,255,255,.65); }
+    .metric .compare .arrow { color: #4ade80; font-size: 16px; font-weight: 700; }
+    .hero-cta {
+      margin-top: 28px;
+    }
+    .hero-cta .btn {
+      display: inline-block;
+      background: var(--green);
+      color: #fff;
+      padding: 14px 32px;
+      border-radius: var(--radius);
+      font-weight: 700;
+      font-size: 16px;
+      text-decoration: none;
+      border: none;
+      transition: all var(--transition);
+      cursor: pointer;
+    }
+    .hero-cta .btn:hover { background: #146038; transform: translateY(-2px); box-shadow: 0 6px 20px rgba(26,125,74,.35); }
+    main {
+      padding: clamp(32px, 5vw, 64px) clamp(16px, 4vw, 72px) clamp(64px, 6vw, 96px);
+    }
+    section { max-width: 1180px; margin: 0 auto; }
+    section + section { margin-top: clamp(36px, 5vw, 60px); }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 22px;
+    }
+    h2 { font-size: clamp(28px,4vw,46px); line-height: 1.08; margin: 0; letter-spacing: -.015em; font-weight: 800; }
+    h3 { font-size: 19px; margin: 0 0 12px; font-weight: 600; }
+    .subtle { color: var(--muted); max-width: 680px; margin: 8px 0 0; font-size: 15px; }
+    .grid { display: grid; gap: clamp(14px, 1.6vw, 20px); }
+    .grid.cols-3 { grid-template-columns: repeat(3,1fr); }
+    .grid.cols-2 { grid-template-columns: repeat(2,1fr); }
+    .grid.cols-4 { grid-template-columns: repeat(4,1fr); }
+    .panel, .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      transition: box-shadow var(--transition), transform var(--transition);
+    }
+    .panel:hover, .card:hover { box-shadow: var(--shadow); transform: translateY(-1px); }
+    .panel { padding: 24px; }
+    .card { padding: 18px; }
+    .score {
+      width: 58px; height: 58px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 14px;
+    }
+    .score.green { background: var(--green); }
+    .score.amber { background: var(--amber); }
+    .score.red { background: var(--red); }
+    .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+    .tag {
+      border: 1px solid var(--line);
+      background: #f5f7fb;
+      border-radius: 999px;
+      padding: 5px 10px;
+      font-size: 12px;
+      color: #3c4350;
+      white-space: nowrap;
+    }
+    .source-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 8px;
+      border: 1px solid #bfd0e6;
+      background: #f4f8fd;
+      color: var(--blue);
+      border-radius: 999px;
+      padding: 5px 9px;
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .source-chip:after { content: " ↗"; font-size: 11px; }
+    .insight-box {
+      border-left: 5px solid var(--green);
+      background: #edf7f0;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+    }
+    .insight-box.amber {
+      border-left-color: var(--amber);
+      background: #fdf6ec;
+    }
+    .insight-box.blue {
+      border-left-color: var(--blue);
+      background: #f2f6fb;
+    }
+    .table-wrap {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--line);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      min-width: 560px;
+    }
+    th, td {
+      padding: 13px 14px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: #eef2f7;
+      color: #313947;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      font-weight: 600;
+    }
+    tr:last-child td { border-bottom: 0; }
+    tbody tr:nth-child(even) { background: #fafbfd; }
+    tbody tr:hover { background: #f2f4f8; }
+    .num { font-variant-numeric: tabular-nums; white-space: nowrap; font-feature-settings: "tnum"; }
+    .good { color: var(--green); font-weight: 700; }
+    .warn { color: var(--amber); font-weight: 700; }
+    .bad { color: var(--red); font-weight: 700; }
+    .chart { display: grid; gap: 14px; margin-top: 12px; }
+    .bar-row {
+      display: grid;
+      grid-template-columns: 150px 1fr 68px;
+      gap: 12px;
+      align-items: center;
+      font-size: 14px;
+    }
+    .bar-track { height: 16px; background: #e8edf5; border-radius: 999px; overflow: hidden; }
+    .bar-fill { height: 100%; border-radius: 999px; background: var(--blue); width: calc(var(--value)*1%); }
+    .bar-fill.good { background: var(--green); }
+    .bar-fill.warn { background: var(--amber); }
+    .bar-fill.bad { background: var(--red); }
+    .bar-fill.cyan { background: var(--cyan); }
+    .risk-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; }
+    .risk {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      min-height: 135px;
+      background: #fff;
+    }
+    .risk b { display: block; margin-bottom: 8px; }
+    .risk.high { border-top: 5px solid var(--red); }
+    .risk.medium { border-top: 5px solid var(--amber); }
+    .risk.low { border-top: 5px solid var(--green); }
+    .model {
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 20px;
+    }
+    .control { display: grid; gap: 8px; margin-bottom: 18px; }
+    label { font-size: 13px; font-weight: 700; color: #323947; }
+    input[type="range"] { width: 100%; accent-color: var(--blue); }
+    .control-output {
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .result-grid {
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .result {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 15px;
+      background: #f8fafc;
+    }
+    .result strong { font-size: 23px; display: block; line-height: 1.1; }
+    .result span { display: block; color: var(--muted); margin-top: 6px; font-size: 12px; }
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(5,1fr);
+      gap: 10px;
+      align-items: stretch;
+    }
+    .flow-step {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      min-height: 120px;
+      position: relative;
+    }
+    .flow-step:after {
+      content: "";
+      position: absolute;
+      right: -10px;
+      top: 50%;
+      width: 10px;
+      height: 1px;
+      background: var(--line);
+    }
+    .flow-step:last-child:after { display: none; }
+    .flow-step b { display: block; margin-bottom: 6px; }
+    .notes {
+      border-left: 4px solid var(--blue);
+      padding: 14px 18px;
+      background: #f2f6fb;
+      border-radius: 0 8px 8px 0;
+      color: #293544;
+    }
+    .source-list { display: grid; gap: 10px; padding-left: 18px; }
+    .source-list li { padding-left: 4px; }
+    .preview-grid {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 14px;
+      margin: 0 0 22px;
+    }
+    .preview-card {
+      display: grid;
+      min-height: 250px;
+      overflow: hidden;
+      color: inherit;
+      text-decoration: none;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+    .preview-media {
+      min-height: 118px;
+      background: linear-gradient(135deg, rgba(36,95,159,.88), rgba(28,107,126,.78)), var(--preview-image,none) center/cover;
+      display: grid;
+      align-items: end;
+      padding: 12px;
+      color: #fff;
+      font-weight: 800;
+    }
+    .preview-card.has-image .preview-media {
+      background: linear-gradient(0deg, rgba(0,0,0,.46), rgba(0,0,0,.10)), var(--preview-image) center/cover;
+    }
+    .preview-body { padding: 14px; }
+    .preview-body b { display: block; margin-bottom: 6px; }
+    .preview-body span { color: var(--muted); font-size: 13px; }
+    .source-group {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px 18px;
+      background: #fff;
+      margin-bottom: 14px;
+    }
+    .source-group h3 { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+    .source-key {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      background: #eef2f7;
+      color: #354052;
+      padding: 3px 8px;
+      font-size: 11px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+    }
+    .evidence-gallery {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 12px;
+    }
+    .evidence-item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+    }
+    .evidence-item img, .evidence-item .img-placeholder {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      display: block;
+      background: #eef2f7;
+    }
+    .evidence-item .img-placeholder {
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .evidence-body { padding: 10px 12px; }
+    .evidence-body b { display: block; font-size: 13px; }
+    .evidence-body span { display: block; color: var(--muted); font-size: 11px; margin-top: 3px; }
+    .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .highlight-number {
+      font-size: 32px;
+      font-weight: 800;
+      line-height: 1;
+      color: var(--blue);
+    }
+    .highlight-number.good { color: var(--green); }
+    .highlight-number.warn { color: var(--amber); }
+    .highlight-number.bad { color: var(--red); }
+    footer {
+      padding: 26px clamp(18px,5vw,72px);
+      border-top: 1px solid var(--line);
+    }
+    .methodology {
+      max-width: 1160px;
+      margin: 24px auto 0;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--panel);
+      box-shadow: var(--shadow-sm);
+      padding: 16px 20px;
+    }
+    .methodology[open] { padding-bottom: 20px; }
+    .methodology summary {
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--muted);
+      user-select: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .methodology summary:hover { color: var(--ink); }
+    .methodology-arrow { transition: transform var(--transition); font-size: 10px; }
+    .methodology[open] .methodology-arrow { transform: rotate(180deg); }
+    .methodology p { font-size: 13px; color: var(--muted); line-height: 1.6; margin: 10px 0; max-width: 800px; }
+    .methodology ul { font-size: 13px; color: var(--muted); padding-left: 20px; }
+    .methodology ul li { margin-bottom: 6px; line-height: 1.5; }
+    .methodology code { font-family: var(--mono); font-size: 12px; background: #eef2f7; padding: 1px 5px; border-radius: 3px; }
+    .recommendation {
+      background: linear-gradient(135deg, var(--green), #1a8a52);
+      color: #fff;
+      border-radius: 12px;
+      padding: 28px 32px;
+    }
+    .recommendation h2 { color: #fff; }
+    .recommendation p { opacity: .9; max-width: 800px; }
+    .recommendation .btn {
+      display: inline-block;
+      background: #fff;
+      color: var(--green);
+      padding: 12px 24px;
+      border-radius: var(--radius);
+      font-weight: 700;
+      font-size: 15px;
+      text-decoration: none;
+      margin-top: 12px;
+      transition: all var(--transition);
+    }
+    .recommendation .btn:hover { background: #f2f6fc; transform: translateY(-1px); }
+    .rotate-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: linear-gradient(135deg, #0b1d30, #143653);
+      color: #fff;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 32px;
+      font-family: var(--font);
+    }
+    .rotate-overlay .phone-icon {
+      width: 80px;
+      height: 130px;
+      border: 3px solid rgba(255,255,255,.7);
+      border-radius: 16px;
+      position: relative;
+      margin-bottom: 32px;
+      animation: rotate-phone 2.4s ease-in-out infinite;
+    }
+    .rotate-overlay .phone-icon:before {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 8px;
+      height: 8px;
+      background: rgba(255,255,255,.5);
+      border-radius: 50%;
+    }
+    @keyframes rotate-phone {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(-90deg); }
+      50% { transform: rotate(-90deg); }
+      75% { transform: rotate(0deg); }
+      100% { transform: rotate(0deg); }
+    }
+    .rotate-overlay h2 {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 0 0 8px;
+      color: #fff;
+    }
+    .rotate-overlay p {
+      font-size: 14px;
+      opacity: .75;
+      max-width: 280px;
+      margin: 0;
+      line-height: 1.5;
+    }
+    .swipe-dots {
+      position: fixed;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 6px;
+      z-index: 30;
+      padding: 6px 12px;
+      background: rgba(0,0,0,.25);
+      backdrop-filter: blur(6px);
+      border-radius: 999px;
+    }
+    .swipe-dots .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.35);
+      transition: all var(--transition);
+    }
+    .swipe-dots .dot.active {
+      background: #fff;
+      width: 18px;
+      border-radius: 4px;
+    }
+    .swipe-hint {
+      position: fixed;
+      bottom: 48px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 40;
+      color: rgba(255,255,255,.6);
+      font-size: 12px;
+      font-weight: 500;
+      text-align: center;
+      pointer-events: none;
+      opacity: 0;
+      animation: hint-fade 4s ease forwards;
+    }
+    .swipe-hint .swipe-icon {
+      display: block;
+      font-size: 24px;
+      margin-bottom: 4px;
+      animation: swipe-hand 1.6s ease-in-out infinite;
+    }
+    @keyframes swipe-hand {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(18px); }
+    }
+    @keyframes hint-fade {
+      0%, 30% { opacity: 1; }
+      80%, 100% { opacity: 0; }
+    }
+    @media (max-width: 900px) {
+      .swipe-dots { display: flex; }
+    }
+    @media (min-width: 901px) {
+      .swipe-dots { display: none; }
+      .swipe-hint { display: none; }
+    }
+    @media (orientation: portrait) and (max-width: 768px) {
+      .rotate-overlay { display: flex; }
+      .page { display: none; }
+    }
+    @media (max-width: 900px) {
+      .hero-metrics, .grid.cols-3, .grid.cols-2, .grid.cols-4, .model, .result-grid, .risk-grid, .flow, .preview-grid, .evidence-gallery, .two-col {
+        grid-template-columns: 1fr;
+      }
+      .model { gap: 16px; }
+      .result-grid { grid-template-columns: repeat(2,1fr); }
+      .risk-grid { grid-template-columns: repeat(2,1fr); }
+      .section-head { display: block; }
+      .bar-row { grid-template-columns: 100px 1fr 48px; gap: 8px; font-size: 13px; }
+      .flow-step:after { display: none; }
+      .tab-button { padding: 8px 12px; font-size: 12px; }
+      .report-tabs { padding: 8px clamp(10px,3vw,24px); }
+      .hero { min-height: 60vh; padding: 40px clamp(18px,5vw,48px); }
+      h1 { font-size: clamp(30px, 6vw, 54px); }
+      .hero p { font-size: clamp(15px, 2vw, 19px); }
+    }
+    @media (max-width: 768px) {
+      .result-grid { grid-template-columns: repeat(2,1fr); }
+      .risk-grid { grid-template-columns: repeat(2,1fr); }
+      .hero-metrics { grid-template-columns: repeat(2,1fr); }
+      .bar-row { grid-template-columns: 90px 1fr 42px; gap: 6px; font-size: 12px; }
+      .evidence-gallery { grid-template-columns: repeat(2,1fr); }
+      .preview-grid { grid-template-columns: repeat(2,1fr); }
+      .flow { grid-template-columns: repeat(3,1fr); }
+      .two-col { grid-template-columns: 1fr; }
+      .panel { padding: 18px; }
+    }
+    @media (max-width: 600px) {
+      body { font-size: 14px; }
+      .panel { padding: 14px; }
+      .card { padding: 12px; }
+      .hero { min-height: 60vh; padding: 36px clamp(14px,4vw,24px); }
+      h1 { font-size: clamp(26px, 8vw, 34px); }
+      h2 { font-size: clamp(22px, 6vw, 28px); }
+      h3 { font-size: 16px; }
+      .kicker { font-size: 10px; margin-bottom: 12px; }
+      .hero-metrics { grid-template-columns: repeat(2,1fr); gap: 8px; }
+      .metric { padding: 10px 12px; }
+      .metric strong { font-size: 17px; }
+      .metric span { font-size: 11px; margin-top: 4px; }
+      th, td { padding: 8px 8px; font-size: 12px; }
+      .highlight-number { font-size: 22px; }
+      .tab-button { font-size: 10px; padding: 6px 8px; min-height: 30px; }
+      .lang-toggle { min-height: 30px; padding: 6px 8px; font-size: 11px; min-width: 36px; }
+      .nav-tabs { gap: 3px; }
+      .report-tabs { padding: 5px clamp(6px,2vw,12px); }
+      main { padding: 20px clamp(10px,3vw,20px) 40px; }
+      section + section { margin-top: 24px; }
+      .section-head { margin-bottom: 14px; }
+      .insight-box { padding: 12px 14px; margin: 12px 0; font-size: 13px; }
+      .recommendation { padding: 20px 18px; }
+      .recommendation .hero-metrics .metric { padding: 8px 10px; }
+      .recommendation .hero-metrics .metric strong { font-size: 15px; }
+      .bar-row { grid-template-columns: 80px 1fr 36px; gap: 5px; font-size: 11px; }
+      .bar-track { height: 12px; }
+      .result-grid { grid-template-columns: repeat(2,1fr); gap: 8px; }
+      .result { padding: 10px; }
+      .result strong { font-size: 18px; }
+      .result span { font-size: 10px; }
+      .risk { padding: 10px; min-height: auto; }
+      .flow-step { min-height: auto; padding: 10px; font-size: 12px; }
+      .evidence-item img, .evidence-item .img-placeholder { height: 120px; }
+      .preview-card { min-height: auto; }
+      .preview-media { min-height: 90px; padding: 8px; font-size: 12px; }
+      .preview-body { padding: 10px; }
+      .preview-body b { font-size: 12px; }
+      .preview-body span { font-size: 11px; }
+      .methodology { padding: 12px 14px; }
+      .methodology p, .methodology ul { font-size: 12px; }
+      .source-group { padding: 12px; }
+      .control { gap: 6px; margin-bottom: 14px; }
+      label { font-size: 12px; }
+      .control-output { font-size: 12px; }
+    }
+    @media (orientation: landscape) and (max-height: 550px) {
+      .report-tabs { padding: 4px clamp(8px,2vw,16px); }
+      .tab-button { font-size: 10px; padding: 5px 8px; min-height: 28px; }
+      .lang-toggle { min-height: 28px; padding: 5px 8px; font-size: 10px; min-width: 32px; }
+      .nav-tabs { gap: 3px; }
+      .hero { min-height: 100vh; padding: 24px clamp(16px,4vw,40px); }
+      .hero p { font-size: clamp(13px, 1.6vw, 16px); margin-bottom: 16px; }
+      .hero-metrics { grid-template-columns: repeat(4,1fr); gap: 6px; }
+      .metric { padding: 8px 10px; }
+      .metric strong { font-size: 15px; }
+      .metric span { font-size: 10px; margin-top: 2px; }
+      h1 { font-size: clamp(22px, 5vw, 36px); margin-bottom: 12px; }
+      .kicker { font-size: 9px; margin-bottom: 8px; }
+      .two-col { grid-template-columns: 1fr 1fr; }
+      .recommendation { padding: 18px 20px; }
+      .recommendation .hero-metrics { grid-template-columns: repeat(4,1fr); }
+    }
+    @media (hover: none) {
+      .card:hover, .panel:hover, .tab-button:hover, .lang-toggle:hover {
+        transform: none;
+        box-shadow: inherit;
+      }
+      .card:active, .panel:active { box-shadow: var(--shadow); }
+      .tab-button:active { background: #eef2f7; }
+      .metric:hover { background: rgba(255,255,255,.08); }
+      .hero-cta .btn:hover { transform: none; box-shadow: none; }
+      .recommendation .btn:hover { transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="rotate-overlay">
+    <div class="phone-icon"></div>
+    <h2>Veuillez faire pivoter votre appareil</h2>
+    <p>Cette application est optimisée pour une orientation paysage sur mobile.</p>
+  </div>
+  <div class="swipe-hint"><span class="swipe-icon">👈</span>Balayez pour naviguer</div>
+  <div class="swipe-dots" id="swipeDots"></div>
+  <div class="page">
+    <nav class="report-tabs" aria-label="Report sections">
+      <div class="nav-inner">
+        <div class="nav-tabs">
+          <button class="tab-button active" data-tab="cover">Couverture</button>
+          <button class="tab-button" data-tab="thesis">Thèse</button>
+          <button class="tab-button" data-tab="projects">Projets</button>
+          <button class="tab-button" data-tab="yield">Rendement</button>
+          <button class="tab-button" data-tab="model">Modèle</button>
+          <button class="tab-button" data-tab="evidence">Preuves</button>
+          <button class="tab-button" data-tab="outside">Hors Esenyurt</button>
+          <button class="tab-button" data-tab="risk">Risques</button>
+          <button class="tab-button" data-tab="next">Prochaines Étapes</button>
+        </div>
+        
+      </div>
+    </nav>
+
+    <header class="hero tab-panel active" data-panel="cover">
+      <div class="hero-inner">
+        <div class="kicker">Rapport de décision | 28 mai 2026</div>
+        <h1>Future Park : mieux investir pour un meilleur futur</h1>
+        <p>Cette étude analyse les métriques actuelles de location et de logement à Esenyurt, Istanbul, et démontre pourquoi investir dans des petites surfaces locatives génère un ROI rapide et important — un rendement qui prendrait 4 ans ailleurs est atteint en moins de la moitié de ce temps. La clé : deux unités rentables plutôt qu'une seule à faible rendement. Données capturées le 28 mai 2026.</p>
+        <div class="hero-metrics">
+          <div class="metric"><strong>3.5M TL</strong><span>Offre Sar Life à déployer</span><div class="compare"><span class="arrow">↑</span> 2,4M TL offerte avant</div></div>
+          <div class="metric"><strong>9-12%</strong><span>rendement net par unité (modélisé)</span><div class="compare"><span class="arrow">↑</span> vs 6-8% avant</div></div>
+          <div class="metric"><strong>24k-34k TL</strong><span>revenu mensuel combiné cible</span><div class="compare"><span class="arrow">↑</span> vs 18-21k TL avant</div></div>
+          <div class="metric"><strong>2-3 units</strong><span>vs 1 — risque locatif diversifié</span><div class="compare"><span class="arrow">↑</span> 1 locataire → 2-3</div></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ───── THESIS ───── -->
+      <section class="tab-panel" data-panel="thesis">
+        <div class="section-head">
+          <div>
+            <h2>Pourquoi Cette Stratégie Gagne</h2>
+            <p class="subtle">Vendre une grande résidence et acheter deux petites unités dans le même quartier débloque un meilleur rendement, un risque de vacance réduit, et une flexibilité à long terme accrue — sans quitter un marché que vous connaissez déjà.</p>
+          </div>
+        </div>
+
+        <div class="insight-box"><strong>Point clé : L'inéligibilité au crédit n'est PAS un obstacle pour vous.</strong><br>En tant qu'étranger en Turquie, vous ne dépendez pas du financement bancaire turc. Les annonces "Krediye Uygun Değil" — qui effraient les acheteurs turcs et font baisser les prix — vous sont parfaitement accessibles en tant qu'acheteur au comptant. Cela vous donne un avantage structurel dans un segment que d'autres évitent.</div>
+
+        <div class="insight-box blue"><strong>La décote pour construction en cours est réelle.</strong><br>Les unités listées "Yapım Aşamasında" se négocient avec une forte décote car les acheteurs turcs ne peuvent pas les financer. Si les blocs non finis sont physiquement séparés des parties habitables, vous obtenez une décote sur une unité pratiquement terminée. Vérifié à Future Park — la section non finie est séparée et imperceptible.</div>
+
+        <div class="grid cols-3" style="margin-top: 20px;">
+          <div class="card">
+            <div class="score green">1</div>
+            <h3>Multiplicateur de Cash Flow</h3>
+            <p>Une unité Sar Life à ~18k-21k TL/mois → deux Future Park 1+0 à ~12k-15k TL chacune = <strong>24k-30k TL/mois au total</strong>. Soit 30 à 40 % de revenus supplémentaires sur le même capital.</p>
+          </div>
+          <div class="card">
+            <div class="score green">2</div>
+            <h3>Diversification du Risque</h3>
+            <p>Deux locataires dans deux unités séparées signifie qu'aucune vacance unique ne peut annuler vos revenus locatifs. Le risque passe de « tout ou rien » à « la moitié au pire ».</p>
+          </div>
+          <div class="card">
+            <div class="score green">3</div>
+            <h3>Flexibilité de Sortie</h3>
+            <p>Deux unités sous 1,5M TL se vendent plus vite qu'une unité à 3,5M+ TL. Les 1 800 unités de Future Park garantissent un volume de transactions constant. Vous pouvez en vendre une et garder l'autre, ou vendre les deux indépendamment.</p>
+          </div>
+        </div>
+
+        <div class="two-col" style="margin-top: 24px;">
+          <div class="panel">
+            <h3>Sar Life : Garder vs Vendre</h3>
+            <div class="table-wrap"><table>
+              <thead><tr><th></th><th class="num">Garder Sar Life</th><th class="num">Vendre → 2 unités</th></tr></thead>
+              <tbody>
+                <tr><td>Revenu mensuel</td><td class="num">18k-21k TL</td><td class="num good">24k-34k TL</td></tr>
+                <tr><td>Risque locatif</td><td class="num bad">1 locataire = tout ou rien</td><td class="num good">2 locataires = moitié au pire</td></tr>
+                <tr><td>Effort de gestion</td><td class="num good">Unité unique</td><td class="num warn">Deux unités, plus de coordination</td></tr>
+                <tr><td>Liquidité de sortie</td><td class="num warn">Acheteur unique à 3,5M+</td><td class="num good">Chaque unité sous 1,5M se vend vite</td></tr>
+                <tr><td>Rendement sur fonds propres</td><td class="num">~6-8% gross</td><td class="num good">~9-12% net modeled</td></tr>
+              </tbody>
+            </table></div>
+            <div class="insight-box" style="margin: 12px 0 0;"><strong>Verdict :</strong> La stratégie gagne sur le rendement et la diversification. La seule raison de ne pas avancer serait des annonces cibles frauduleuses ou inaccessibles — c'est pourquoi la vérification est l'étape suivante, pas un blocage.</div>
+          </div>
+          <div class="panel">
+            <h3>Comparaison Sar Life en direct (28 mai)</h3>
+            <div class="table-wrap"><table>
+              <tbody>
+                <tr><th>Annonce</th><td>Sar Life Residence 2+1</td></tr>
+                <tr><th>Prix</th><td class="num">4,300,000 TL</td></tr>
+                <tr><th>Surface</th><td class="num">110 / 90 m2</td></tr>
+                <tr><th>Étage</th><td class="num">11 / 15</td></tr>
+                <tr><th>Titre</th><td>Kat Mülkiyetli ✓</td></tr>
+                <tr><th>Occupation</th><td>Loué</td></tr>
+                <tr><th>Meublé</th><td>Non</td></tr>
+                <tr><th>Âge</th><td>6-10 ans</td></tr>
+              </tbody>
+            </table></div>
+            <p class="subtle" style="margin-top: 8px;">Détail Sahibinden capturé en direct à 4,3M TL. Cela renforce l'idée que votre offre de 3,5M TL pourrait être conservatrice — la comparaison soutient une valeur de sortie plus élevée.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───── PROJECTS ───── -->
+      <section class="tab-panel" data-panel="projects">
+        <div class="section-head">
+          <div>
+            <h2>Comparaison des Projets</h2>
+            <p class="subtle">Tous les prix issus de recherches Sahibinden en direct le 28 mai 2026. Niveau de preuve : lignes de recherche et pages détail capturées. Rien n'est confirmé par un agent.</p>
+          </div>
+        </div>
+
+        <div class="insight-box"><strong>Cible principale : Future Park 1+0/studios.</strong> Le détail le plus propre capturé montre un 1+0 meublé à <strong>1 450 000 TL</strong> avec 1 750 TL d'aidat, vide, 55/40 m2, 7e étage. Avec un loyer de 12k-15k TL, cela donne ~9,9-12,4 % de rendement brut avant frais.</div>
+
+        <div class="table-wrap"><table>
+          <thead>
+            <tr>
+              <th>Rang</th>
+              <th>Projet / Unité</th>
+              <th class="num">Prix de vente</th>
+              <th class="num">Loyer</th>
+              <th class="num">Aidat</th>
+              <th>Niveau de preuve</th>
+              <th>Avis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="num good">1</td>
+              <td><b>Future Park 1+0</b></td>
+              <td class="num">1.30M-1.45M TL</td>
+              <td class="num">12k-15k TL</td>
+              <td class="num">1,750 TL</td>
+              <td>Détail capturé ✓</td>
+              <td><span class="good">Meilleur rendement</span></td>
+            </tr>
+            <tr>
+              <td class="num good">2</td>
+              <td><b>N Logo 1+0</b></td>
+              <td class="num">1.41M-1.55M TL</td>
+              <td class="num">12k-15k TL</td>
+              <td class="num">TBD</td>
+              <td>Lignes de recherche uniquement</td>
+              <td><span class="warn">Backup, vérifier aidat</span></td>
+            </tr>
+            <tr>
+              <td class="num warn">3</td>
+              <td><b>Innovia 3 1+0</b></td>
+              <td class="num">1.82M-1.95M TL</td>
+              <td class="num">15k-17k TL</td>
+              <td class="num">TBD</td>
+              <td>Lignes de recherche uniquement</td>
+              <td><span class="warn">Rendement plus faible, liquide</span></td>
+            </tr>
+            <tr>
+              <td class="num warn">4</td>
+              <td><b>N Towers 1+1</b></td>
+              <td class="num">2.25M+ TL</td>
+              <td class="num">16k-21k TL</td>
+              <td class="num">TBD</td>
+              <td>Lignes de recherche uniquement</td>
+              <td><span class="warn">Qualité > rendement</span></td>
+            </tr>
+            <tr>
+              <td class="num warn">5</td>
+              <td><b>Ak Towers 1+1</b></td>
+              <td class="num">1,750,000 TL</td>
+              <td class="num">TBD</td>
+              <td class="num">2,200 TL</td>
+              <td>Détail capturé ✓</td>
+              <td><span class="warn">Aidat significatif</span></td>
+            </tr>
+            <tr>
+              <td class="num">6</td>
+              <td><b>Talatpaşa 1+0</b> (furnished)</td>
+              <td class="num">1,390,000 TL</td>
+              <td class="num">TBD</td>
+              <td class="num">Missing ⚠️</td>
+              <td>Détail capturé ✓</td>
+              <td><span class="bad">Aidat manquant = drapeau rouge</span></td>
+            </tr>
+            <tr>
+              <td class="num">7</td>
+              <td><b>Future Park 2+1</b> (anomaly)</td>
+              <td class="num">1,499,000 TL</td>
+              <td class="num">24k-25k TL</td>
+              <td class="num">Missing</td>
+              <td>Détail capturé ✓</td>
+              <td><span class="warn">Récompense élevée si réel</span></td>
+            </tr>
+          </tbody>
+        </table></div>
+
+        <h3 style="margin-top: 28px;">Future Park 1+0 — Détail capturé</h3>
+        <div class="grid cols-4">
+          <div class="panel" style="text-align:center">
+            <div class="highlight-number good">1.45M TL</div>
+            <span class="subtle">Prix demandé</span>
+          </div>
+          <div class="panel" style="text-align:center">
+            <div class="highlight-number">55/40 m2</div>
+            <span class="subtle">Brut / Net</span>
+          </div>
+          <div class="panel" style="text-align:center">
+            <div class="highlight-number">1,750 TL</div>
+            <span class="subtle">Aidat mensuel</span>
+          </div>
+          <div class="panel" style="text-align:center">
+            <div class="highlight-number good">Furnished</div>
+            <span class="subtle">Vide, prêt à louer</span>
+          </div>
+        </div>
+
+        <h3 style="margin-top: 28px;">Faisabilité de deux unités avec 3,5M TL</h3>
+        <div class="table-wrap"><table>
+          <thead><tr><th>Scénario</th><th class="num">2x Achat</th><th class="num">Réserve aménagement</th><th class="num">Total déployé</th><th class="num">Réserve de trésorerie</th></tr></thead>
+          <tbody>
+            <tr><td>2x Future Park @ 1.30M</td><td class="num">2.60M</td><td class="num">350k</td><td class="num">2.95M</td><td class="num good">550k TL ✓</td></tr>
+            <tr><td>2x Future Park @ 1.45M</td><td class="num">2.90M</td><td class="num">350k</td><td class="num">3.25M</td><td class="num good">250k TL ✓</td></tr>
+            <tr><td>1x Ak Towers 1.75M + 1x FP 1.30M</td><td class="num">3.05M</td><td class="num">350k</td><td class="num">3.40M</td><td class="num warn">100k TL</td></tr>
+          </tbody>
+        </table></div>
+        <p class="subtle">Même en haut de la fourchette Future Park, la stratégie laisse une réserve de trésorerie confortable pour les frais de transaction, l'ameublement et les réserves d'urgence.</p>
+
+        <div class="insight-box amber" style="margin-top: 16px;"><strong>Anomalie à surveiller : Future Park 2+1 à 1 499 000 TL.</strong><br>Annonce par le propriétaire, en construction, sans éligibilité au crédit. Normalement des drapeaux rouges — mais pour un acheteur au comptant qui ne peut de toute façon pas utiliser le financement bancaire turc, c'est une opportunité potentielle. Si l'unité est dans un bloc fini et le titre est clair, les loyers comparables de 24k-25k TL/mois donneraient un rendement brut extraordinaire d'environ 19 %. Vaut un coup de fil.</div>
+      </section>
+
+      <!-- ───── YIELD ───── -->
+      <section class="tab-panel" data-panel="yield">
+        <div class="section-head">
+          <div>
+            <h2>Analyse du Rendement — Cas Standard + Avantage Opérateur</h2>
+            <p class="subtle">Le rendement n'est pas uniquement une question de prix d'achat et de loyer moyen. Dans votre cas, l'avantage vient aussi de l'exploitation : résidence locale, compréhension du terrain, réseau clinique, capacité à meubler et gérer l'unité comme un séjour médical confortable plutôt qu'une simple location vide.</p>
+          </div>
+        </div>
+
+        <div class="insight-box blue"><strong>Avantage personnel : vous n'achetez pas comme un investisseur passif.</strong><br>Vous vivez en Turquie depuis plusieurs années, connaissez les règles locales et les habitudes administratives, et avez travaillé dans l'environnement des cliniques pendant environ quatre ans. Cela crée un canal de demande que le propriétaire moyen n'a pas : patients étrangers, accompagnants, séjours post-traitement, visiteurs médicaux, séjours de transition et recommandations directes depuis votre cercle professionnel.</div>
+
+        <div class="insight-box"><strong>Le vrai produit n'est pas seulement “un studio meublé”.</strong><br>Le produit peut devenir un <strong>medical-stay residence package</strong> : logement propre, calme, flexible, avec aide pour taxis, transferts, courses, livraisons de repas, besoins quotidiens, orientation locale et options touristiques légères pour accompagnants. Cette capacité de service peut justifier un taux d'occupation plus élevé et un loyer supérieur au modèle standard, sans dépendre uniquement d'Airbnb.</div>
+
+        <div class="grid cols-2">
+          <div class="panel">
+            <h3>Rendement net par prix d'achat (location standard)</h3>
+            <div class="table-wrap"><table>
+              <thead>
+                <tr><th>Cas de loyer</th><th class="num">Brut/An</th><th class="num">Revenu net</th><th class="num">@1.20M</th><th class="num">@1.35M</th><th class="num">@1.50M</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Bas : 14k/mois</td><td class="num">168k TL</td><td class="num">121.2k TL</td><td class="num good">10.1%</td><td class="num">9.0%</td><td class="num">8.1%</td></tr>
+                <tr><td><b>Base : 17k/mois</b></td><td class="num"><b>204k TL</b></td><td class="num"><b>147.6k TL</b></td><td class="num good"><b>12.3%</b></td><td class="num good"><b>10.9%</b></td><td class="num"><b>9.8%</b></td></tr>
+                <tr><td>Haut : 20k/mois</td><td class="num">240k TL</td><td class="num">174k TL</td><td class="num good">14.5%</td><td class="num good">12.9%</td><td class="num good">11.6%</td></tr>
+              </tbody>
+            </table></div>
+            <p class="subtle">Deux unités en cas de base = ~295k TL/an de revenu net cible, contre ~216k-252k en gardant Sar Life.</p>
+          </div>
+
+          <div class="panel">
+            <h3>Hypothèses du modèle standard</h3>
+            <div class="table-wrap"><table>
+              <tbody>
+                <tr><th>Vacance</th><td>1 mois/an</td></tr>
+                <tr><th>Réserve fiscale</th><td>15 % des loyers perçus</td></tr>
+                <tr><th>Réserve ameublement/réparation</th><td>5 % des loyers perçus</td></tr>
+                <tr><th>Aidat payé par le propriétaire (vacance)</th><td>Valeur estimée 2 000 TL/mois</td></tr>
+                <tr><th>Formule</th><td><code>net = rent×(12-vacancy)×0.80 − aidat×vacancy</code></td></tr>
+              </tbody>
+            </table></div>
+          </div>
+        </div>
+
+        <h3 style="margin-top: 24px;">Scénario spécial : séjour médical meublé et géré</h3>
+        <div class="grid cols-2">
+          <div class="panel">
+            <h3>Pourquoi ce cas peut battre la location classique</h3>
+            <div class="table-wrap"><table>
+              <thead><tr><th>Élément</th><th>Effet sur le rendement</th></tr></thead>
+              <tbody>
+                <tr><td><b>Réseau clinique existant</b></td><td>Réduit la dépendance aux plateformes ouvertes et peut améliorer l'occupation hors saison.</td></tr>
+                <tr><td><b>Résidence locale</b></td><td>Vous pouvez gérer inspections, accueil, problèmes urgents, fournisseurs et administration plus vite qu'un investisseur distant.</td></tr>
+                <tr><td><b>Compréhension des règles locales</b></td><td>Meilleure capacité à structurer les séjours correctement avec l'administration du site, les contrats, les documents invités et les limites légales.</td></tr>
+                <tr><td><b>Services annexes</b></td><td>Courses, livraisons, taxi, transferts, aide locale, packages touristiques pour accompagnants : valeur ajoutée qui différencie l'unité d'une location ordinaire.</td></tr>
+                <tr><td><b>Positionnement médical</b></td><td>Le client ne cherche pas seulement le prix le plus bas ; il cherche confort, simplicité, assistance et confiance pendant une période sensible.</td></tr>
+              </tbody>
+            </table></div>
+          </div>
+
+          <div class="panel">
+            <h3>Projection prudente par unité</h3>
+            <div class="table-wrap"><table>
+              <thead><tr><th>Cas</th><th class="num">Revenu mensuel moyen</th><th class="num">Occupation</th><th class="num">Net annuel estimé</th><th class="num">Rendement @1.45M</th></tr></thead>
+              <tbody>
+                <tr><td>Location classique</td><td class="num">14k-17k TL</td><td class="num">~11 mois/an</td><td class="num">121k-148k TL</td><td class="num">8.4-10.2%</td></tr>
+                <tr><td><b>Medical-stay prudent</b></td><td class="num"><b>18k-22k TL</b></td><td class="num"><b>~10.5-11 mois/an</b></td><td class="num"><b>155k-190k TL</b></td><td class="num good"><b>10.7-13.1%</b></td></tr>
+                <tr><td>Medical-stay fort</td><td class="num">23k-28k TL</td><td class="num">~10-11 mois/an</td><td class="num">195k-235k TL</td><td class="num good">13.4-16.2%</td></tr>
+              </tbody>
+            </table></div>
+            <p class="subtle">Ces chiffres ne supposent pas une dépendance totale à Airbnb. Ils reposent sur un modèle de résidence meublée, avec demande directe et services, où la location classique reste le plancher de sécurité.</p>
+          </div>
+        </div>
+
+        <div class="insight-box amber" style="margin-top: 18px;"><strong>Important : ne pas vendre l'investissement comme une promesse hôtelière.</strong><br>Le modèle doit rester prudent : la location longue ou mensuelle meublée doit déjà fonctionner seule. Le séjour médical, les services et les packages ne sont pas une garantie ; ils sont l'avantage opérateur qui peut transformer un bon rendement en très bon rendement si l'administration du site, les règles de séjour et l'exécution sont bien cadrées.</div>
+
+        <h3 style="margin-top: 24px;">Analyse de sensibilité (Base : achat à 1,35M, loyer 17k)</h3>
+        <div class="grid cols-2">
+          <div class="panel">
+            <div class="chart">
+              <div class="bar-row">
+                <b>Cas de base</b>
+                <div class="bar-track"><div class="bar-fill good" style="--value:90.1"></div></div>
+                <strong class="good">10.9%</strong>
+              </div>
+              <div class="bar-row">
+                <b>Loyer -15 %</b>
+                <div class="bar-track"><div class="bar-fill warn" style="--value:76.9"></div></div>
+                <strong>9.3%</strong>
+              </div>
+              <div class="bar-row">
+                <b>Vacance 2 mois</b>
+                <div class="bar-track"><div class="bar-fill warn" style="--value:80.9"></div></div>
+                <strong>9.8%</strong>
+              </div>
+              <div class="bar-row">
+                <b>Prix -10 % négocié</b>
+                <div class="bar-track"><div class="bar-fill good" style="--value:100"></div></div>
+                <strong class="good">12.1%</strong>
+              </div>
+              <div class="bar-row">
+                <b>Frais d'aménagement +100k</b>
+                <div class="bar-track"><div class="bar-fill warn" style="--value:84.3"></div></div>
+                <strong>10.2%</strong>
+              </div>
+              <div class="bar-row">
+                <b>Pire : loyer -15 %, vac. 2 mois, +100k</b>
+                <div class="bar-track"><div class="bar-fill bad" style="--value:63.6"></div></div>
+                <strong class="bad">7.7%</strong>
+              </div>
+              <div class="bar-row">
+                <b>Bonus médical prudent</b>
+                <div class="bar-track"><div class="bar-fill good" style="--value:100"></div></div>
+                <strong class="good">13%+</strong>
+              </div>
+            </div>
+          </div>
+          <div class="panel">
+            <h3>Rendement brut par projet (données en direct)</h3>
+            <div class="chart" id="yieldChart"><div style="position:relative;height:240px"><canvas id="yieldChartCanvas"></canvas></div></div>
+          </div>
+        </div>
+
+        <div class="insight-box" style="margin-top: 18px;"><strong>Même dans le pire scénario modélisé standard (loyer -15 %, vacance 2 mois, +100k frais), le rendement net reste de 7,7 %.</strong><br>Le point central est donc que le downside est porté par la location résidentielle classique, tandis que votre situation personnelle — réseau clinique, gestion locale, service invité et positionnement médical — crée un upside opérationnel que le marché ne valorise pas encore dans le prix d'achat.</div>
+      </section>
+
+      <!-- ───── MODEL ───── -->
+      <section class="tab-panel" data-panel="model">
+        <div class="section-head">
+          <div>
+            <h2>Modèle Interactif</h2>
+            <p class="subtle">Testez la stratégie avec vos propres hypothèses. Faites glisser les curseurs pour voir les flux de trésorerie de deux unités de type Future Park.</p>
+          </div>
+        </div>
+
+        <div class="insight-box blue" style="margin-bottom: 20px;"><strong>Note sur votre situation :</strong> L'éligibilité au crédit n'est pas pertinente pour vous en tant qu'acheteur étranger au comptant. Les annonces en construction sont accessibles avec décote. Ce modèle les traite comme des opportunités, pas des blocages.</div>
+
+        <div class="model">
+          <div class="panel">
+            <div class="control">
+              <label for="saleOffer">Prix de vente Sar Life</label>
+              <input id="saleOffer" type="range" min="3200000" max="4300000" step="50000" value="3500000">
+              <div class="control-output"><span>3.2M</span><b id="saleOfferOut"></b><span>4.3M</span></div>
+            </div>
+            <div class="control">
+              <label for="unitPrice">Prix d'achat par petite unité</label>
+              <input id="unitPrice" type="range" min="1100000" max="1800000" step="25000" value="1350000">
+              <div class="control-output"><span>1.1M</span><b id="unitPriceOut"></b><span>1.8M</span></div>
+            </div>
+            <div class="control">
+              <label for="rent">Loyer mensuel par unité</label>
+              <input id="rent" type="range" min="10000" max="18000" step="500" value="14000">
+              <div class="control-output"><span>10k</span><b id="rentOut"></b><span>18k</span></div>
+            </div>
+            <div class="control">
+              <label for="aidat">Aidat mensuel par unité</label>
+              <input id="aidat" type="range" min="800" max="2500" step="100" value="1750">
+              <div class="control-output"><span>800</span><b id="aidatOut"></b><span>2.5k</span></div>
+            </div>
+            <div class="control">
+              <label for="vacancy">Vacance / décote de perception</label>
+              <input id="vacancy" type="range" min="0" max="20" step="1" value="8">
+              <div class="control-output"><span>0%</span><b id="vacancyOut"></b><span>20%</span></div>
+            </div>
+            <div class="control">
+              <label for="setup">Réserve ameublement + transaction</label>
+              <input id="setup" type="range" min="100000" max="650000" step="25000" value="350000">
+              <div class="control-output"><span>100k</span><b id="setupOut"></b><span>650k</span></div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="result-grid">
+              <div class="result"><strong id="deployOut"></strong><span>Capital total déployé</span></div>
+              <div class="result"><strong id="bufferOut"></strong><span>Réserve après achat</span></div>
+              <div class="result"><strong id="netIncomeOut"></strong><span>Flux de trésorerie net annuel modélisé</span></div>
+              <div class="result"><strong id="netYieldOut"></strong><span>Rendement net sur capital déployé</span></div>
+            </div>
+            <div class="notes">
+              <b id="verdictOut"></b>
+              <p id="verdictText"></p>
+            </div>
+            <div class="chart" id="scenarioChart"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───── EVIDENCE ───── -->
+      <section class="tab-panel" data-panel="evidence">
+        <div class="section-head">
+          <div>
+            <h2>Galerie de Preuves en Direct</h2>
+            <p class="subtle">Captures d'écran et données issues de sessions de navigation Sahibinden en direct le 28 mai 2026. Ce sont de vraies pages d'annonces, pas des extraits indexés.</p>
+          </div>
+        </div>
+
+        <div class="evidence-gallery">
+          <div class="evidence-item">
+            <a href="Evidence/sahibinden-detail-future-park-sale-1305084976-2026-05-28.png" target="_blank">
+              <img src="Evidence/sahibinden-detail-future-park-sale-1305084976-2026-05-28.png" alt="Future Park 1+0 detail" style="background:#eef2f7;">
+            </a>
+            <div class="evidence-body">
+              <b>Détail Future Park 1+0</b>
+              <span>1,45M TL · 55/40 m2 · 1 750 TL aidat · empty</span>
+            </div>
+          </div>
+          <div class="evidence-item">
+            <a href="Evidence/sahibinden-detail-sar-life-sale-1304118823-2026-05-28.png" target="_blank">
+              <img src="Evidence/sahibinden-detail-sar-life-sale-1304118823-2026-05-28.png" alt="Sar Life comparison" style="background:#eef2f7;">
+            </a>
+            <div class="evidence-body">
+              <b>Comparaison Sar Life</b>
+              <span>4,3M TL · 2+1 · 110/90 m2 · loué</span>
+            </div>
+          </div>
+          <div class="evidence-item">
+            <a href="Evidence/sahibinden-detail-future-park-sale-1304688553-2026-05-28.png" target="_blank">
+              <img src="Evidence/sahibinden-detail-future-park-sale-1304688553-2026-05-28.png" alt="Future Park 2+1 anomaly" style="background:#eef2f7;">
+            </a>
+            <div class="evidence-body">
+              <b>Anomalie Future Park 2+1</b>
+              <span>1,499M TL · owner listing · construction/no credit</span>
+            </div>
+          </div>
+          <div class="evidence-item">
+            <a href="Evidence/sahibinden-search-future-park-sale-2026-05-28.png" target="_blank">
+              <img src="Evidence/sahibinden-search-future-park-sale-2026-05-28.png" alt="Future Park search sale results" style="background:#eef2f7;">
+            </a>
+            <div class="evidence-body">
+              <b>Recherche Future Park ventes</b>
+              <span>Fourchette observée 1,30M-1,45M TL</span>
+            </div>
+          </div>
+          <div class="evidence-item">
+            <a href="Evidence/sahibinden-search-future-park-rent-2026-05-28.png" target="_blank">
+              <img src="Evidence/sahibinden-search-future-park-rent-2026-05-28.png" alt="Future Park rental results" style="background:#eef2f7;">
+            </a>
+            <div class="evidence-body">
+              <b>Recherche Future Park loyers</b>
+              <span>Bandes locatives 12k-15k TL et 24k-25k TL</span>
+            </div>
+          </div>
+          <div class="evidence-item">
+            <a href="Evidence/sahibinden-search-nlogo-sale-2026-05-28.png" target="_blank">
+              <img src="Evidence/sahibinden-search-nlogo-sale-2026-05-28.png" alt="N Logo sales search" style="background:#eef2f7;">
+            </a>
+            <div class="evidence-body">
+              <b>Recherche N Logo</b>
+              <span>Backup comparable, aidat à vérifier</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="methodology">
+          <summary>Méthodologie et limites des preuves <span class="methodology-arrow">▼</span></summary>
+          <p>Les captures proviennent de sessions de navigation Sahibinden du 28 mai 2026. Les prix peuvent changer, les annonces peuvent disparaître, et les détails critiques doivent être confirmés par téléphone puis physiquement.</p>
+          <ul>
+            <li>Priorité aux annonces avec page détail capturée.</li>
+            <li>Les lignes de recherche sont utiles pour la fourchette de marché mais ne remplacent pas une vérification agent.</li>
+            <li>Les données d'aidat manquantes sont traitées comme risque, pas comme zéro coût.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- ───── OUTSIDE ESENYURT ───── -->
+      <section class="tab-panel" data-panel="outside">
+        <div class="section-head">
+          <div>
+            <h2>Pourquoi Ne Pas Sortir d'Esenyurt ?</h2>
+            <p class="subtle">D'autres quartiers peuvent être meilleurs en image, mais l'arbitrage ici est rendement + connaissance locale + prix d'entrée bas.</p>
+          </div>
+        </div>
+
+        <div class="grid cols-3">
+          <div class="card">
+            <div class="score green">✓</div>
+            <h3>Vous connaissez déjà le marché</h3>
+            <p>La liquidité, les profils de locataires, les projets, et les agents sont familiers. Cet avantage réduit les erreurs d'exécution.</p>
+          </div>
+          <div class="card">
+            <div class="score amber">!</div>
+            <h3>Les quartiers premium compressent le rendement</h3>
+            <p>Dans les zones plus chères, le loyer ne monte pas toujours proportionnellement au prix d'achat. Le rendement baisse.</p>
+          </div>
+          <div class="card">
+            <div class="score green">2x</div>
+            <h3>Deux tickets vendables</h3>
+            <p>Le prix unitaire sous 1,5M TL donne plus d'acheteurs potentiels et plus d'options de sortie.</p>
+          </div>
+        </div>
+
+        <div class="insight-box blue" style="margin-top: 18px;"><strong>Conclusion :</strong> Sortir d'Esenyurt peut améliorer l'image patrimoniale, mais pas forcément le rendement. Pour une stratégie cash-flow, Future Park reste plus cohérent.</div>
+      </section>
+
+      <!-- ───── RISK ───── -->
+      <section class="tab-panel" data-panel="risk">
+        <div class="section-head">
+          <div>
+            <h2>Risques à Vérifier Avant Achat</h2>
+            <p class="subtle">La stratégie est bonne seulement si les annonces cibles sont réelles, juridiquement claires, et louables sans surprise.</p>
+          </div>
+        </div>
+
+        <div class="risk-grid">
+          <div class="risk high">
+            <b>Titre / tapu</b>
+            <p>Confirmer Kat Mülkiyeti ou statut exact. Éviter promesses vagues sur la finalisation.</p>
+          </div>
+          <div class="risk high">
+            <b>Bloc fini vs en construction</b>
+            <p>Vérifier si l'unité est dans une partie habitable séparée ou dans une zone encore risquée.</p>
+          </div>
+          <div class="risk medium">
+            <b>Aidat réel</b>
+            <p>Demander dernier reçu et dette d'aidat. Un aidat haut détruit le rendement.</p>
+          </div>
+          <div class="risk medium">
+            <b>Loyer réalisable</b>
+            <p>Comparer annonces louées / vacantes et demander à deux agents différents.</p>
+          </div>
+          <div class="risk medium">
+            <b>État meuble / réparations</b>
+            <p>Inspection vidéo détaillée + estimation ameublement si l'état n'est pas prêt.</p>
+          </div>
+          <div class="risk low">
+            <b>Liquidité</b>
+            <p>Le ticket bas aide, mais vérifier le volume réel de ventes récentes dans le bloc.</p>
+          </div>
+          <div class="risk medium">
+            <b>Taxe / conformité</b>
+            <p>Faire valider structure et fiscalité locative par professionnel local.</p>
+          </div>
+          <div class="risk low">
+            <b>Gestion</b>
+            <p>Deux unités demandent plus de coordination, mais réduisent le risque de vacance totale.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───── NEXT STEPS ───── -->
+      <section class="tab-panel" data-panel="next">
+        <div class="recommendation">
+          <h2>Recommandation Finale</h2>
+          <p>Avancer vers la vente de Sar Life seulement si deux unités Future Park 1+0 vérifiées peuvent être sécurisées dans la fourchette 1,30M-1,45M TL, avec aidat confirmé, statut juridique clair, et loyer réaliste d'au moins 12k-15k TL par unité.</p>
+          <div class="hero-metrics" style="margin-top: 18px;">
+            <div class="metric"><strong>1</strong><span>Appeler les annonces cibles</span></div>
+            <div class="metric"><strong>2</strong><span>Confirmer tapu + aidat</span></div>
+            <div class="metric"><strong>3</strong><span>Faire inspection vidéo</span></div>
+            <div class="metric"><strong>4</strong><span>Négocier deux achats</span></div>
+          </div>
+        </div>
+
+        <div class="panel" style="margin-top: 24px;">
+          <h3>Script court pour appel agent</h3>
+          <div class="flow">
+            <div class="flow-step"><b>Disponibilité</b><span>Cette annonce est-elle toujours disponible ?</span></div>
+            <div class="flow-step"><b>Titre</b><span>Quel est le statut exact du tapu ?</span></div>
+            <div class="flow-step"><b>Construction</b><span>Le bloc est-il habitable et séparé des zones non finies ?</span></div>
+            <div class="flow-step"><b>Aidat</b><span>Quel est l'aidat réel et y a-t-il dette ?</span></div>
+            <div class="flow-step"><b>Loyer</b><span>À combien peut-on louer aujourd'hui, rapidement ?</span></div>
+          </div>
+        </div>
+
+        <div class="insight-box" style="margin-top: 18px;"><strong>Décision :</strong> Ne pas acheter l'idée. Acheter seulement les unités vérifiées. La stratégie est solide, mais l'exécution décide tout.</div>
+      </section>
+    </main>
+
+    <footer>
+      <details class="methodology">
+        <summary>Notes de lecture <span class="methodology-arrow">▼</span></summary>
+        <p>Rapport généré à partir de captures et observations de marché du 28 mai 2026. Les données immobilières changent rapidement et doivent être reconfirmées avant toute décision financière.</p>
+      </details>
+    </footer>
+  </div>
+
+  <script>
+    const tabs = Array.from(document.querySelectorAll('.tab-button'));
+    const panels = Array.from(document.querySelectorAll('.tab-panel'));
+    const dotsWrap = document.getElementById('swipeDots');
+    const tabIds = tabs.map(t => t.dataset.tab);
+
+    function setTab(id) {
+      tabs.forEach(t => t.classList.toggle('active', t.dataset.tab === id));
+      panels.forEach(p => p.classList.toggle('active', p.dataset.panel === id));
+      Array.from(dotsWrap.children).forEach((d, i) => d.classList.toggle('active', tabIds[i] === id));
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      if (id === 'yield') initYieldChart();
+      if (id === 'model') updateModel();
+    }
+
+    tabs.forEach(tab => tab.addEventListener('click', () => setTab(tab.dataset.tab)));
+
+    tabIds.forEach((id, i) => {
+      const dot = document.createElement('div');
+      dot.className = 'dot' + (i === 0 ? ' active' : '');
+      dot.addEventListener('click', () => setTab(id));
+      dotsWrap.appendChild(dot);
+    });
+
+    let startX = null;
+    document.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+    document.addEventListener('touchend', e => {
+      if (startX == null) return;
+      const delta = e.changedTouches[0].clientX - startX;
+      if (Math.abs(delta) > 70) {
+        const current = tabs.findIndex(t => t.classList.contains('active'));
+        const next = delta < 0 ? Math.min(current + 1, tabIds.length - 1) : Math.max(current - 1, 0);
+        setTab(tabIds[next]);
+      }
+      startX = null;
+    }, { passive: true });
+
+    const fmt = new Intl.NumberFormat('fr-FR');
+    const money = n => fmt.format(Math.round(n)) + ' TL';
+    const short = n => (n >= 1000000 ? (n/1000000).toFixed(2).replace('.', ',') + 'M' : Math.round(n/1000) + 'k') + ' TL';
+
+    const controls = ['saleOffer','unitPrice','rent','aidat','vacancy','setup'];
+    controls.forEach(id => {
+      const el = document.getElementById(id);
+      if (el) el.addEventListener('input', updateModel);
+    });
+
+    function updateModel() {
+      const sale = +document.getElementById('saleOffer').value;
+      const price = +document.getElementById('unitPrice').value;
+      const rent = +document.getElementById('rent').value;
+      const aidat = +document.getElementById('aidat').value;
+      const vacancy = +document.getElementById('vacancy').value / 100;
+      const setup = +document.getElementById('setup').value;
+      const units = 2;
+      const deployed = price * units + setup;
+      const buffer = sale - deployed;
+      const collected = rent * 12 * units * (1 - vacancy);
+      const net = collected * 0.80 - aidat * units * (vacancy * 12);
+      const yieldNet = net / deployed;
+
+      document.getElementById('saleOfferOut').textContent = short(sale);
+      document.getElementById('unitPriceOut').textContent = short(price);
+      document.getElementById('rentOut').textContent = money(rent);
+      document.getElementById('aidatOut').textContent = money(aidat);
+      document.getElementById('vacancyOut').textContent = Math.round(vacancy*100) + '%';
+      document.getElementById('setupOut').textContent = short(setup);
+      document.getElementById('deployOut').textContent = short(deployed);
+      document.getElementById('bufferOut').textContent = short(buffer);
+      document.getElementById('netIncomeOut').textContent = money(net);
+      document.getElementById('netYieldOut').textContent = (yieldNet*100).toFixed(1).replace('.', ',') + '%';
+
+      const verdict = document.getElementById('verdictOut');
+      const verdictText = document.getElementById('verdictText');
+      if (buffer < 0) {
+        verdict.textContent = 'Trop serré';
+        verdictText.textContent = 'Le capital ne couvre pas deux achats plus réserve. Il faut négocier, vendre plus haut, ou acheter une seule unité.';
+      } else if (yieldNet >= 0.10 && buffer >= 150000) {
+        verdict.textContent = 'Scénario attractif';
+        verdictText.textContent = 'Le rendement net modélisé dépasse 10 % avec une réserve de sécurité suffisante.';
+      } else {
+        verdict.textContent = 'Scénario viable mais à négocier';
+        verdictText.textContent = 'Le modèle reste intéressant, mais la marge de sécurité ou le rendement demande une meilleure négociation.';
+      }
+
+      const scenario = document.getElementById('scenarioChart');
+      scenario.innerHTML = '';
+      [
+        ['Capital', deployed / 3500000 * 100, short(deployed), 'cyan'],
+        ['Réserve', Math.max(0, buffer) / 800000 * 100, short(buffer), buffer >= 0 ? 'good' : 'bad'],
+        ['Rendement', yieldNet / 0.14 * 100, (yieldNet*100).toFixed(1).replace('.', ',') + '%', yieldNet >= .10 ? 'good' : 'warn']
+      ].forEach(([label, value, txt, cls]) => {
+        const row = document.createElement('div');
+        row.className = 'bar-row';
+        row.innerHTML = `<b>${label}</b><div class="bar-track"><div class="bar-fill ${cls}" style="--value:${Math.min(100, Math.max(0, value))}"></div></div><strong>${txt}</strong>`;
+        scenario.appendChild(row);
+      });
+    }
+
+    let yieldChart;
+    function initYieldChart() {
+      const canvas = document.getElementById('yieldChartCanvas');
+      if (!canvas || yieldChart) return;
+      yieldChart = new Chart(canvas, {
+        type: 'bar',
+        data: {
+          labels: ['Future Park 1+0', 'N Logo 1+0', 'Innovia 3', 'N Towers', 'Sar Life'],
+          datasets: [{
+            label: 'Rendement brut estimé %',
+            data: [12.4, 11.5, 10.2, 9.0, 6.8]
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: { y: { beginAtZero: true, ticks: { callback: v => v + '%' } } }
+        }
+      });
+    }
+
+    if (window.gsap) {
+      gsap.from('.hero-inner > *', { opacity: 0, y: 18, duration: .7, stagger: .08, ease: 'power2.out' });
+    }
+
+    updateModel();
+  </script>
+</body>
+</html>

@@ -2,10 +2,11 @@
   "source_page": "index-standalone-rebuilt.html",
   "row_container": ".design-container._1",
   "prompt_file": "FIRST_ROW_VISUAL_PROMPTS.md",
-  "status": "awaiting_generated_assets",
+  "status": "local_assets_deduplicated_pending_final_generated_assets",
   "notes": [
-    "Do not replace active HTML until generated assets exist and have been visually inspected.",
-    "After assets are added, verify the row with CDP screenshots at desktop and mobile widths.",
+    "Active HTML now removes duplicate first-row visuals by reusing distinct local report/evidence assets.",
+    "Generated purpose-built first-row assets can still replace these local substitutes later.",
+    "After any further visual replacement, verify the row with CDP screenshots at desktop and mobile widths.",
     "When replacing images, handle src, srcset, sizes, and file dimensions as one unit."
   ],
   "slides": [
@@ -13,31 +14,34 @@
       "slide": 1,
       "heading": "Conçu pour le séjour flexible",
       "current_assets": [
-        "assets-rebuilt/3b03b71f05_685312d28646ac27e1e57f46_Frame 2131330325.png"
+        "assets-rebuilt/evidence/airbnb-future-park-06-chambre.webp"
       ],
       "target_asset": "assets-rebuilt/first-row/slide-01-sejour-flexible.png",
       "priority": "C",
-      "fit": "near-square"
+      "fit": "near-square",
+      "active_replacement": "local_existing_asset"
     },
     {
       "slide": 2,
       "heading": "Prix décoté, usage réel",
       "current_assets": [
-        "assets-rebuilt/placeholder.png"
+        "assets-rebuilt/evidence/airbnb-future-park-02-image-2.webp"
       ],
       "target_asset": "assets-rebuilt/first-row/slide-02-prix-decote-usage-reel.png",
       "priority": "A",
-      "fit": "16:9"
+      "fit": "16:9",
+      "active_replacement": "local_existing_asset"
     },
     {
       "slide": 3,
       "heading": "Rendement des petites surfaces",
       "current_assets": [
-        "assets-rebuilt/1.png"
+        "assets-rebuilt/evidence/airbnb-future-park-04-image-4.webp"
       ],
       "target_asset": "assets-rebuilt/first-row/slide-03-rendement-petites-surfaces.png",
       "priority": "C",
-      "fit": "near-square"
+      "fit": "near-square",
+      "active_replacement": "local_existing_asset"
     },
     {
       "slide": 4,
@@ -47,7 +51,8 @@
       ],
       "target_asset": "assets-rebuilt/first-row/slide-04-sejour-medical.png",
       "priority": "B",
-      "fit": "near-square"
+      "fit": "near-square",
+      "active_replacement": "local_existing_asset"
     },
     {
       "slide": 5,
@@ -57,7 +62,8 @@
       ],
       "target_asset": "assets-rebuilt/first-row/slide-05-avantage-proprietaire-operateur.png",
       "priority": "A",
-      "fit": "16:9"
+      "fit": "16:9",
+      "active_replacement": "local_existing_asset"
     },
     {
       "slide": 6,
@@ -67,7 +73,8 @@
       ],
       "target_asset": "assets-rebuilt/first-row/slide-06-services-forte-valeur.png",
       "priority": "B",
-      "fit": "near-square"
+      "fit": "near-square",
+      "active_replacement": "local_existing_asset"
     },
     {
       "slide": 7,
@@ -87,11 +94,12 @@
       "slide": 8,
       "heading": "Option de revalorisation",
       "current_assets": [
-        "assets-rebuilt/placeholder.png"
+        "assets-rebuilt/evidence/airbnb-future-park-03-image-3.webp"
       ],
       "target_asset": "assets-rebuilt/first-row/slide-08-option-revalorisation.png",
       "priority": "A",
-      "fit": "16:9"
+      "fit": "16:9",
+      "active_replacement": "local_existing_asset"
     },
     {
       "slide": 9,
@@ -111,39 +119,42 @@
       "slide": 10,
       "heading": "À vérifier avant achat",
       "current_assets": [
-        "assets-rebuilt/4f32581370_6851b5afa8312a49891754de_Group 989.png",
-        "assets-rebuilt/a2eea2e42c_6851b5afac7e655b4df00710_Group 990.png",
-        "assets-rebuilt/52dab163cc_6851b5af41af6a3b879de6ff_Group 1028.png",
-        "assets-rebuilt/b9dbfd6b24_6851b5af2792391b144798bf_Group 1029.png",
-        "assets-rebuilt/d5a56e3eec_6851b5af2d7b09035d1aef7e_Group 1030.png"
+        "assets-rebuilt/11b7ad783e_683f396c4fa03852607779a7_01.webp",
+        "assets-rebuilt/abc3c2ba50_68406cbe124057a90b366ec1_002.webp",
+        "assets-rebuilt/3e45d40dc9_683f396e380f2d209b5d79fd_03.png",
+        "assets-rebuilt/8c8dd9e24a_6841c3e50472f142abd3007c_04.webp",
+        "assets-rebuilt/af79b0b2b1_683f396b6c0e77a584dcc13c_06.webp"
       ],
       "target_asset": "assets-rebuilt/first-row/slide-10-verifier-avant-achat.png",
       "priority": "B",
-      "fit": "near-square"
+      "fit": "near-square",
+      "active_replacement": "local_existing_asset"
     },
     {
       "slide": 11,
       "heading": "Demande non dépendante d'Airbnb",
       "current_assets": [
-        "assets-rebuilt/placeholder.png"
+        "assets-rebuilt/evidence/sahibinden-future-park-kiralik-2026-05-28.png"
       ],
       "target_asset": "assets-rebuilt/first-row/slide-11-demande-hors-airbnb.png",
       "priority": "A",
-      "fit": "16:9"
+      "fit": "16:9",
+      "active_replacement": "local_existing_asset"
     },
     {
       "slide": 12,
       "heading": "Un actif à opérer",
       "current_assets": [
-        "assets-rebuilt/933f3d11c7_6851c347b8e04f765a40c947_Property 1_1.webp",
-        "assets-rebuilt/063ebdcc7f_6851c34782209d523067dd3a_Property 1_2.webp",
-        "assets-rebuilt/b3138ee217_6851c348ea029903a38106bb_Property 1_3.webp",
-        "assets-rebuilt/6a3779f894_6851c347c9ecd00dd26b9faf_Property 1_4.webp",
-        "assets-rebuilt/8c71d664cc_6851c34896860f893f0c7d95_Property 1_5.webp"
+        "assets-rebuilt/4123a406cc_6878ca4f9dbb7eafacfdd973_0001.webp",
+        "assets-rebuilt/b5f55c2abd_6878e3d86d3f5c3cf7b0a948_0002.webp",
+        "assets-rebuilt/55c07fe646_6878e49cdae76d11c550c673_0003.webp",
+        "assets-rebuilt/97ee88f9d4_6878e4b7b58dea03c44ea600_0004.webp",
+        "assets-rebuilt/9fba002e90_6878e4d1479290e022ac4c73_005.webp"
       ],
       "target_asset": "assets-rebuilt/first-row/slide-12-actif-a-operer.png",
       "priority": "C",
-      "fit": "tall-or-near-square"
+      "fit": "tall-or-near-square",
+      "active_replacement": "local_existing_asset"
     }
   ]
 }

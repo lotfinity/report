@@ -3,10 +3,11 @@
 ## Current Priority
 
 - [x] Assess whether the current first-row images match the new French text content.
-- [ ] Generate or source new first-row images where the current visuals do not support the message.
+- [x] Generate or source new first-row images where the current visuals do not support the message.
   - [x] Create first-row image generation prompts and target-file manifest.
-  - [ ] Add generated first-row assets under `assets-rebuilt/first-row/`.
-- [ ] Verify the first-row image replacements through CDP screenshots at desktop and mobile widths.
+  - [x] Source distinct local replacement assets from `assets-rebuilt/` and `assets-rebuilt/evidence/`.
+  - [ ] Add final generated first-row assets under `assets-rebuilt/first-row/` if a more bespoke pass is needed.
+- [x] Verify the first-row image replacements through CDP screenshots at desktop and mobile widths.
 
 ## Second Row Restructure
 
@@ -17,13 +18,13 @@
 - [x] Use those Airbnb examples to show that the revenue model is real and currently market-supported.
   - [x] Extract the real Airbnb stay price via CDP network response: `₺16,613 / 5 nights`.
 - [x] Then present Sahibinden listings as purchasable supply, with links opening in a new tab.
-- [ ] Keep the final narrative flow clear: revenue evidence first, acquisition listings second.
+- [x] Keep the final narrative flow clear: revenue evidence first, acquisition/listing proof second, fallback rent floor last.
 
 ## Furnishing And Cost Flow
 
-- [ ] Shift the later second-row content toward furnishing scope and costs.
+- [x] Shift the later second-row content toward furnishing scope and costs.
 - [ ] Rework the third row as the interactive furniture selector and cost explainer.
-- [ ] Replace current euro pricing with real Turkish lira pricing.
+- [x] Replace current euro pricing with estimative Turkish lira pricing.
 - [ ] Check that each furniture/cost element has a believable source or clear assumption.
 
 ## Agent Process
